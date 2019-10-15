@@ -1,0 +1,362 @@
+<middleware>
+  <middleware>
+    <name>psoc6pdl</name>
+    <id>psoc6pdl</id>
+    <uri>https://github.com/cypresssemiconductorco/psoc6pdl</uri>
+    <desc>The PSoC 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>psoc6cm0p</name>
+    <id>psoc6cm0p</id>
+    <uri>https://github.com/cypresssemiconductorco/psoc6cm0p</uri>
+    <desc>PSoC 6 Cortex M0+ prebuilt images enabling flash write services and BLE event handling.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>psoc6hal</name>
+    <id>psoc6hal</id>
+    <uri>https://github.com/cypresssemiconductorco/psoc6hal</uri>
+    <desc>PSoC 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>psoc6make</name>
+    <id>psoc6make</id>
+    <uri>https://github.com/cypresssemiconductorco/psoc6make</uri>
+    <desc>PSoC 6 Base Build Library.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>core-lib</name>
+    <id>core-lib</id>
+    <uri>https://github.com/cypresssemiconductorco/core-lib</uri>
+    <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>abstraction-rtos</name>
+    <id>abstraction-rtos</id>
+    <uri>https://github.com/cypresssemiconductorco/abstraction-rtos</uri>
+    <desc>The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS and CMSIS RTOS.</desc>
+    <category>Abstraction Layers</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>retarget-io</name>
+    <id>retarget-io</id>
+    <uri>https://github.com/cypresssemiconductorco/retarget-io</uri>
+    <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>rgb-led</name>
+    <id>rbg-led</id>
+    <uri>https://github.com/cypresssemiconductorco/rgb-led</uri>
+    <desc>The RGB LED library provides APIs for controlling the color and intensity the RGB LED on the Cypress kits.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>serial-flash</name>
+    <id>serial-flash</id>
+    <uri>https://github.com/cypresssemiconductorco/serial-flash</uri>
+    <desc>The Serial Flash library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bless</name>
+    <id>bless</id>
+    <uri>https://github.com/cypresssemiconductorco/bless</uri>
+    <desc>PSoC 6 BLE Middleware is a comprehensive API to configure the BLE Stack and the underlying chip hardware.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6 ble</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version>
+        <num>3.20.0 release</num>
+        <commit>release-v3.20.0</commit>
+        <desc>3.20.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>capsense</name>
+    <id>capsense</id>
+    <uri>https://github.com/cypresssemiconductorco/capsense</uri>
+    <desc>Capacitive sensing solution (CapSense) enabling a variety of applications such as touch, gesture and proximity detection.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6 capsense</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>csdadc</name>
+    <id>csdadc</id>
+    <uri>https://github.com/cypresssemiconductorco/csdadc</uri>
+    <desc>ADC, implemented in the CSD hardware block, for voltage measurements.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>csdidac</name>
+    <id>csdidac</id>
+    <uri>https://github.com/cypresssemiconductorco/csdidac</uri>
+    <desc>IDAC, implemented in the CSD hardware block, to provide regulated current source.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>dfu</name>
+    <id>dfu</id>
+    <uri>https://github.com/cypresssemiconductorco/dfu</uri>
+    <desc>Device Firmware Update (DFU) is a low-level API for the implementation of firmware loader and firmware loadable applications.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version>
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>emeeprom</name>
+    <id>emeeprom</id>
+    <uri>https://github.com/cypresssemiconductorco/emeeprom</uri>
+    <desc>Emulated EEPROM enables on-chip flash memory to be used for permanent data storage with support for wear leveling and redundant copy features.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>emwin</name>
+    <id>emwin</id>
+    <uri>https://github.com/cypresssemiconductorco/emwin</uri>
+    <desc>SEGGER emWin embedded graphic library and graphical user interface (GUI) framework.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version>
+        <num>5.48.1 release</num>
+        <commit>release-v5.48.1</commit>
+        <desc>5.48.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>usbdev</name>
+    <id>usbdev</id>
+    <uri>https://github.com/cypresssemiconductorco/usbdev</uri>
+    <desc>USB Device library for a full-speed USB 2.0 compliant device framework.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6 usb_device</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>freertos</name>
+    <id>freertos</id>
+    <uri>https://github.com/cypresssemiconductorco/freertos</uri>
+    <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 10.X release</num>
+        <commit>latest-v10.X</commit>
+        <desc>Latest 10.X release</desc>
+      </version>
+      <version>
+        <num>10.0.1 release</num>
+        <commit>release-v10.0.1</commit>
+        <desc>10.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+</middleware>
