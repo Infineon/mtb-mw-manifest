@@ -103,6 +103,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -123,9 +128,39 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version>
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>CY8CKIT-028-TFT</name>
+    <id>CY8CKIT-028-TFT</id>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT</uri>
+    <desc>The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's TFT display from Cypress' MCUs.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp arduino</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version>
+        <num>Development build</num>
+        <commit>develop</commit>
+        <desc>Development build</desc>
       </version>
     </versions>
   </middleware>
