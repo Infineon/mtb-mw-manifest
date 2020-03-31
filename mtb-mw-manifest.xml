@@ -363,6 +363,16 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version>
+        <num>3.40.0 release</num>
+        <commit>release-v3.40.0</commit>
+        <desc>3.40.0 release</desc>
+      </version>
+      <version>
+        <num>3.30.0 release</num>
+        <commit>release-v3.30.0</commit>
+        <desc>3.30.0 release</desc>
+      </version>
+      <version>
         <num>3.20.0 release</num>
         <commit>release-v3.20.0</commit>
         <desc>3.20.0 release</desc>
