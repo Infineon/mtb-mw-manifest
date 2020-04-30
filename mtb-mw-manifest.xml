@@ -58,6 +58,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.1.2 release</num>
+        <commit>release-v1.1.2</commit>
+        <desc>1.1.2 release</desc>
+      </version>
+      <version>
         <num>1.1.1 release</num>
         <commit>release-v1.1.1</commit>
         <desc>1.1.1 release</desc>
@@ -86,6 +91,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
       </version>
       <version>
         <num>1.2.0 release</num>
@@ -121,6 +131,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.3.1 release</num>
+        <commit>release-v1.3.1</commit>
+        <desc>1.3.1 release</desc>
       </version>
       <version>
         <num>1.3.0 release</num>
@@ -198,7 +213,7 @@
     <name>abstraction-rtos</name>
     <id>abstraction-rtos</id>
     <uri>https://github.com/cypresssemiconductorco/abstraction-rtos</uri>
-    <desc>The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS and CMSIS RTOS.</desc>
+    <desc>The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.</desc>
     <category>Abstraction Layers</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
@@ -206,6 +221,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
       </version>
       <version>
         <num>1.2.0 release</num>
@@ -351,6 +371,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
       </version>
       <version>
         <num>1.0.0 release</num>
@@ -546,6 +571,26 @@
         <num>10.0.1 release</num>
         <commit>release-v10.0.1</commit>
         <desc>10.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>clib-support</name>
+    <id>clib-support</id>
+    <uri>https://github.com/cypresssemiconductorco/clib-support</uri>
+    <desc>The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe for the PSoC 6 MCU. This implementation is specific to FreeRTOS.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
