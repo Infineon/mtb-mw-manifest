@@ -13,6 +13,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
+      </version>
+      <version>
         <num>1.5.2 release</num>
         <commit>release-v1.5.2</commit>
         <desc>1.5.2 release</desc>
