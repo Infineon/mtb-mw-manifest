@@ -290,10 +290,55 @@
     </versions>
   </middleware>
   <middleware>
+    <name>CY8CKIT-028-EPD</name>
+    <id>CY8CKIT-028-EPD</id>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-EPD</uri>
+    <desc>The CY8CKIT-028-EPD library provides APIs for interacting with the Shield Board's E2271CS021 EInk display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Thermistor.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp arduino</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>CY8CKIT-028-TFT</name>
     <id>CY8CKIT-028-TFT</id>
     <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT</uri>
-    <desc>The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's TFT display from Cypress' MCUs.</desc>
+    <desc>The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's ST7789v TFT display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Light Sensor.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp arduino j2</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>CY8CKIT-032</name>
+    <id>CY8CKIT-032</id>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-032</uri>
+    <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSoC 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CapSense user interface.</desc>
     <category>Board Utils</category>
     <req_capabilities>mcu_gp arduino</req_capabilities>
     <versions>
@@ -386,6 +431,146 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-codec-ak4954a</name>
+    <id>audio-codec-ak4954a</id>
+    <uri>https://github.com/cypresssemiconductorco/audio-codec-ak4954a</uri>
+    <desc>This library provides functions to support use of the AK4954A audio codec found on the CY8CKIT-028-TFT shield.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>display-eink-e2271cs021</name>
+    <id>display-eink-e2271cs021</id>
+    <uri>https://github.com/cypresssemiconductorco/display-eink-e2271cs021</uri>
+    <desc>This library provides functions for supporting the 2.7" EPD Display (E2271CS021). This is the same display as used on the CY8CKIT-028-EPD shield.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>display-oled-ssd1306</name>
+    <id>display-oled-ssd1306</id>
+    <uri>https://github.com/cypresssemiconductorco/display-oled-ssd1306</uri>
+    <desc>This library provides functions to support the 128x64 pixel dot matrix OLED display driven by SSD1306 controller. This is the same display as used on the CY8CKIT-032 shield.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>display-tft-st7789v</name>
+    <id>display-tft-st7789v</id>
+    <uri>https://github.com/cypresssemiconductorco/display-tft-st7789v</uri>
+    <desc>This library provides functions for supporting a 2.4 inch TFT LCD driven by an ST7789V controller. This is the same display as used on the CY8CKIT-028-TFT shield.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-light</name>
+    <id>sensor-light</id>
+    <uri>https://github.com/cypresssemiconductorco/sensor-light</uri>
+    <desc>This library provides functions to support use of a phototransistor ambient light sensor such as the TEMT6000 as used on the CY8CKIT-028-TFT shield.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-motion-bmi160</name>
+    <id>sensor-motion-bmi160</id>
+    <uri>https://github.com/cypresssemiconductorco/sensor-motion-bmi160</uri>
+    <desc>This library provides functions for interfacing with the BMI-160 I2C/SPI 16-bit Inertial Measurement Unit with three axis accelerometer and three axis gyroscope as used on the CY8CKIT-028-TFT and CY8CKIT-028-TFT shields.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version>
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>thermistor</name>
+    <id>thermistor</id>
+    <uri>https://github.com/cypresssemiconductorco/thermistor</uri>
+    <desc>This library provides functions for reading an NTC GPIO based thermistor temperature sensor as used on some shields.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
       </version>
       <version>
         <num>1.0.0 release</num>
