@@ -678,6 +678,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version>
+        <num>2.10.0 release</num>
+        <commit>release-v2.10.0</commit>
+        <desc>2.10.0 release</desc>
+      </version>
+      <version>
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
