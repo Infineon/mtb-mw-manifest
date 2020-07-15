@@ -153,6 +153,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version>
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
+      </version>
+      <version>
         <num>1.4.1 release</num>
         <commit>release-v1.4.1</commit>
         <desc>1.4.1 release</desc>
