@@ -214,7 +214,7 @@
     <id>core-lib</id>
     <uri>https://github.com/cypresssemiconductorco/core-lib</uri>
     <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <category>Base Libraries</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -685,7 +685,7 @@
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
     <desc>Capacitive sensing solution (CapSense) enabling a variety of applications such as touch, gesture and proximity detection.</desc>
     <category>PSoC 6 Middleware</category>
-    <req_capabilities>psoc6 capsense</req_capabilities>
+    <req_capabilities>capsense</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
@@ -830,7 +830,7 @@
     <uri>https://github.com/cypresssemiconductorco/freertos</uri>
     <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU.</desc>
     <category>PSoC 6 Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 10.X release</num>
@@ -850,7 +850,7 @@
     <uri>https://github.com/cypresssemiconductorco/clib-support</uri>
     <desc>The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe for the PSoC 6 MCU. This implementation is specific to FreeRTOS.</desc>
     <category>PSoC 6 Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
