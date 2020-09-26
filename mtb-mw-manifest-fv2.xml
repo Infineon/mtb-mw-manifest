@@ -1,5 +1,25 @@
 <middleware>
   <middleware>
+    <name>core-make</name>
+    <id>core-make</id>
+    <uri>https://github.com/cypresssemiconductorco/core-make</uri>
+    <desc>Core Make build system provides generic build files and scripts for building and programming ModusToolbox applications.</desc>
+    <category>Base Libraries</category>
+    <req_capabilities></req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-pdl-cat1</name>
     <id>mtb-pdl-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat1</uri>
@@ -16,6 +36,61 @@
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-cat1</name>
+    <id>mtb-hal-cat1</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
+    <desc>PSoC 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>recipe-make-cat1a</name>
+    <id>recipe-make-cat1a</id>
+    <uri>https://github.com/cypresssemiconductorco/recipe-make-cat1a</uri>
+    <desc>PSoC 6 Make build recipe provides the make files and scripts for building and programming PSoC 6 applications.</desc>
+    <category>PSoC 6 Base Libraries</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bmi160</name>
+    <id>bmi160</id>
+    <uri>https://github.com/BoschSensortec/BMI160_driver</uri>
+    <desc>Bosch BMI-160 Sensor Driver.</desc>
+    <category>Board Utils</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>3.8.1 release</num>
+        <commit>bmi160_v3.8.1</commit>
+        <desc>3.8.1 release</desc>
       </version>
     </versions>
   </middleware>
