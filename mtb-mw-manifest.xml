@@ -959,4 +959,34 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>btstack</name>
+    <id>btstack</id>
+    <uri>https://github.com/cypresssemiconductorco/btstack</uri>
+    <desc>BTSTACK is Cypress's Bluetooth Host Protocol Stack implementation. The stack is optimized to work on Cypress Bluetooth controllers. The BTSTACK supports Bluetooth BR/EDR and BLE core protocols. The stack is available as libraries built for CM3 and CM4 ARM (TM) cores using ARM, GCC and IAR tool-chains. Further there are two build variants of stack libraries, LE only and Dual-mode. Applications that use LE can take advantage of reduced size of LE only library and build LE peripheral or even central applications. Dual-mode library supports both LE and BR/EDER protocols.</desc>
+    <category>BT Middleware libraries</category>
+    <req_capabilities>psoc6 bt</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
