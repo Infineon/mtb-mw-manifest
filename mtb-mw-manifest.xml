@@ -994,4 +994,17 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>mcuboot</name>
+    <id>mcuboot</id>
+    <uri>https://github.com/JuulLabs-OSS/mcuboot.git</uri>
+    <desc>MCUboot is a bootloader for 32-bit MCUs, used as part of OTA support.</desc>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <commit>v1.5.0-cypress</commit>
+        <num>v1.5.0-cypress</num>
+        <desc>MCUBoot for Cypress v1.5.0</desc>
+        </version>
+    </versions>
+  </middleware>
 </middleware>
