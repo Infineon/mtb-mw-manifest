@@ -994,4 +994,19 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>MCUboot</name>
+    <id>mcuboot</id>
+    <uri>https://github.com/JuulLabs-OSS/mcuboot</uri>
+    <desc>MCUboot is a secure bootloader for 32-bit MCUs.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>v1.5.0 Cypress</num>
+        <commit>v1.5.0-cypress</commit>
+        <desc>v1.5.0 Cypress</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
