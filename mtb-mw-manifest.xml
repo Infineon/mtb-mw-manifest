@@ -893,7 +893,7 @@
     <name>freertos</name>
     <id>freertos</id>
     <uri>https://github.com/cypresssemiconductorco/freertos</uri>
-    <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file, for use with the PSoC 6 MCU.</desc>
+    <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file.</desc>
     <category>PSoC 6 Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
@@ -901,6 +901,11 @@
         <num>Latest 10.X release</num>
         <commit>latest-v10.X</commit>
         <desc>Latest 10.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>10.3.1 release</num>
+        <commit>release-v10.3.1</commit>
+        <desc>10.3.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>10.0.1 release</num>
