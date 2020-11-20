@@ -183,6 +183,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0">
+        <num>1.5.1 release</num>
+        <commit>release-v1.5.1</commit>
+        <desc>1.5.1 release</desc>
+      </version>
+      <version flow_version="1.0">
         <num>1.5.0 release</num>
         <commit>release-v1.5.0</commit>
         <desc>1.5.0 release</desc>
@@ -899,7 +904,7 @@
     <id>freertos</id>
     <uri>https://github.com/cypresssemiconductorco/freertos</uri>
     <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>MCU Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -923,7 +928,7 @@
     <name>clib-support</name>
     <id>clib-support</id>
     <uri>https://github.com/cypresssemiconductorco/clib-support</uri>
-    <desc>The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe for the PSoC 6 MCU. This implementation is specific to FreeRTOS.</desc>
+    <desc>The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.</desc>
     <category>PSoC 6 Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
