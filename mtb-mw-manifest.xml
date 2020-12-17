@@ -303,7 +303,11 @@
     <name>abstraction-rtos</name>
     <id>abstraction-rtos</id>
     <uri>https://github.com/cypresssemiconductorco/abstraction-rtos</uri>
-    <desc>The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.</desc>
+    <desc><![CDATA[
+    The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.
+    <br><br><b>Note:</b>
+    This library has specific requirements on the underlying RTOS configuration. See the Readme.md file for details.
+    ]]></desc>
     <category>Abstraction Layers</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
@@ -311,6 +315,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.2 release</num>
@@ -953,7 +962,11 @@
     <name>clib-support</name>
     <id>clib-support</id>
     <uri>https://github.com/cypresssemiconductorco/clib-support</uri>
-    <desc>The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.</desc>
+    <desc><![CDATA[
+    The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.
+    <br><br><b>Note:</b>
+    FREERTOS flags configUSE_MUTEXES, configUSE_RECURSIVE_MUTEXES, and configSUPPORT_STATIC_ALLOCATION must be enabled
+    ]]></desc>
     <category>MCU Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
@@ -961,6 +974,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+        <desc>1.0.2 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.1 release</num>
