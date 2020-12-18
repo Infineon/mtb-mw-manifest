@@ -205,6 +205,46 @@
     </versions>
   </middleware>
   <middleware>
+    <name>scl</name>
+    <id>scl</id>
+    <uri>https://github.com/cypresssemiconductorco/scl</uri>
+    <desc>The SCL library enables the network stack runing on the customer processor(CM4) to communicate with the network processor(CM0P) on CYSBSYSKIT-01 board.</desc>
+    <category>PSoC 6 CYSBSYSKIT-01 Library</category>
+    <req_capabilities>cysbsyskit_01</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>scl-mtb-integration</name>
+    <id>scl-mtb-integration</id>
+    <uri>https://github.com/cypresssemiconductorco/scl-mtb-integration</uri>
+    <desc>Library to translate Wi-Fi Host Driver (WHD) APIs to Subsystems Communication Layer (SCL) APIs for CYSBSYSKIT-01.</desc>
+    <category>PSoC 6 CYSBSYSKIT-01 Library</category>
+    <req_capabilities>cysbsyskit_01</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>bmi160</name>
     <id>bmi160</id>
     <uri>https://github.com/BoschSensortec/BMI160_driver</uri>
