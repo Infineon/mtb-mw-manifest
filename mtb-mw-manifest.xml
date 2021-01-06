@@ -1001,6 +1001,16 @@
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -1031,6 +1041,16 @@
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -1060,6 +1080,16 @@
     <category>PSoC 6 Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>v1.7.0 Cypress</num>
+        <commit>v1.7.0-cypress</commit>
+        <desc>v1.7.0 Cypress</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>v1.6.1 Cypress</num>
+        <commit>v1.6.1-cypress</commit>
+        <desc>v1.6.1 Cypress</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>v1.5.0 Cypress</num>
         <commit>v1.5.0-cypress</commit>
