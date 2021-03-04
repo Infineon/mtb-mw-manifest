@@ -420,6 +420,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>scl</id>
+            <commit>release-v1.0.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
