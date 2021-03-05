@@ -302,6 +302,40 @@
     <id>CY8CKIT-028-EPD</id>
     <versions>
       <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>display-eink-e2271cs021</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-motion-bmi160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>thermistor</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>display-eink-e2271cs021</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-motion-bmi160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>thermistor</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
