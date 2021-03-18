@@ -143,6 +143,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>release-v2.1.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.1.0</commit>
         <dependees>
           <dependee>
