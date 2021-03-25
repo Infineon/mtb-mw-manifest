@@ -13,6 +13,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.7.1 release</num>
+        <commit>release-v1.7.1</commit>
+        <desc>1.7.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
