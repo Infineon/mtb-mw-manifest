@@ -238,12 +238,7 @@
     <name>recipe-make-cat3</name>
     <id>recipe-make-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat3</uri>
-    <desc><![CDATA[
-    XMC Make build recipe provides the make files and scripts for building and programming XMC applications.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.
-    ]]></desc>
+    <desc>XMC Make build recipe provides the make files and scripts for building and programming XMC applications.</desc>
     <category>XMC Base Libraries</category>
     <req_capabilities>xmc</req_capabilities>
     <versions>
@@ -252,15 +247,15 @@
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.1">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0" tools_min_version="2.2.1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.1">
         <num>0.5.0 release</num>
