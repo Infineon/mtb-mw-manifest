@@ -288,6 +288,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.8.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
@@ -376,6 +385,27 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-codec-ak4954a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>display-tft-st7789v</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-light</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-motion-bmi160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
             <id>audio-codec-ak4954a</id>
