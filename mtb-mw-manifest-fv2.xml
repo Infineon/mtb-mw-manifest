@@ -13,6 +13,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.7.1 release</num>
+        <commit>release-v1.7.1</commit>
+        <desc>1.7.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
@@ -41,6 +46,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.1.0 release</num>
@@ -83,15 +93,20 @@
     <name>mtb-xmclib-cat3</name>
     <id>mtb-xmclib-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
-    <desc><![CDATA[
-    The XMC Peripheral Library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.
-    ]]></desc>
+    <desc>The XMC Peripheral Library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals.</desc>
     <category>XMC Base Libraries</category>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.1">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
@@ -168,6 +183,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.7.1 release</num>
+        <commit>release-v1.7.1</commit>
+        <desc>1.7.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
@@ -203,6 +223,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -218,24 +243,24 @@
     <name>recipe-make-cat3</name>
     <id>recipe-make-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat3</uri>
-    <desc><![CDATA[
-    XMC Make build recipe provides the make files and scripts for building and programming XMC applications.
-    <br><br><b>Note:</b>
-    This is Early Access Software for XMC devices in ModusToolbox.<br>
-    This software is made available for evaluation purposes only and is not recommended for production development.
-    ]]></desc>
+    <desc>XMC Make build recipe provides the make files and scripts for building and programming XMC applications.</desc>
     <category>XMC Base Libraries</category>
     <req_capabilities>xmc</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.1">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0" tools_min_version="2.2.1">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.1">
         <num>0.5.0 release</num>
@@ -326,6 +351,26 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-ml-inference</name>
+    <id>mtb-ml-inference</id>
+    <uri>https://github.com/cypresssemiconductorco/ml-inference</uri>
+    <desc>The ModusToolbox ML Inference Engine library is a set of pre-compiled libraries which provide easy to use API's to run ML workloads on embedded platforms. This library works with the files generated by the ModusToolbox ML Configurator GUI, supports optimized kernels and various quantization levels.</desc>
+    <category>Machine Learning</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3">
+        <num>v1.0.0 Release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>v1.0.0 Release</desc>
       </version>
     </versions>
   </middleware>
