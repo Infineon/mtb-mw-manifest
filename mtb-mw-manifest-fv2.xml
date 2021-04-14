@@ -100,7 +100,7 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
     <desc>The XMC Peripheral Library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals.</desc>
     <category>XMC Base Libraries</category>
-    <req_capabilities>xmc</req_capabilities>
+    <req_capabilities>cat3</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
         <num>Latest 3.X release</num>
