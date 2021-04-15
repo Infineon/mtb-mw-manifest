@@ -1058,6 +1058,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>kv-store</name>
+    <id>kv-store</id>
+    <uri>https://github.com/cypresssemiconductorco/kv-store</uri>
+    <desc>This library provides a convenient way to store information as key-value pairs in non-volatile storage.</desc>
+    <category>MCU Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>bluetooth-freertos</name>
     <id>bluetooth-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/bluetooth-freertos</uri>
