@@ -399,4 +399,67 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>littlefs</name>
+    <id>littlefs</id>
+    <uri>https://github.com/littlefs-project/littlefs</uri>
+    <desc><![CDATA[
+    A little fail-safe filesystem designed for microcontrollers. Choose mtb-littlefs under PSoC 6 Middleware that will also download this library. mtb-littlefs implements the block device drivers necessary for using littelfs on the Infineon MCUs. Littlefs is hosted in a GitHub repository external to the Infineon organization on GitHub.
+    <br><br><b>License Disclaimer:</b><br><br>
+    Adding this library will download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.
+    ]]></desc>
+    <category>MCU Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>2.4.0 Release</num>
+        <commit>v2.4.0</commit>
+        <desc>2.4.0 Release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-littlefs</name>
+    <id>mtb-littlefs</id>
+    <uri>https://github.com/cypresssemiconductorco/mtb-littlefs</uri>
+    <desc><![CDATA[
+    Block Device drivers for use with littlefs filesystem.
+    <br><br><b>License Disclaimer:</b><br><br>
+    Adding this library will also download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.
+    ]]></desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>emfile</name>
+    <id>emfile</id>
+    <uri>https://github.com/cypresssemiconductorco/emfile</uri>
+    <desc>SEGGER emFile - A FAT16/32 filesystem for embedded systems supporting SPI NOR flash and SD card.</desc>
+    <category>PSoC 6 Middleware</category>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>

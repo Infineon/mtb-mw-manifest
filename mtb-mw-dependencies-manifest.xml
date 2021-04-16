@@ -512,4 +512,35 @@
       </version>
     </versions>
   </depender>
+  <depender>
+    <id>mtb-littlefs</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>littlefs</id>
+            <commit>v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>littlefs</id>
+            <commit>v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
 </dependencies>
