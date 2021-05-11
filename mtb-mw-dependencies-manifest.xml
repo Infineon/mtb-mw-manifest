@@ -130,6 +130,7 @@
       </version>
     </versions>
   </depender>
+
   <depender>
     <id>mtb-pdl-cat1</id>
     <versions>
@@ -147,7 +148,7 @@
         <dependees>
           <dependee>
             <id>psoc6cm0p</id>
-            <commit>release-v2.1.1</commit>
+            <commit>release-v2.1.2</commit>
           </dependee>
         </dependees>
       </version>
@@ -171,6 +172,7 @@
       </version>
     </versions>
   </depender>
+
   <depender>
     <id>psoc6pdl</id>
     <versions>
