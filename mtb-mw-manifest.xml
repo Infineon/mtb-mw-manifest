@@ -1116,6 +1116,16 @@
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -1155,6 +1165,16 @@
     <category>BT Middleware libraries</category>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
