@@ -356,7 +356,16 @@
         <dependees>
           <dependee>
             <id>bmi160</id>
-            <commit>bmi160_v3.8.1</commit>
+            <commit>bmi160_v3.9.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.9.1</commit>
           </dependee>
         </dependees>
       </version>
@@ -385,6 +394,23 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>display-eink-e2271cs021</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-motion-bmi160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>thermistor</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.0</commit>
         <dependees>
           <dependee>
             <id>display-eink-e2271cs021</id>
@@ -478,6 +504,27 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>audio-codec-ak4954a</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>display-tft-st7789v</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-light</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-motion-bmi160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
@@ -526,6 +573,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>display-oled-ssd1306</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
             <id>display-oled-ssd1306</id>
