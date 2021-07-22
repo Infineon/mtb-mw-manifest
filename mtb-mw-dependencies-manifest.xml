@@ -397,7 +397,7 @@
         <dependees>
           <dependee>
             <id>bmi160</id>
-            <commit>bmi160_v3.8.1</commit>
+            <commit>bmi160_v3.9.1</commit>
           </dependee>
           <dependee>
             <id>bmm150</id>
@@ -410,7 +410,7 @@
         <dependees>
           <dependee>
             <id>bmi160</id>
-            <commit>bmi160_v3.8.1</commit>
+            <commit>bmi160_v3.9.1</commit>
           </dependee>
           <dependee>
             <id>bmm150</id>
