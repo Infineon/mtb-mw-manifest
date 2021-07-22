@@ -390,6 +390,37 @@
     </versions>
   </depender>
   <depender>
+    <id>sensor-orientation-bmx160</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.8.1</commit>
+          </dependee>
+          <dependee>
+            <id>bmm150</id>
+            <commit>bmm150_v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.8.1</commit>
+          </dependee>
+          <dependee>
+            <id>bmm150</id>
+            <commit>bmm150_v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>CY8CKIT-028-EPD</id>
     <versions>
       <version>
@@ -473,6 +504,53 @@
           </dependee>
           <dependee>
             <id>thermistor</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>CY8CKIT-028-SENSE</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-codec-wm8960</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>display-oled-ssd1306</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-orientation-bmx160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-xensiv-dps3xx</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>audio-codec-wm8960</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>display-oled-ssd1306</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-orientation-bmx160</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>sensor-xensiv-dps3xx</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
