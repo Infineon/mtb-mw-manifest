@@ -1221,7 +1221,15 @@
     <name>bluetooth-freertos</name>
     <id>bluetooth-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/bluetooth-freertos</uri>
-    <desc>The Bluetooth freertos Library is an embedded BLE Host stack that provides APIs to interact with Cypress BT chips. It also contains implementations of the Adaption Layer for FreeRTOS and PSoC6 HAL.</desc>
+    <desc><![CDATA[
+    The Bluetooth freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Cypress BT chips. It also contains implementations of the Adaption Layer for FreeRTOS and PSoC6 HAL.
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/README.md">Bluetooth freertos library README.md</a></li>
+          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth freertos library RELEASE.md</a></li>
+          <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth freertos library API reference guide </a></li>
+        </ul>
+    ]]></desc>
     <category>BT Middleware libraries</category>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
@@ -1229,6 +1237,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
@@ -1239,6 +1252,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
