@@ -566,7 +566,7 @@
     <name>sensor-xensiv-pasco2</name>
     <id>sensor-xensiv-pasco2</id>
     <uri>https://github.com/cypresssemiconductorco/sensor-xensiv-pasco2</uri>
-    <desc><![CDATA[Driver for the XENSIV™ PAS CO2 sensor.<br><br><b>Note:</b>This is an Early Access Software for PASCO2 devices in ModusToolbox.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
+    <desc><![CDATA[Driver for the XENSIV PAS CO2 sensor.<br><br><b>Note:</b>This is an Early Access Software for PASCO2 devices in ModusToolbox.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
     <category>Board Utils</category>
     <req_capabilities>psoc6 hal i2c</req_capabilities>
     <versions>
