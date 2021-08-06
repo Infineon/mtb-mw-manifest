@@ -800,7 +800,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -823,7 +823,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -846,7 +846,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.8.0</commit>
           </dependee>
         </dependees>
       </version>
