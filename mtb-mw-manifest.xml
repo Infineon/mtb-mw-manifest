@@ -1057,6 +1057,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>4.20.0 release</num>
+        <commit>release-v4.20.0</commit>
+        <desc>4.20.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.10.0 release</num>
         <commit>release-v4.10.0</commit>
         <desc>4.10.0 release</desc>
