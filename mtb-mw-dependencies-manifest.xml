@@ -227,6 +227,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>psoc6cm0p</id>
+            <commit>release-v2.1.3</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.2.1</commit>
         <dependees>
           <dependee>
