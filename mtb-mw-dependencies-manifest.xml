@@ -742,6 +742,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>scl</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.2</commit>
         <dependees>
           <dependee>
