@@ -987,8 +987,18 @@
     <name>capsense</name>
     <id>capsense</id>
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
-    <desc>Capacitive sensing solution (CapSense) enabling a variety of applications such as touch, gesture and proximity detection.</desc>
-    <category>MCU Middleware</category>
+    <desc><![CDATA[
+    Capacitive sensing solution (CAPSENSE&#8482;) enables a variety of applications such as touch, gesture and proximity detection
+     for home appliances, automotive, IoT, industrial applications, and more. A CAPSENSE&#8482; supports multiple interfaces
+     (widgets) using both Self-Capacitance (CSD) and Mutual-Capacitance (CSX) sensing methods.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/capsense/blob/master/README.md">CAPSENSE&#8482; Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/capsense/blob/master/RELEASE.md">CAPSENSE&#8482; Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/capsense/capsense_api_reference_manual/html/modules.html">CAPSENSE&#8482; Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>capsense</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
