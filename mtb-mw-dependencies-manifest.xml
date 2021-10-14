@@ -818,7 +818,16 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v1.8.0</commit>
+            <commit>release-v1.9.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.9.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -841,7 +850,16 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v1.8.0</commit>
+            <commit>release-v1.9.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -864,7 +882,16 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v1.8.0</commit>
+            <commit>release-v1.9.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.0</commit>
           </dependee>
         </dependees>
       </version>
