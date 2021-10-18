@@ -412,6 +412,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.9.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
@@ -445,6 +454,19 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmi160</id>
+            <commit>bmi160_v3.9.1</commit>
+          </dependee>
+          <dependee>
+            <id>bmm150</id>
+            <commit>bmm150_v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
         <dependees>
           <dependee>
             <id>bmi160</id>
