@@ -3,9 +3,17 @@
     <name>core-make</name>
     <id>core-make</id>
     <uri>https://github.com/cypresssemiconductorco/core-make</uri>
-    <desc>Core Make build system provides generic build files and scripts for building and programming ModusToolbox applications.</desc>
-    <category>Base Libraries</category>
-    <req_capabilities/>
+    <desc><![CDATA[
+        Core Make build system provides the make build files and scripts for building and programming ModusToolbox&#8482; applications.
+		 Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>
+		<div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/README.md">Core Make build system README.md</a></li>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/RELEASE.md">Core Make build system RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities></req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
@@ -54,7 +62,7 @@
     <id>mtb-pdl-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat1</uri>
     <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -93,8 +101,17 @@
     <name>mtb-pdl-cat2</name>
     <id>mtb-pdl-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat2</uri>
-    <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
-    <category>PSoC 4 Base Libraries</category>
+    <desc><![CDATA[
+    The Peripheral Driver Library (PDL) simplifies software development for Category 2 devices.
+     The PDL integrates device header files, startup code, and low-level peripheral drivers into a single package.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mtb-pdl-cat2/blob/master/README.md">CAT2 Peripheral Driver Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/mtb-pdl-cat2/blob/master/RELEASE.md">CAT2 Peripheral Driver Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/mtb-pdl-cat2/pdl_api_reference_manual/html/modules.html">CAT2 Peripheral Driver Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -133,8 +150,8 @@
     <name>mtb-xmclib-cat3</name>
     <id>mtb-xmclib-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
-    <desc>The XMC Peripheral Library (XMC Lib) consists of low-level drivers and CMSIS startup code for the XMC product family peripherals.</desc>
-    <category>XMC Base Libraries</category>
+    <desc>The XMC&#8482; Peripheral Library (XMC&#8482; Lib) consists of low-level drivers and CMSIS startup code for the XMC&#8482; product family peripherals.</desc>
+    <category>Core</category>
     <req_capabilities>cat3</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
@@ -163,8 +180,8 @@
     <name>mtb-hal-cat1</name>
     <id>mtb-hal-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
-    <desc>PSoC 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -203,8 +220,8 @@
     <name>mtb-hal-cat2</name>
     <id>mtb-hal-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat2</uri>
-    <desc>PSoC 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 4 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
-    <category>PSoC 4 Base Libraries</category>
+    <desc>PMG &amp; PSoC&#8482; 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PMG/PSoC&#8482; 4 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -243,8 +260,8 @@
     <name>recipe-make-cat1a</name>
     <id>recipe-make-cat1a</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat1a</uri>
-    <desc>PSoC 6 Make build recipe provides the make files and scripts for building and programming PSoC 6 applications.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>PSoC&#8482; 6 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 6 applications.</desc>
+    <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -298,8 +315,15 @@
     <name>recipe-make-cat2</name>
     <id>recipe-make-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat2</uri>
-    <desc>PSoC 4 Make build recipe provides the make files and scripts for building and programming PSoC 4 applications.</desc>
-    <category>PSoC 4 Base Libraries</category>
+    <desc><![CDATA[
+    PSoC&#8482; 4 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 4 applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat2/blob/master/README.md">CAT2 Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat2/blob/master/RELEASE.md">CAT2 Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -338,8 +362,8 @@
     <name>recipe-make-cat3</name>
     <id>recipe-make-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat3</uri>
-    <desc>XMC Make build recipe provides the make files and scripts for building and programming XMC applications.</desc>
-    <category>XMC Base Libraries</category>
+    <desc>XMC&#8482; Make build recipe provides the make files and scripts for building and programming XMC&#8482; applications.</desc>
+    <category>Core</category>
     <req_capabilities>cat3</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
@@ -379,7 +403,7 @@
     <id>scl</id>
     <uri>https://github.com/cypresssemiconductorco/scl</uri>
     <desc>The SCL library enables the network stack runing on the customer processor(CM4) to communicate with the network processor(CM0P) on CYSBSYSKIT-01 board.</desc>
-    <category>PSoC 6 CYSBSYSKIT-01 Library</category>
+    <category>Middleware</category>
     <req_capabilities>cysbsyskit_01</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -414,7 +438,7 @@
     <id>scl-mtb-integration</id>
     <uri>https://github.com/cypresssemiconductorco/scl-mtb-integration</uri>
     <desc>Library to translate Wi-Fi Host Driver (WHD) APIs to Subsystems Communication Layer (SCL) APIs for CYSBSYSKIT-01.</desc>
-    <category>PSoC 6 CYSBSYSKIT-01 Library</category>
+    <category>Middleware</category>
     <req_capabilities>cysbsyskit_01</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
@@ -449,7 +473,7 @@
     <id>bmi160</id>
     <uri>https://github.com/BoschSensortec/BMI160_driver</uri>
     <desc>Bosch BMI-160 Sensor Driver.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -469,7 +493,7 @@
     <id>bmm150</id>
     <uri>https://github.com/BoschSensortec/BMM150-Sensor-API</uri>
     <desc>Bosch BMM-150 Sensor Driver.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -484,11 +508,18 @@
     <id>littlefs</id>
     <uri>https://github.com/littlefs-project/littlefs</uri>
     <desc><![CDATA[
-    A little fail-safe filesystem designed for microcontrollers. Choose mtb-littlefs under PSoC 6 Middleware that will also download this library. mtb-littlefs implements the block device drivers necessary for using littelfs on the Infineon MCUs. Littlefs is hosted in a GitHub repository external to the Infineon organization on GitHub.
-    <br><br><b>License Disclaimer:</b><br><br>
-    Adding this library will download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.
+    A little fail-safe filesystem designed for microcontrollers.
+     Choose the mtb-littlefs under PSoC&#8482; 6 Middleware that will also download this library.
+     The mtb-littlefs implements the block device drivers necessary for using a littelfs on the Infineon MCUs.
+     A littlefs is hosted in a GitHub repository external to the Infineon organization on GitHub.
+    <br><br><b>License Disclaimer:</b><br>
+    Adding this library will download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/littlefs-project/littlefs">littlefs home page</a></li>
+        </ul>
     ]]></desc>
-    <category>MCU Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -503,11 +534,11 @@
     <id>mtb-littlefs</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-littlefs</uri>
     <desc><![CDATA[
-    Block Device drivers for use with littlefs filesystem.
-    <br><br><b>License Disclaimer:</b><br><br>
+    The Block Device drivers for use with a littlefs filesystem.
+    <br><b>License Disclaimer:</b><br>
     Adding this library will also download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.
     ]]></desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -527,7 +558,7 @@
     <id>pdstack</id>
     <uri>https://github.com/cypresssemiconductorco/pdstack</uri>
     <desc>USB Power-Delivery Stack comprehending Type-C connection detection, PD protocol layer and Policy Engine.</desc>
-    <category>MCU Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>usbpd</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
@@ -551,8 +582,9 @@
     <name>mtb-ml-inference</name>
     <id>mtb-ml-inference</id>
     <uri>https://github.com/cypresssemiconductorco/ml-inference</uri>
-    <desc>The ModusToolbox ML Inference Engine library is a set of pre-compiled libraries which provide easy to use API's to run ML workloads on embedded platforms. This library works with the files generated by the ModusToolbox ML Configurator GUI, supports optimized kernels and various quantization levels.</desc>
-    <category>Machine Learning</category>
+    <desc>The ModusToolbox&#8482; ML Inference Engine library is a set of pre-compiled libraries which provide easy to use API's to run ML workloads on embedded platforms. This library works with the files generated by the ModusToolbox&#8482; ML Configurator GUI, supports optimized kernels and
+    various quantization levels.</desc>
+    <category>Middleware</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.1">
@@ -577,7 +609,7 @@
     <id>emfile</id>
     <uri>https://github.com/cypresssemiconductorco/emfile</uri>
     <desc>SEGGER emFile - A FAT16/32 filesystem for embedded systems supporting SPI NOR flash and SD card.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -596,8 +628,8 @@
     <name>p64_utils</name>
     <id>p64_utils</id>
     <uri>https://github.com/cypresssemiconductorco/p64_utils</uri>
-    <desc>Secure Boot Utilities Middleware Library is a set of utility code for PSoC64 device performing operations like providing an interface to Secure FlashBoot SysCalls including PSA cryptographic functions, generic syscall functions, base64 decode provisioning JWT packet, parsing JSON data, policy parsing helpers, dynamic memory manager.</desc>
-    <category>PSoC 6 Middleware</category>
+    <desc>Secure Boot Utilities Middleware Library is a set of utility code for PSoC&#8482;64 device performing operations like providing an interface to Secure FlashBoot SysCalls including PSA cryptographic functions, generic syscall functions, base64 decode provisioning JWT packet, parsing JSON data, policy parsing helpers, dynamic memory manager.</desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 secure_boot</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -613,11 +645,39 @@
     </versions>
   </middleware>
   <middleware>
+    <name>trusted-firmware-m</name>
+    <id>trusted-firmware-m</id>
+    <uri>https://github.com/infineon/trusted-firmware-m</uri>
+    <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 secure_boot</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>1.3.1 release</num>
+        <commit>release-v1.3.1</commit>
+        <desc>1.3.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>lin</name>
     <id>lin</id>
     <uri>https://github.com/cypresssemiconductorco/lin</uri>
-    <desc>The LIN middleware implements a LIN 2.2 and ISO 17987 compliance slave node.</desc>
-    <category>MCU Middleware</category>
+    <desc><![CDATA[
+    The LIN Middleware Library implements a LIN 2.2 and ISO 17987 compliance slave node.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/lin/blob/master/README.md">LIN Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/lin/blob/master/RELEASE.md">LIN Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/lin/html/modules.html">LIN Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.3.1">
@@ -636,8 +696,8 @@
     <name>sensor-xensiv-pasco2</name>
     <id>sensor-xensiv-pasco2</id>
     <uri>https://github.com/cypresssemiconductorco/sensor-xensiv-pasco2</uri>
-    <desc><![CDATA[Driver for the XENSIV PAS CO2 sensor.<br><br><b>Note:</b>This is an Early Access Software for PASCO2 devices in ModusToolbox.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
-    <category>Board Utils</category>
+    <desc><![CDATA[Driver for the XENSIV(TM) PAS CO2 sensor.<br><br><b>Note:</b>This is an Early Access Software for PASCO2 devices in ModusToolbox&#8482;.<br>This software is made available for evaluation purposes only and is not recommended for production development.]]></desc>
+    <category>Peripheral</category>
     <req_capabilities>psoc6 hal i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="2.2.0">
@@ -656,6 +716,7 @@
     <name>capsense</name>
     <id>capsense</id>
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
+    <!-- NOTE: remember to sync description and req_capabilities to mtb-mw-manifest.xml -->
     <desc><![CDATA[
     Capacitive sensing solution (CAPSENSE&#8482;) enables a variety of applications such as touch, gesture and proximity detection
      for home appliances, automotive, IoT, industrial applications, and more. A CAPSENSE&#8482; supports multiple interfaces
