@@ -24,6 +24,27 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
@@ -214,6 +235,7 @@
       </version>
     </versions>
   </depender>
+
   <depender>
     <id>mtb-pdl-cat1</id>
     <versions>
@@ -273,6 +295,7 @@
       </version>
     </versions>
   </depender>
+
   <depender>
     <id>psoc6pdl</id>
     <versions>
@@ -373,6 +396,19 @@
     <versions>
       <version>
         <commit>latest-v10.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v10.4.3</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>

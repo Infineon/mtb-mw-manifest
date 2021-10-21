@@ -3,8 +3,8 @@
     <name>psoc6pdl</name>
     <id>psoc6pdl</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6pdl</uri>
-    <desc>The PSoC 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>The PSoC&#8482; 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0">
@@ -63,8 +63,8 @@
     <name>psoc6cm0p</name>
     <id>psoc6cm0p</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6cm0p</uri>
-    <desc>PSoC 6 Cortex M0+ prebuilt images enabling flash write services and BLE event handling.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>PSoC&#8482; 6 Cortex M0+ prebuilt images enabling flash write services and BLE event handling.</desc>
+    <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -143,8 +143,8 @@
     <name>psoc6hal</name>
     <id>psoc6hal</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6hal</uri>
-    <desc>PSoC 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC 6 MCU resources using the Cypress defined Hardware Abstraction Layer.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the using the defined Hardware Abstraction Layer.</desc>
+    <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0">
@@ -193,8 +193,8 @@
     <name>psoc6make</name>
     <id>psoc6make</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6make</uri>
-    <desc>PSoC 6 Base Build Library.</desc>
-    <category>PSoC 6 Base Libraries</category>
+    <desc>PSoC&#8482; 6 Base Build Library.</desc>
+    <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0">
@@ -269,7 +269,7 @@
     <id>core-lib</id>
     <uri>https://github.com/cypresssemiconductorco/core-lib</uri>
     <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
-    <category>Base Libraries</category>
+    <category>Core</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -334,11 +334,11 @@
     <id>abstraction-rtos</id>
     <uri>https://github.com/cypresssemiconductorco/abstraction-rtos</uri>
     <desc><![CDATA[
-    The RTOS Abstraction Library provides a generic API that allows Cypress middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.
+    The RTOS Abstraction Library provides a generic API that allows ModusToolbox&#8482; middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.
     <br><br><b>Note:</b>
     This library has specific requirements on the underlying RTOS configuration. See the Readme.md file for details.
     ]]></desc>
-    <category>Abstraction Layers</category>
+    <category>Utilities</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -403,7 +403,7 @@
     <id>CY8CKIT-028-EPD</id>
     <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-EPD</uri>
     <desc>The CY8CKIT-028-EPD library provides APIs for interacting with the Shield Board's E2271CS021 EInk display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Thermistor.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -438,7 +438,7 @@
     <id>CY8CKIT-028-SENSE</id>
     <uri>https://github.com/infineon/CY8CKIT-028-SENSE</uri>
     <desc>The Sense Shield Board (CY8CKIT-028-SENSE) has been designed as a companion to add common sensors, audio components and user interface to an Arduino based baseboard. The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's OLED Display (SSD1306), Orientation Sensor (BMX-160), XENSIV Pressure/Temperature Sensor (DPS310XTSA1), 2 XENSIV MEMS Microphones (IM69D130V01XTSA1), PDM Microphone example code (SPK0838HT4HB), and Audio Codec (WM8960).</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino j2 hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -458,7 +458,7 @@
     <id>CY8CKIT-028-TFT</id>
     <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT</uri>
     <desc>The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's ST7789v TFT display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Light Sensor.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino j2 hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -487,8 +487,8 @@
     <name>CY8CKIT-032</name>
     <id>CY8CKIT-032</id>
     <uri>https://github.com/cypresssemiconductorco/CY8CKIT-032</uri>
-    <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSoC 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CapSense user interface.</desc>
-    <category>Board Utils</category>
+    <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSoC&#8482; 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CAPSENSE&#8482; user interface.</desc>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -513,7 +513,7 @@
     <id>retarget-io</id>
     <uri>https://github.com/cypresssemiconductorco/retarget-io</uri>
     <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -552,8 +552,8 @@
     <name>rgb-led</name>
     <id>rbg-led</id>
     <uri>https://github.com/cypresssemiconductorco/rgb-led</uri>
-    <desc>The RGB LED library provides APIs for controlling the color and intensity the RGB LED on the Cypress kits.</desc>
-    <category>Board Utils</category>
+    <desc>The RGB LED library provides APIs for controlling the color and intensity the RGB LED on our kits.</desc>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -593,7 +593,7 @@
     <id>serial-flash</id>
     <uri>https://github.com/cypresssemiconductorco/serial-flash</uri>
     <desc>The Serial Flash library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal qspi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -633,7 +633,7 @@
     <id>audio-codec-ak4954a</id>
     <uri>https://github.com/cypresssemiconductorco/audio-codec-ak4954a</uri>
     <desc>This library provides functions to support use of the AK4954A audio codec found on the CY8CKIT-028-TFT shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -658,7 +658,7 @@
     <id>audio-codec-wm8960</id>
     <uri>https://github.com/infineon/audio-codec-wm8960</uri>
     <desc>This library provides functions to support use of the WM8960 audio codec available on the CY8CKIT-028-SENSE shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -678,7 +678,7 @@
     <id>display-eink-e2271cs021</id>
     <uri>https://github.com/cypresssemiconductorco/display-eink-e2271cs021</uri>
     <desc>This library provides functions for supporting the 2.7" EPD Display (E2271CS021). This is the same display as used on the CY8CKIT-028-EPD shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -708,7 +708,7 @@
     <id>display-oled-ssd1306</id>
     <uri>https://github.com/cypresssemiconductorco/display-oled-ssd1306</uri>
     <desc>This library provides functions to support the 128x64 pixel dot matrix OLED display driven by SSD1306 controller. This is the same display as used on the CY8CKIT-032 shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -733,7 +733,7 @@
     <id>display-tft-st7789v</id>
     <uri>https://github.com/cypresssemiconductorco/display-tft-st7789v</uri>
     <desc>This library provides functions for supporting a 2.4 inch TFT LCD driven by an ST7789V controller. This is the same display as used on the CY8CKIT-028-TFT shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -758,7 +758,7 @@
     <id>sensor-light</id>
     <uri>https://github.com/cypresssemiconductorco/sensor-light</uri>
     <desc>This library provides functions to support use of a phototransistor ambient light sensor such as the TEMT6000 as used on the CY8CKIT-028-TFT shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -788,7 +788,7 @@
     <id>sensor-motion-bmi160</id>
     <uri>https://github.com/cypresssemiconductorco/sensor-motion-bmi160</uri>
     <desc>This library provides functions for interfacing with the BMI-160 I2C/SPI 16-bit Inertial Measurement Unit with three axis accelerometer and three axis gyroscope as used on the CY8CKIT-028-TFT and CY8CKIT-028-TFT shields.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -823,7 +823,7 @@
     <id>sensor-orientation-bmx160</id>
     <uri>https://github.com/infineon/sensor-orientation-bmx160</uri>
     <desc>This library provides functions for interfacing with the BMX-160 I2C/SPI 16-bit Absolute Orientation Sensor with three axis accelerometer, three axis gyroscope, and three axis magnetometer as used on the CY8CKIT-028-SENSE shield.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -847,8 +847,8 @@
     <name>sensor-xensiv-dps3xx</name>
     <id>sensor-xensiv-dps3xx</id>
     <uri>https://github.com/infineon/sensor-xensiv-dps3xx</uri>
-    <desc>This library provides functions for interfacing with the XENSIV DPS-310/368 Barometric Pressure Sensors. These are miniaturized digital barometric air pressure sensors with ultra-high precision (±2 cm) and a low current consumption, capable of measuring both pressure and temperature. The pressure sensor element is based on a capacitive sensing principle which guarantees high precision during temperature changes. This library can be setup to use the ModusToolbox HAL interface, or using user provided communication functions.</desc>
-    <category>Board Utils</category>
+    <desc>This library provides functions for interfacing with the XENSIV DPS-310/368 Barometric Pressure Sensors. These are miniaturized digital barometric air pressure sensors with ultra-high precision (&#177;2 cm) and a low current consumption, capable of measuring both pressure and temperature. The pressure sensor element is based on a capacitive sensing principle which guarantees high precision during temperature changes. This library can be setup to use the ModusToolbox&#8482; HAL interface, or using user provided communication functions.</desc>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -868,7 +868,7 @@
     <id>thermistor</id>
     <uri>https://github.com/cypresssemiconductorco/thermistor</uri>
     <desc>This library provides functions for reading an NTC GPIO based thermistor temperature sensor as used on some shields.</desc>
-    <category>Board Utils</category>
+    <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -902,8 +902,8 @@
     <name>udb-sdio-whd</name>
     <id>udb-sdio-whd</id>
     <uri>https://github.com/cypresssemiconductorco/udb-sdio-whd</uri>
-    <desc>The UDB SDIO for WHD library provides a UDB based SDIO interface that allows for communicating between a PSoC 6 and a Cypress wireless device such as the CYW4343W, CYW43438, or CYW43012.</desc>
-    <category>Board Utils</category>
+    <desc>The UDB SDIO for WHD library provides a UDB based SDIO interface that allows for communicating between a PSoC&#8482; 6 and a AIROC&#8482; wireless device such as the CYW4343W, CYW43438, or CYW43012.</desc>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx hal udb</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -938,7 +938,7 @@
     <id>whd-bsp-integration</id>
     <uri>https://github.com/cypresssemiconductorco/whd-bsp-integration</uri>
     <desc>The WHD + BSP Integration library provides some convenience functions for connecting the WiFi Host Driver (WHD) library to a Board Support Package (BSP) that includes a WLAN chip.</desc>
-    <category>Board Utils</category>
+    <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -997,8 +997,8 @@
     <name>bless</name>
     <id>bless</id>
     <uri>https://github.com/cypresssemiconductorco/bless</uri>
-    <desc>PSoC 6 BLE Middleware is a comprehensive API to configure the BLE Stack and the underlying chip hardware.</desc>
-    <category>PSoC 6 Middleware</category>
+    <desc>PSoC&#8482; 6 BLE Middleware is a comprehensive API to configure the BLE Stack and the underlying chip hardware.</desc>
+    <category>Middleware</category>
     <req_capabilities>psoc6 ble</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1037,6 +1037,7 @@
     <name>capsense</name>
     <id>capsense</id>
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
+    <!-- NOTE: remember to sync description and req_capabilities to mtb-mw-manifest.xml -->
     <desc><![CDATA[
     Capacitive sensing solution (CAPSENSE&#8482;) enables a variety of applications such as touch, gesture and proximity detection
      for home appliances, automotive, IoT, industrial applications, and more. A CAPSENSE&#8482; supports multiple interfaces
@@ -1073,7 +1074,7 @@
     <id>csdadc</id>
     <uri>https://github.com/cypresssemiconductorco/csdadc</uri>
     <desc>ADC, implemented in the CSD hardware block, for voltage measurements.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1093,7 +1094,7 @@
     <id>csdidac</id>
     <uri>https://github.com/cypresssemiconductorco/csdidac</uri>
     <desc>IDAC, implemented in the CSD hardware block, to provide regulated current source.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1117,8 +1118,17 @@
     <name>dfu</name>
     <id>dfu</id>
     <uri>https://github.com/cypresssemiconductorco/dfu</uri>
-    <desc>Device Firmware Update (DFU) is a low-level API for the implementation of firmware loader and firmware loadable applications.</desc>
-    <category>MCU Middleware</category>
+    <desc><![CDATA[
+    The Device Firmware Update (DFU) Middleware Library provides a low-level API for the implementation of firmware loader and
+     firmware loadable applications using a number of transport interfaces, e.g. BLE, USB, UART, I2C, SPI.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/dfu/blob/master/README.md">DFU Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/dfu/blob/master/RELEASE.md">DFU Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/dfu/dfu_sdk_api_reference_manual/html/modules.html">DFU Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1147,14 +1157,28 @@
     <name>emeeprom</name>
     <id>emeeprom</id>
     <uri>https://github.com/cypresssemiconductorco/emeeprom</uri>
-    <desc>Emulated EEPROM enables on-chip flash memory to be used for permanent data storage with support for wear leveling and redundant copy features.</desc>
-    <category>PSoC 6 Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <desc><![CDATA[
+    The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482; device flash memory.
+     This allows you to store nonvolatile data with support for wear leveling and redundant copy features.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/emeeprom/em_eeprom_api_reference_manual/html/modules.html">Em_EEPROM Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.10.0 release</num>
+        <commit>release-v2.10.0</commit>
+        <desc>2.10.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -1168,7 +1192,7 @@
     <id>emwin</id>
     <uri>https://github.com/cypresssemiconductorco/emwin</uri>
     <desc>SEGGER emWin embedded graphic library and graphical user interface (GUI) framework.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1188,7 +1212,7 @@
     <id>usbdev</id>
     <uri>https://github.com/cypresssemiconductorco/usbdev</uri>
     <desc>USB Device library for a full-speed USB 2.0 compliant device framework.</desc>
-    <category>MCU Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>usb_device</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1212,14 +1236,30 @@
     <name>freertos</name>
     <id>freertos</id>
     <uri>https://github.com/cypresssemiconductorco/freertos</uri>
-    <desc>FreeRTOS kernel, distributed as standard C source files with configuration header file.</desc>
-    <category>MCU Middleware</category>
+    <desc><![CDATA[
+    A FreeRTOS is a small operating system for microcontrollers. A FreeRTOS kernel is distributed as standard C source files
+     with configuration header file.<br>
+    <br><b>License Disclaimer:</b><br>
+    Adding this library will download and add FreeRTOS to your project. It is your responsibility to understand and accept the FreeRTOS license.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/freertos/blob/master/README.md">FreeRTOS kernel README.md</a></li>
+          <li><a href="https://github.com/Infineon/freertos/blob/master/RELEASE.md">FreeRTOS kernel RELEASE.md</a></li>
+          <li><a href="https://www.freertos.org/index.html">FreeRTOS home page</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 10.X release</num>
         <commit>latest-v10.X</commit>
         <desc>Latest 10.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>10.4.3 release</num>
+        <commit>release-v10.4.3</commit>
+        <desc>10.4.3 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>10.3.1 release</num>
@@ -1242,7 +1282,7 @@
     <br><br><b>Note:</b>
     FREERTOS flags configUSE_MUTEXES, configUSE_RECURSIVE_MUTEXES, and configSUPPORT_STATIC_ALLOCATION must be enabled
     ]]></desc>
-    <category>MCU Middleware</category>
+    <category>Utilities</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1277,7 +1317,7 @@
     <id>kv-store</id>
     <uri>https://github.com/cypresssemiconductorco/kv-store</uri>
     <desc>This library provides a convenient way to store information as key-value pairs in non-volatile storage.</desc>
-    <category>MCU Middleware</category>
+    <category>Utilities</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
@@ -1302,7 +1342,7 @@
     <id>bluetooth-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/bluetooth-freertos</uri>
     <desc><![CDATA[
-    The Bluetooth freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Cypress BT chips. It also contains implementations of the Adaption Layer for FreeRTOS and PSoC6 HAL.
+    The Bluetooth&#174; freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Bluetooth&#174; chips.
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/README.md">Bluetooth freertos library README.md</a></li>
@@ -1310,13 +1350,18 @@
           <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth freertos library API reference guide </a></li>
         </ul>
     ]]></desc>
-    <category>BT Middleware libraries</category>
+    <category>Bluetooth&#174;</category>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -1369,20 +1414,25 @@
     <name>btstack</name>
     <id>btstack</id>
     <uri>https://github.com/cypresssemiconductorco/btstack</uri>
-    <desc><![CDATA[BTSTACK is Cypress's Bluetooth Host Protocol Stack implementation. The stack is optimized to work on Cypress Bluetooth controllers. The BTSTACK supports Bluetooth BR/EDR and BLE core protocols. The stack is available as libraries built for CM3 and CM4 ARM (TM) cores using ARM, GCC and IAR tool-chains. Further there are two build variants of stack libraries, LE only and Dual-mode. Applications that use LE can take advantage of reduced size of LE only library and build LE peripheral or even central applications. Dual-mode library supports both LE and BR/EDER protocols.
+    <desc><![CDATA[BTSTACK is our Bluetooth&#174; Host Protocol Stack implementation. The stack is optimized to work on our Bluetooth&#174; controllers. The BTSTACK supports Bluetooth&#174; BR/EDR and BLE core protocols. The stack is available as libraries built for CM3 and CM4 ARM (TM) cores using ARM, GCC and IAR tool-chains. Further there are two build variants of stack libraries, LE only and Dual-mode. Applications that use LE can take advantage of reduced size of LE only library and build LE peripheral or even central applications. Dual-mode library supports both LE and BR/EDER protocols.
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/cypresssemiconductorco/btstack/blob/master/RELEASE.md">BTSTACK release notes</a></li>
           <li><a href="https://cypresssemiconductorco.github.io/btstack/ble/api_reference_manual/html/index.html">BLE API reference manual</a></li>
         </ul>
     ]]></desc>
-    <category>BT Middleware libraries</category>
+    <category>Bluetooth&#174;</category>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -1431,9 +1481,14 @@
     <id>mcuboot</id>
     <uri>https://github.com/JuulLabs-OSS/mcuboot</uri>
     <desc>MCUboot is a secure bootloader for 32-bit MCUs.</desc>
-    <category>PSoC 6 Middleware</category>
+    <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>v1.7.2 Cypress</num>
+        <commit>v1.7.2-cypress</commit>
+        <desc>v1.7.2 Cypress</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>v1.7.0 Cypress</num>
         <commit>v1.7.0-cypress</commit>
