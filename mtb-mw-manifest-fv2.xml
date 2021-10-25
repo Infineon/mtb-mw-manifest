@@ -399,6 +399,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>recipe-make-cat4</name>
+    <id>recipe-make-cat4</id>
+    <uri>https://github.com/Infineon/recipe-make-cat4</uri>
+    <desc>4390X&#8482; Make build recipe provides the make files and scripts for building and programming 4390X&#8482; applications.</desc>
+    <category>Core</category>
+    <req_capabilities>cat4</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>scl</name>
     <id>scl</id>
     <uri>https://github.com/cypresssemiconductorco/scl</uri>
