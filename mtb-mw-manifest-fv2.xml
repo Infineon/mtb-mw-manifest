@@ -781,6 +781,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>xensiv-radar-sensing</name>
+    <id>xensiv-radar-sensing</id>
+    <uri>https://github.com/cypresssemiconductorco/xensiv-radar-sensing</uri>
+    <desc>This library provides APIs to interface with the RadarSensing library that allows user to use existing radar applications such as presence detection, entrance counter or build applications on top.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>psoc6 hal spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>optiga-trust-m</name>
     <id>optiga-trust-m</id>
     <uri>https://github.com/Infineon/optiga-trust-m</uri>
