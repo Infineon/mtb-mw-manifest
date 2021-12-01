@@ -944,7 +944,7 @@
     <uri>https://github.com/cypresssemiconductorco/whd-bsp-integration</uri>
     <desc>The WHD + BSP Integration library provides some convenience functions for connecting the WiFi Host Driver (WHD) library to a Board Support Package (BSP) that includes a WLAN chip.</desc>
     <category>Wi-Fi</category>
-    <req_capabilities>psoc6 cyw43xxx hal</req_capabilities>
+    <req_capabilities>wifi hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
@@ -1262,6 +1262,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.4.4 release</num>
+        <commit>release-v10.4.4</commit>
+        <desc>10.4.4 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.4.3 release</num>
         <commit>release-v10.4.3</commit>
         <desc>10.4.3 release</desc>
@@ -1294,6 +1299,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
