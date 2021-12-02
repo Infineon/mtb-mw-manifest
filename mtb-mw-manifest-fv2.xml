@@ -264,7 +264,7 @@
   <middleware>
     <name>mtb-hal-cat4</name>
     <id>mtb-hal-cat4</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/mtb-hal-cat4</uri>
+    <uri>https://github.com/Infineon/mtb-hal-cat4</uri>
     <desc>43907 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the 43907 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat4</req_capabilities>
