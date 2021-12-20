@@ -1262,9 +1262,14 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.4 release</num>
+        <num>10.4.302 release</num>
+        <commit>release-v10.4.302</commit>
+        <desc>10.4.302 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>10.4.4 release (Obsolete)</num>
         <commit>release-v10.4.4</commit>
-        <desc>10.4.4 release</desc>
+        <desc>10.4.4 release. Obsolete in favor of freertos 10.4.302 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>10.4.3 release</num>
