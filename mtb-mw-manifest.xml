@@ -1,5 +1,29 @@
 <middleware>
   <middleware>
+    <name>ble-mesh</name>
+    <id>ble-mesh</id>
+    <uri>https://github.com/infineon/ble-mesh</uri>
+    <desc><![CDATA[
+    The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSoC&#8482; 6 + 43012 Bluetooth&#174; chips.
+    Components included are binaries for Mesh Core, Mesh Models and Mesh Provisioner libraries and adaptation code to create mesh applications.
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/infineon/ble-mesh/blob/master/README.md">Bluetooth&#174; LE Mesh library README.md</a></li>
+          <li><a href="https://github.com/infineon/ble-mesh/blob/master/RELEASE.md">Bluetooth&#174; LE Mesh library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/ble-mesh/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 bt</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>psoc6pdl</name>
     <id>psoc6pdl</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6pdl</uri>
@@ -1377,6 +1401,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+        <desc>3.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.2.0 release</num>
