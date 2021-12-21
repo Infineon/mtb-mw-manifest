@@ -2,15 +2,15 @@
   <middleware>
     <name>ble-mesh</name>
     <id>ble-mesh</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/ble-mesh</uri>
+    <uri>https://github.com/Infineon/ble-mesh</uri>
     <desc><![CDATA[
     The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSoC&#8482; 6 + 43012 Bluetooth&#174; chips.
     Components included are binaries for Mesh Core, Mesh Models and Mesh Provisioner libraries and adaptation code to create mesh applications.
     <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/cypresssemiconductorco/ble-mesh/blob/master/README.md">Bluetooth&#174; LE Mesh library README.md</a></li>
-          <li><a href="https://github.com/cypresssemiconductorco/ble-mesh/blob/master/RELEASE.md">Bluetooth&#174; LE Mesh library RELEASE.md</a></li>
-          <li><a href="https://cypresssemiconductorco.github.io/ble-mesh/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
+          <li><a href="https://github.com/infineon/ble-mesh/blob/master/README.md">Bluetooth&#174; LE Mesh library README.md</a></li>
+          <li><a href="https://github.com/infineon/ble-mesh/blob/master/RELEASE.md">Bluetooth&#174; LE Mesh library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/ble-mesh/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
