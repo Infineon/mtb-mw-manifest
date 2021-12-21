@@ -2,7 +2,7 @@
   <middleware>
     <name>ble-mesh</name>
     <id>ble-mesh</id>
-    <uri>https://github.com/Infineon/ble-mesh</uri>
+    <uri>https://github.com/infineon/ble-mesh</uri>
     <desc><![CDATA[
     The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSoC&#8482; 6 + 43012 Bluetooth&#174; chips.
     Components included are binaries for Mesh Core, Mesh Models and Mesh Provisioner libraries and adaptation code to create mesh applications.
