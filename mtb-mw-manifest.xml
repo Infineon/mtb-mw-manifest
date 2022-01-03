@@ -1389,9 +1389,9 @@
     The Bluetooth&#174; freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Bluetooth&#174; chips.
     <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/README.md">Bluetooth freertos library README.md</a></li>
-          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth freertos library RELEASE.md</a></li>
-          <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth freertos library API reference guide </a></li>
+          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/README.md">Bluetooth&#174; freertos library README.md</a></li>
+          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth&#174; freertos library RELEASE.md</a></li>
+          <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth&#174; freertos library API reference guide </a></li>
         </ul>
     ]]></desc>
     <category>Bluetooth&#174;</category>
