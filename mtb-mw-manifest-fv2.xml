@@ -823,7 +823,7 @@
   <middleware>
     <name>sensor-xensiv-bgt60trxx</name>
     <id>sensor-xensiv-bgt60trxx</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/sensor-xensiv-bgt60trxx</uri>
+    <uri>https://github.com/cypresssemiconductorco/sensor-xensiv-bgt60trxx</uri>
     <desc>This library provides functions for interfacing with the XENSIV&#8482; BGT60TRxx 60GHz FMCW radar sensors.</desc>
     <category>Peripheral</category>
     <req_capabilities>psoc6 hal spi</req_capabilities>
