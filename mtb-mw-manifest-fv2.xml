@@ -364,7 +364,7 @@
   <middleware>
     <name>recipe-make-cat1b</name>
     <id>recipe-make-cat1b</id>
-    <uri>https://github.com/cypresssemiconductorco/recipe-make-cat1b</uri>
+    <uri>https://github.com/Infineon/recipe-make-cat1b</uri>
     <desc>20829 Make build recipe provides the make files and scripts for building and programming 20829 applications.</desc>
     <category>Core</category>
     <req_capabilities>mxsv2</req_capabilities>
@@ -879,7 +879,7 @@
         <desc>0.6.3 release</desc>
       </version>
     </versions>
-  </middleware> 
+  </middleware>
   <middleware>
     <name>xensiv-radar-sensing</name>
     <id>xensiv-radar-sensing</id>
