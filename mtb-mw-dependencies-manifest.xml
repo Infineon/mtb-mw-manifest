@@ -957,10 +957,42 @@
     </versions>
   </depender>
   <depender>
+    <id>recipe-make-cat1b</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>recipe-make-cat2</id>
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v1.9.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.1</commit>
         <dependees>
           <dependee>
             <id>core-make</id>
