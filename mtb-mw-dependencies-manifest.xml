@@ -261,15 +261,6 @@
     <id>mtb-pdl-cat1</id>
     <versions>
       <version>
-        <commit>latest-v2.X</commit>
-        <dependees>
-          <dependee>
-            <id>psoc6cm0p</id>
-            <commit>latest-v2.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
         <commit>release-v2.3.1</commit>
         <dependees>
           <dependee>
