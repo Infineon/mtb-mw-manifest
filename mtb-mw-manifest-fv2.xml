@@ -973,4 +973,27 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>multi-half-bridge</name>
+    <id>multi-half-bridge</id>
+    <uri>https://github.com/Infineon/multi-half-bridge</uri>
+    <desc><![CDATA[
+          This C++ library provides APIs for interacting with Infineon's <a href="https://www.infineon.com/cms/en/product/power/motor-control-ics/brushed-dc-motor-driver-ics/multi-half-bridge-ics/">Multi Half-Bridge ICs</a>. This family of devices is designed for DC motor control applications.<br>
+          Find more information in the library <a href="https://github.com/Infineon/multi-half-bridge">repository</a>.
+    	]]></desc>
+    <category>Peripheral</category>
+    <req_capabilities>hal spi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.0.0 release</num>
+        <commit>v5.0.0</commit>
+        <desc>5.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
