@@ -1229,11 +1229,21 @@
   <middleware>
     <name>emwin</name>
     <id>emwin</id>
-    <uri>https://github.com/cypresssemiconductorco/emwin</uri>
+    <uri>https://github.com/Infineon/emwin</uri>
     <desc>SEGGER emWin embedded graphic library and graphical user interface (GUI) framework.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+        <desc>Latest 6.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>6.24.0 release</num>
+        <commit>release-v6.24.0</commit>
+        <desc>6.24.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
