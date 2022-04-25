@@ -334,7 +334,7 @@
         <dependees>
           <dependee>
             <id>psoc6cm0p</id>
-            <commit>release-v1.2.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
