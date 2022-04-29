@@ -1106,7 +1106,7 @@
         <dependees>
           <dependee>
             <id>btstack</id>
-            <commit>release-v3.3.0</commit>
+            <commit>release-v3.4.0</commit>
           </dependee>
           <dependee>
             <id>freertos</id>
@@ -1127,7 +1127,7 @@
         <dependees>
           <dependee>
             <id>btstack</id>
-            <commit>release-v3.3.0</commit>
+            <commit>release-v3.4.0</commit>
           </dependee>
           <dependee>
             <id>freertos</id>
