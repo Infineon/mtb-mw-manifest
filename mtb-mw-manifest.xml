@@ -1566,8 +1566,13 @@
     <uri>https://github.com/JuulLabs-OSS/mcuboot</uri>
     <desc>MCUboot is a secure bootloader for 32-bit MCUs.</desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>cat1</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>v1.8.1 Cypress</num>
+        <commit>v1.8.1-cypress</commit>
+        <desc>v1.8.1 Cypress</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>v1.7.2 Cypress</num>
         <commit>v1.7.2-cypress</commit>
