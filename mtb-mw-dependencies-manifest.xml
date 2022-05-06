@@ -868,11 +868,20 @@
         </dependees>
       </version>
       <version>
-        <commit>release-v1.1.1</commit>
+        <commit>release-v1.1.2</commit>
         <dependees>
           <dependee>
             <id>scl</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>scl</id>
+            <commit>release-v1.1.0</commit>
           </dependee>
         </dependees>
       </version>
