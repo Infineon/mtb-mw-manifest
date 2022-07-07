@@ -1204,7 +1204,7 @@
   <middleware>
     <name>emwin</name>
     <id>emwin</id>
-    <uri>https://github.com/Infineon/emwin</uri>
+    <uri>https://github.com/cypresssemiconductorco/emwin</uri>
     <desc>SEGGER emWin embedded graphic library and graphical user interface (GUI) framework.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
