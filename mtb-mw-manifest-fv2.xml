@@ -13,7 +13,7 @@
         </ul>
     ]]></desc>
     <category>Core</category>
-    <req_capabilities></req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
