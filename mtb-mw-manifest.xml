@@ -97,6 +97,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 Release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
         <desc>2.2.0 release</desc>
