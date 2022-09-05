@@ -1489,6 +1489,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>3.5.0 release</num>
+        <commit>release-v3.5.0</commit>
+        <desc>3.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>3.4.0 release</num>
         <commit>release-v3.4.0</commit>
         <desc>3.4.0 release</desc>
