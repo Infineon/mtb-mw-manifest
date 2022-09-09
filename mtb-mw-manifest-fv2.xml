@@ -1033,6 +1033,11 @@
         <commit>release-v3.1.3</commit>
         <desc>3.1.3 release</desc>
       </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>3.1.4 release</num>
+        <commit>release-v3.1.4</commit>
+        <desc>3.1.4 release</desc>
+      </version>
     </versions>
   </middleware>
   <middleware>
