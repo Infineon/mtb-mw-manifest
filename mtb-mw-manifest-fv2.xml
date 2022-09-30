@@ -15,10 +15,20 @@
     <category>Core</category>
     <req_capabilities/>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.9.1 release</num>
@@ -389,10 +399,20 @@
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.9.0 release</num>
@@ -457,6 +477,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>recipe-make-cat1c</name>
+    <id>recipe-make-cat1c</id>
+    <uri>https://github.com/Infineon/recipe-make-cat1c</uri>
+    <desc>XMC7000, Traveo II Make build recipe provides the make files and scripts for building and programming XMC7000 and Traveo II applications.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>recipe-make-cat2</name>
     <id>recipe-make-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat2</uri>
@@ -471,10 +511,20 @@
     <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>1.2.2 release</num>
@@ -521,10 +571,20 @@
     <category>Core</category>
     <req_capabilities>cat3</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
         <num>1.2.0 release</num>
@@ -561,10 +621,20 @@
     <category>Core</category>
     <req_capabilities>cat4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
         <num>1.0.0 release</num>

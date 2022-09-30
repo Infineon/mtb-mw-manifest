@@ -999,6 +999,24 @@
     <id>recipe-make-cat1a</id>
     <versions>
       <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
@@ -1051,8 +1069,49 @@
     </versions>
   </depender>
   <depender>
+    <id>recipe-make-cat1c</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>recipe-make-cat2</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
@@ -1104,6 +1163,24 @@
     <id>recipe-make-cat3</id>
     <versions>
       <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
@@ -1135,6 +1212,24 @@
   <depender>
     <id>recipe-make-cat4</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
