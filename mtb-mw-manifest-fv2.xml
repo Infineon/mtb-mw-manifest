@@ -63,13 +63,63 @@
     </versions>
   </middleware>
   <middleware>
+    <name>cat1cm0p</name>
+    <id>cat1cm0p</id>
+    <uri>https://github.com/Infineon/cat1cm0p</uri>
+    <desc>CAT1A and CAT1C Arm&#174; Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>cmsis</name>
+    <id>cmsis</id>
+    <uri>https://github.com/Infineon/cmsis</uri>
+    <desc>CMSIS for PDL</desc>
+    <category>Core</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>5.8.0 release</num>
+        <commit>release-v5.8.0</commit>
+        <desc>5.8.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
     <name>mtb-pdl-cat1</name>
     <id>mtb-pdl-cat1</id>
-    <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat1</uri>
+    <uri>https://github.com/Infineon/mtb-pdl-cat1</uri>
     <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
