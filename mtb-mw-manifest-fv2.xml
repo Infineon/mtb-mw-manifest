@@ -105,7 +105,7 @@
   <middleware type="device_support">
     <name>mtb-pdl-cat1</name>
     <id>mtb-pdl-cat1</id>
-    <uri>https://github.com/Infineon/mtb-pdl-cat1</uri>
+    <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat1</uri>
     <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
