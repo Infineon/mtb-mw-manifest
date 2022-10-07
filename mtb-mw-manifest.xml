@@ -1594,16 +1594,6 @@
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-        <desc>Latest 2.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>v2.0.0 Release</num>
-        <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
