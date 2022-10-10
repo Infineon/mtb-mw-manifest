@@ -1593,7 +1593,7 @@
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
-     <version flow_version="1.0,2.0">
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
