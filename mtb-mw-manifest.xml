@@ -1585,39 +1585,4 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
-    <name>mbedTLS Acceleration</name>
-    <id>cy-mbedtls-acceleration</id>
-    <uri>https://github.com/Infineon/cy-mbedtls-acceleration</uri>
-    <desc>CAT1A, CAT1B and CAT1C MCUs acceleration for mbedTLS library.</desc>
-    <category>Core</category>
-    <req_capabilities>std_crypto</req_capabilities>
-    <versions>
-      <version flow_version="1.0,2.0">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-        <desc>Latest 2.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>v2.0.0 Release</num>
-        <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-        <desc>Latest 1.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>release-v1.4.1</num>
-        <commit>release-v1.4.1</commit>
-        <desc>v1.4.1 Release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>v1.4.0 Release</num>
-        <commit>release-v1.4.0</commit>
-        <desc>v1.4.0 Release</desc>
-      </version>
-    </versions>
-  </middleware>
 </middleware>
