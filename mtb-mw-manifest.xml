@@ -1177,7 +1177,7 @@
     <id>emeeprom</id>
     <uri>https://github.com/cypresssemiconductorco/emeeprom</uri>
     <desc><![CDATA[
-    The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482; device flash memory.
+    The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482 & XMC 7xxx&#8482; device flash memory.
      This allows you to store nonvolatile data with support for wear leveling and redundant copy features.<br>
     <div class="category">Additional Information:</div>
         <ul>
@@ -1193,6 +1193,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.20.0 release</num>
+        <commit>release-v2.20.0</commit>
+        <desc>2.20.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.10.0 release</num>
