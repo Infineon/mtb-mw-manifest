@@ -1596,37 +1596,49 @@
     </versions>
   </middleware>
   <middleware>
-    <name>mbedTLS Acceleration</name>
-    <id>cy-mbedtls-acceleration</id>
-    <uri>https://github.com/Infineon/cy-mbedtls-acceleration</uri>
-    <desc>CAT1A, CAT1B and CAT1C MCUs acceleration for mbedTLS library.</desc>
+    <name>mbedtls</name>
+    <id>mbedtls</id>
+    <uri>https://github.com/ARMmbed/mbedtls</uri>
+    <desc><![CDATA[
+        ARM mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/ARMmbed/mbedtls">Mbed TLS Library Information</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
-    <req_capabilities>std_crypto</req_capabilities>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-        <desc>Latest 2.X release</desc>
+        <num>Stable 2.25.0 release</num>
+        <commit>mbedtls-2.25.0</commit>
+        <desc>Stable 2.25.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>v2.0.0 Release</num>
-        <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
+        <num>Stable 2.24.0 release</num>
+        <commit>mbedtls-2.24.0</commit>
+        <desc>Stable 2.24.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-        <desc>Latest 1.X release</desc>
+        <num>Stable 2.22.0 release</num>
+        <commit>mbedtls-2.22.0</commit>
+        <desc>Stable 2.22.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>release-v1.4.1</num>
-        <commit>release-v1.4.1</commit>
-        <desc>v1.4.1 Release</desc>
+        <num>Stable 2.16.7 release</num>
+        <commit>mbedtls-2.16.7</commit>
+        <desc>Stable 2.16.7 release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>v1.4.0 Release</num>
-        <commit>release-v1.4.0</commit>
-        <desc>v1.4.0 Release</desc>
+        <num>Stable 2.16.6 release</num>
+        <commit>mbedtls-2.16.6</commit>
+        <desc>Stable 2.16.6 release - Resolves security vulnerabilities present in 2.16.3</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Stable 2.16.3 release</num>
+        <commit>mbedtls-2.16.3</commit>
+        <desc>Stable 2.16.3 release</desc>
       </version>
     </versions>
   </middleware>
