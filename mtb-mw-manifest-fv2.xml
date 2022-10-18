@@ -177,7 +177,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-pdl-cat2</name>
     <id>mtb-pdl-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat2</uri>
@@ -251,7 +251,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-xmclib-cat3</name>
     <id>mtb-xmclib-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
