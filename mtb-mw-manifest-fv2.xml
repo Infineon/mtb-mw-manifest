@@ -446,6 +446,26 @@
       </version>
     </versions>
   </middleware>
+  <middleware hidden="true">
+    <name>mtb-template-cat3</name>
+    <id>mtb-template-cat3</id>
+    <uri>https://github.com/Infineon/mtb-template-cat3</uri>
+    <desc>CAT3 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>cat3</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware>
     <name>recipe-make-cat1a</name>
     <id>recipe-make-cat1a</id>
@@ -1227,6 +1247,26 @@
         <num>3.1.4 release</num>
         <commit>release-v3.1.4</commit>
         <desc>3.1.4 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>retarget-io-cat3</name>
+    <id>retarget-io-cat3</id>
+    <uri>https://github.com/Infineon/retarget-io-cat3</uri>
+    <desc>The Retarget IO (CAT3) library provides APIs for transmitting messages to or from the XMC&#8482; 1000 or XMC&#8482; 4000 board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>cat3</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
