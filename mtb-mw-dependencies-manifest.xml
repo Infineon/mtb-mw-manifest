@@ -1398,4 +1398,27 @@
       </version>
     </versions>
   </depender>
+  <depender>
+    <id>sensor-dsp</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis-dsp</id>
+            <commit>v1.10.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.1</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis-dsp</id>
+            <commit>v1.10.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
 </dependencies>
