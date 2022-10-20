@@ -514,6 +514,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v10.4.304</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v10.4.303</commit>
         <dependees>
           <dependee>
