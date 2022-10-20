@@ -1296,6 +1296,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.4.304 release</num>
+        <commit>release-v10.4.304</commit>
+        <desc>10.4.304 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.4.303 release</num>
         <commit>release-v10.4.303</commit>
         <desc>10.4.303 release</desc>
