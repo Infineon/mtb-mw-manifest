@@ -177,7 +177,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-pdl-cat2</name>
     <id>mtb-pdl-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat2</uri>
@@ -251,7 +251,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-xmclib-cat3</name>
     <id>mtb-xmclib-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
@@ -433,6 +433,26 @@
     <desc>CAT2 BSP template files for the BSP Assistant Tool.</desc>
     <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
+    <name>mtb-template-cat3</name>
+    <id>mtb-template-cat3</id>
+    <uri>https://github.com/Infineon/mtb-template-cat3</uri>
+    <desc>CAT3 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>cat3</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
@@ -1231,6 +1251,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>retarget-io-cat3</name>
+    <id>retarget-io-cat3</id>
+    <uri>https://github.com/Infineon/retarget-io-cat3</uri>
+    <desc>The Retarget IO (CAT3) library provides APIs for transmitting messages to or from the XMC&#8482; 1000 or XMC&#8482; 4000 board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>cat3</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>capsense</name>
     <id>capsense</id>
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
@@ -1277,6 +1317,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>4.1.1 release</num>
+        <commit>release-v4.1.1</commit>
+        <desc>4.1.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
         <desc>4.1.0 release</desc>
@@ -1285,6 +1330,63 @@
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
         <desc>4.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mbedtls</name>
+    <id>mbedtls</id>
+    <uri>https://github.com/ARMmbed/mbedtls</uri>
+    <desc><![CDATA[
+        ARM mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/ARMmbed/mbedtls">Mbed TLS Library Information</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Stable 3.0.0 release</num>
+        <commit>mbedtls-3.0.0</commit>
+        <desc>Stable 3.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mbedTLS Acceleration</name>
+    <id>cy-mbedtls-acceleration</id>
+    <uri>https://github.com/Infineon/cy-mbedtls-acceleration</uri>
+    <desc>CAT1A, CAT1B and CAT1C MCUs acceleration for mbedTLS library.</desc>
+    <category>Core</category>
+    <req_capabilities>std_crypto</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>v2.0.0 Release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>v2.0.0 Release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>v1.4.1 Release</num>
+        <commit>release-v1.4.1</commit>
+        <desc>v1.4.1 Release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>v1.4.0 Release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>v1.4.0 Release</desc>
       </version>
     </versions>
   </middleware>
@@ -1383,6 +1485,56 @@
         <num>4.0.2 release</num>
         <commit>release-v4.0.2</commit>
         <desc>4.0.2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>cmsis-dsp</name>
+    <id>cmsis-dsp</id>
+    <uri>https://github.com/ARM-software/CMSIS-DSP</uri>
+    <desc><![CDATA[
+    CMSIS DSP software library is a suite of common signal processing functions for use on Cortex-M processor based devices.
+     Choose the sensor-dsp under PSoC&#8482; 6 Middleware that will also download this library.
+     CMSIS DSP is hosted in a GitHub repository external to the Infineon organization on GitHub.
+    <br><br><b>License Disclaimer:</b><br>
+    Adding this library will download and add CMSIS DSP to your project. It is your responsibility to understand and accept the CMSIS DSP license.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/ARM-software/CMSIS-DSP">CMSIS DSP home page</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>1.10.1 Release</num>
+        <commit>v1.10.1</commit>
+        <desc>1.10.1 Release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-dsp</name>
+    <id>sensor-dsp</id>
+    <uri>https://github.com/Infineon/sensor-dsp</uri>
+    <desc><![CDATA[
+    The Sensor-DSP library provides signal processing functions required to support the implementation of different sensor applications, 
+    e.g. radar gesture recognition, vital sensing and presence detection. The Sensor-DSP library builds on top of the standard ARM CMSIS-DSP library.
+    <br><b>License Disclaimer:</b><br>
+    Adding this library will also download and add CMSIS DSP to your project. It is your responsibility to understand and accept the CMSIS DSP license.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0">
+        <num>0.5.1 release</num>
+        <commit>release-v0.5.1</commit>
+        <desc>0.5.1 release</desc>
       </version>
     </versions>
   </middleware>
