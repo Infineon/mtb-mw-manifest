@@ -1302,6 +1302,34 @@
     </versions>
   </middleware>
   <middleware>
+    <name>emusb-host</name>
+    <id>emusb-host</id>
+    <uri>https://github.com/Infineon/emusb-host</uri>
+    <desc><![CDATA[
+    emUSB-Host is a CPU-independent USB Host stack. emUSB-Host is a high-performance
+    library that has been optimized for speed, versatility and small memory footprint.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.segger.com/products/connectivity/emusb-host/">emUSB-Host home page</a></li>
+          <li><a href="https://www.segger.com/doc/UM10001_emUSBH.html">emUSB-Host User Guide & Reference Manual</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>usb_host</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>btstack-integration</name>
     <id>btstack-integration</id>
     <uri>https://github.com/Infineon/btstack-integration</uri>
