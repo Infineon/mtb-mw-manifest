@@ -1584,6 +1584,11 @@
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>v1.8.3 Cypress</num>
+        <commit>v1.8.3-cypress</commit>
+        <desc>v1.8.3 Cypress</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>v1.8.1 Cypress</num>
         <commit>v1.8.1-cypress</commit>
         <desc>v1.8.1 Cypress</desc>
