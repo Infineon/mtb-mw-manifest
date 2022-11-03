@@ -1303,6 +1303,32 @@
     <id>ml-middleware</id>
     <versions>
       <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>ml-inference</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>ml-inference</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
