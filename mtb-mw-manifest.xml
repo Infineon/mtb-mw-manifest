@@ -1419,8 +1419,8 @@
     The Bluetooth&#174; freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Bluetooth&#174; chips.
     <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/README.md">Bluetooth&#174; freertos library README.md</a></li>
-          <li><a href="https://github.com/cypresssemiconductorco/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth&#174; freertos library RELEASE.md</a></li>
+          <li><a href="https://github.com/Infineon/bluetooth-freertos/blob/master/README.md">Bluetooth&#174; freertos library README.md</a></li>
+          <li><a href="https://github.com/Infineon/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth&#174; freertos library RELEASE.md</a></li>
           <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth&#174; freertos library API reference guide </a></li>
         </ul>
     ]]></desc>
@@ -1501,7 +1501,7 @@
     <desc><![CDATA[BTSTACK is our Bluetooth&#174; Host Protocol Stack implementation. The stack is optimized to work on our Bluetooth&#174; controllers. The BTSTACK supports Bluetooth&#174; BR/EDR and Bluetooth&#174; LE core protocols. The stack is available as libraries built for Arm&#174; Cortex&#174;-M3 and Cortex&#174;-M4 cores using Arm&#174;, GCC and IAR toolchains. Further there are two build variants of stack libraries, LE only and Dual-mode. Applications that use LE can take advantage of reduced size of LE only library and build LE peripheral or even central applications. Dual-mode library supports both LE and BR/EDR protocols.
     <div class="category">Additional Information:</div>
         <ul>
-          <li><a href="https://github.com/cypresssemiconductorco/btstack/blob/master/RELEASE.md">BTSTACK release notes</a></li>
+          <li><a href="https://github.com/Infineon/btstack/blob/master/RELEASE.md">BTSTACK release notes</a></li>
           <li><a href="https://cypresssemiconductorco.github.io/btstack/ble/api_reference_manual/html/index.html">BTSTACK API reference manual</a></li>
         </ul>
     ]]></desc>

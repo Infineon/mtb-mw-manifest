@@ -1431,7 +1431,7 @@
   <middleware>
     <name>mbedTLS Acceleration</name>
     <id>cy-mbedtls-acceleration</id>
-    <uri>https://github.com/Infineon/cy-mbedtls-acceleration</uri>
+    <uri>https://github.com/cypresssemiconductorco/cy-mbedtls-acceleration</uri>
     <desc>CAT1A, CAT1B and CAT1C MCUs acceleration for mbedTLS library.</desc>
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
@@ -1614,7 +1614,7 @@
   <middleware>
     <name>xensiv-radar-presence</name>
     <id>xensiv-radar-presence</id>
-    <uri>http://git-ore.aus.cypress.com/repo-staging/xensiv-radar-presence</uri>
+    <uri>https://github.com/Infineon/xensiv-radar-presence</uri>
     <desc><![CDATA[
     The XENSIV&#8482; Radar Presence Detection library detects both macro and micro movements in a configurable range.
     ]]></desc>
