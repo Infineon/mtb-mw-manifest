@@ -1390,6 +1390,35 @@
     </versions>
   </middleware>
   <middleware>
+    <name>ble-mesh</name>
+    <id>ble-mesh</id>
+    <uri>https://github.com/Infineon/ble-mesh</uri>
+    <desc><![CDATA[
+    The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSoC&#8482; 6 + 43012 Bluetooth&#174;, CYW920829M2 chips.
+    Components included are binaries for Mesh Core, Mesh Models and Mesh Provisioner libraries and adaptation code to create mesh applications.
+    <div class="category">Additional Information:</div>
+    <ul>
+      <li><a href="https://github.com/Infineon/ble-mesh/blob/master/README.md">Bluetooth&#174; LE Mesh library README.md</a></li>
+      <li><a href="https://github.com/Infineon/ble-mesh/blob/master/RELEASE.md">Bluetooth&#174; LE Mesh library RELEASE.md</a></li>
+      <li><a href="https://github.com/Infineon/ble-mesh/blob/master/docs/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
+    </ul>
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6, cyw20829]">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6]">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>btstack-integration</name>
     <id>btstack-integration</id>
     <uri>https://github.com/Infineon/btstack-integration</uri>
