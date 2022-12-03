@@ -1493,7 +1493,7 @@
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/btstack/blob/master/RELEASE.md">BTSTACK release notes</a></li>
-          <li><a href="https://cypresssemiconductorco.github.io/btstack/ble/api_reference_manual/html/index.html">BTSTACK API reference manual</a></li>
+          <li><a href="https://infineon.github.io/btstack/ble/api_reference_manual/html/index.html">BTSTACK API reference manual</a></li>
         </ul>
     ]]></desc>
     <category>Bluetooth&#174;</category>
@@ -1503,6 +1503,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
+        <desc>3.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.5.0 release</num>
