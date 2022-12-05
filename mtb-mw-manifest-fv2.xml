@@ -1641,9 +1641,9 @@
         </ul>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>feather</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.4.0">
         <num>1.10.1 Release</num>
         <commit>v1.10.1</commit>
         <desc>1.10.1 Release</desc>
@@ -1661,17 +1661,39 @@
     Adding this library will also download and add CMSIS DSP to your project. It is your responsibility to understand and accept the CMSIS DSP license.
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>feather</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.4.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
-        <num>0.5.1 release</num>
-        <commit>release-v0.5.1</commit>
-        <desc>0.5.1 release</desc>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>0.5.2 release</num>
+        <commit>release-v0.5.2</commit>
+        <desc>0.5.2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>xensiv-radar-presence</name>
+    <id>xensiv-radar-presence</id>
+    <uri>https://github.com/Infineon/xensiv-radar-presence</uri>
+    <desc><![CDATA[
+    The XENSIV&#8482; Radar Presence Detection library detects both macro and micro movements in a configurable range.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>feather</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+        <desc>0.5.0 release</desc>
       </version>
     </versions>
   </middleware>
