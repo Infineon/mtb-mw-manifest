@@ -931,6 +931,16 @@
     <category>Middleware</category>
     <req_capabilities>usbpd</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="2.4.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -957,6 +967,26 @@
         <desc>1.10.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>pdutils</name>
+    <id>pdutils</id>
+    <uri>https://github.com/Infineon/pdutils</uri>
+    <desc>USBPD Utility middleware providing software timer and utility functionality.</desc>
+    <category>Middleware</category>
+    <req_capabilities>usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
