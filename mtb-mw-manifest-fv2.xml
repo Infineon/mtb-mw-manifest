@@ -1407,6 +1407,34 @@
     </versions>
   </middleware>
   <middleware>
+    <name>emusb-device</name>
+    <id>emusb-device</id>
+    <uri>https://github.com/Infineon/emusb-device</uri>
+    <desc><![CDATA[
+    emUSB-Device has been designed to work on any embedded system with a USB client controller.
+    It can be used with USB 1.1 or USB 2.0 devices.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.segger.com/products/connectivity/emusb-device/">emUSB-Device home page</a></li>
+          <li><a href="https://www.segger.com/doc/UM09001_emUSBD.html">emUSB-Device User Guide & Reference Manual</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>emusb-host</name>
     <id>emusb-host</id>
     <uri>https://github.com/Infineon/emusb-host</uri>
