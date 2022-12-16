@@ -5,8 +5,8 @@
     <uri>https://github.com/cypresssemiconductorco/core-make</uri>
     <desc><![CDATA[
         Core Make build system provides the make build files and scripts for building and programming ModusToolbox&#8482; applications.
-		 Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>
-		<div class="category">Additional Information:</div>
+         Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>
+        <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/core-make/blob/master/README.md">Core Make build system README.md</a></li>
           <li><a href="https://github.com/Infineon/core-make/blob/master/RELEASE.md">Core Make build system RELEASE.md</a></li>
@@ -1592,7 +1592,7 @@
     <desc><![CDATA[
           This C++ library provides APIs for interacting with Infineon's <a href="https://www.infineon.com/cms/en/product/power/motor-control-ics/brushed-dc-motor-driver-ics/multi-half-bridge-ics/">Multi Half-Bridge ICs</a>. This family of devices is designed for DC motor control applications.<br>
           Find more information in the library <a href="https://github.com/Infineon/multi-half-bridge">repository</a>.
-    	]]></desc>
+        ]]></desc>
     <category>Peripheral</category>
     <req_capabilities>hal spi</req_capabilities>
     <versions>
@@ -1757,6 +1757,31 @@
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
         <desc>0.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>lz4</name>
+    <id>lz4</id>
+    <uri>https://github.com/lz4/lz4</uri>
+    <desc><![CDATA[
+    LZ4 is lossless compression algorithm, providing compression speed > 500 MB/s per core, scalable with multi-cores CPU. 
+    It features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core system
+    LZ4 library is hosted in a GitHub repository external to the Infineon organization on GitHub.
+    <br><br><b>License Disclaimer:</b><br>
+    Adding this library will download and add LZ4 library to your project. It is your responsibility to understand and accept the LZ4 license.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/lz4/lz4#readme">LZ4 home page</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.9.4 Release</num>
+        <commit>v1.9.4</commit>
+        <desc>1.9.4 Release</desc>
       </version>
     </versions>
   </middleware>
