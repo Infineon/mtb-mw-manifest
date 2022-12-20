@@ -106,7 +106,12 @@
     <name>cmsis</name>
     <id>cmsis</id>
     <uri>https://github.com/Infineon/cmsis</uri>
-    <desc>CMSIS for PDL</desc>
+    <desc><![CDATA[
+    CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm Cortex processors. 
+    CMSIS defines generic tool interfaces and enables consistent device support. The CMSIS software interfaces simplify software reuse, reduce the learning curve for microcontroller developers, and improve time to market for new devices.
+    CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components. 
+    CMSIS includes a delivery mechanism for devices, boards, and software, and enables the combination of software components from multiple vendors.
+    ]]></desc>
     <category>Core</category>
     <req_capabilities/>
     <versions>
@@ -134,6 +139,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.1.0 release</num>
