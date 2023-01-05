@@ -327,6 +327,35 @@
     </versions>
   </middleware>
   <middleware>
+    <name>mtb-xmc-emeeprom</name>
+    <id>mtb-xmc-emeeprom</id>
+    <uri>https://github.com/Infineon/mtb-xmc-emeeprom</uri>
+    <desc><![CDATA[
+    The XMC&#8482; Emulated EEPROM middleware emulates an EEPROM device in the XMC&#8482; device flash memory.
+     This allows you to store nonvolatile data with more flash resiliency.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/em_eeprom_api_reference_manual/html/modules.html"> XMC EEPROM Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>xmc</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-cat1</name>
     <id>mtb-hal-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
