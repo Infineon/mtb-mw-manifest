@@ -1249,10 +1249,16 @@
     <category>Middleware</category>
     <req_capabilities>psoc6 secure_boot</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.3.100 release</num>
+        <commit>release-v1.3.100</commit>
+        <desc>1.3.100 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.0">
         <num>1.3.5 release</num>
