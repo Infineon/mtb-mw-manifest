@@ -1529,6 +1529,24 @@
     <id>sensor-dsp</id>
     <versions>
       <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis-dsp</id>
+            <commit>v1.10.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis-dsp</id>
+            <commit>v1.10.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v0.X</commit>
         <dependees>
           <dependee>
@@ -1551,6 +1569,24 @@
   <depender>
     <id>xensiv-radar-presence</id>
     <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>sensor-dsp</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>sensor-dsp</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v0.X</commit>
         <dependees>

@@ -1760,7 +1760,7 @@
     <category>Middleware</category>
     <req_capabilities>feather</req_capabilities>
     <versions>
-      <version flow_version="1.0,2.0" tools_min_version="2.4.0">
+      <version flow_version="2.0" tools_min_version="2.4.0">
         <num>1.10.1 Release</num>
         <commit>v1.10.1</commit>
         <desc>1.10.1 Release</desc>
@@ -1772,14 +1772,24 @@
     <id>sensor-dsp</id>
     <uri>https://github.com/Infineon/sensor-dsp</uri>
     <desc><![CDATA[
-    The Sensor-DSP library provides signal processing functions required to support the implementation of different sensor applications, 
-    e.g. radar gesture recognition, vital sensing and presence detection. The Sensor-DSP library builds on top of the standard ARM CMSIS-DSP library.
+    The Sensor-DSP library provides signal processing functions required to support the implementation of different sensor applications,
+    e.g. radar gesture recognition, vital sensing and presence detection. The Sensor-DSP library builds on top of the standard ARM&#174; CMSIS-DSP library.
     <br><b>License Disclaimer:</b><br>
     Adding this library will also download and add CMSIS DSP to your project. It is your responsibility to understand and accept the CMSIS DSP license.
     ]]></desc>
     <category>Middleware</category>
     <req_capabilities>feather</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
@@ -1802,6 +1812,16 @@
     <category>Middleware</category>
     <req_capabilities>feather</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
