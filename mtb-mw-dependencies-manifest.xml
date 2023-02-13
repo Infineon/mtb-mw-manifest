@@ -1526,6 +1526,77 @@
     </versions>
   </depender>
   <depender>
+    <id>matter-wifi</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>kv-store</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-freertos-lwip-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>kv-store</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>sensor-dsp</id>
     <versions>
       <version>

@@ -1757,6 +1757,87 @@
       </version>
     </versions>
   </middleware>
+  <middleware default_location="local" hidden="true">
+    <name>mtb-matter</name>
+    <id>mtb-matter</id>
+    <uri>https://github.com/Infineon/mtb-matter</uri>
+    <desc><![CDATA[
+        This library provides the configuration and makefiles needed to build the matter library.  The matter library is extracted from the official Matter repository - https://github.com/project-chip/connectedhomeip, and is the minimal number of files needed from that repository.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mtb-matter/blob/master/README.md">MTB Matter Library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
+    <name>matter</name>
+    <id>matter</id>
+    <uri>https://github.com/Infineon/matter</uri>
+    <desc><![CDATA[
+        This library is the essential files extracted from the official Matter repository - https://github.com/project-chip/connectedhomeip.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/matter/blob/master/README.md">MTB Matter Library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware default_location="local">
+    <name>matter-wifi</name>
+    <id>matter-wifi</id>
+    <uri>https://github.com/Infineon/matter-wifi</uri>
+    <desc><![CDATA[
+        This is an empty library that just serves to allow the appropriate connectivity dependencies (wifi, thread, etc) to be pulled in with the matter and mtb-matter libraries.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/matter-wifi/blob/master/README.md">MTB Matter Library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware>
     <name>cmsis-dsp</name>
     <id>cmsis-dsp</id>
