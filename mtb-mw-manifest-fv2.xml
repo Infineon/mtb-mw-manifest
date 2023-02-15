@@ -1751,6 +1751,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.0.4 release</num>
+        <commit>release-v4.0.4</commit>
+        <desc>4.0.4 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.0.3 release</num>
         <commit>release-v4.0.3</commit>
         <desc>4.0.3 release</desc>
