@@ -1145,7 +1145,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>
@@ -1186,7 +1186,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>
@@ -1236,7 +1236,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>
@@ -1259,7 +1259,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>
@@ -1327,7 +1327,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>
@@ -1377,7 +1377,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.0.2</commit>
+            <commit>release-v3.0.3</commit>
           </dependee>
         </dependees>
       </version>

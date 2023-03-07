@@ -26,6 +26,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.3 release</num>
+        <commit>release-v3.0.3</commit>
+        <desc>3.0.3 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.0.2 release</num>
         <commit>release-v3.0.2</commit>
         <desc>3.0.2 release</desc>
