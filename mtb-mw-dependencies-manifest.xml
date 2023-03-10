@@ -1088,6 +1088,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>littlefs</id>
+            <commit>v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
