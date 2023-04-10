@@ -1145,12 +1145,12 @@
     <uri>https://github.com/cypresssemiconductorco/dfu</uri>
     <desc><![CDATA[
     The Device Firmware Update (DFU) Middleware Library provides a low-level API for the implementation of firmware loader and
-     firmware loadable applications using a number of transport interfaces, e.g. BLE, USB, UART, I2C, SPI.<br>
+     firmware loadable applications using a number of transport interfaces, e.g. UART, I2C, SPI, and USB.<br>
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/dfu/blob/master/README.md">DFU Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/dfu/blob/master/RELEASE.md">DFU Middleware Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/dfu/dfu_sdk_api_reference_manual/html/modules.html">DFU Middleware Library API reference guide</a></li>
+          <li><a href="https://infineon.github.io/dfu/html/modules.html">DFU Middleware Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
