@@ -1788,4 +1788,27 @@
       </version>
     </versions>
   </depender>
+  <depender>
+    <id>ubm</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>emeeprom</id>
+            <commit>release-v2.20.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>emeeprom</id>
+            <commit>release-v2.20.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
 </dependencies>
