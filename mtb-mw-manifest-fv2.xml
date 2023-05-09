@@ -240,6 +240,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
+        <desc>2.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
         <desc>2.3.0 release</desc>
