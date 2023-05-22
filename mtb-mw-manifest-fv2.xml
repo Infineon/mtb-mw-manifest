@@ -646,7 +646,7 @@
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat1a</uri>
     <desc>PSoC&#8482; 6 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 6 applications.</desc>
     <category>Core</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>cat1a</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
@@ -711,7 +711,7 @@
     <uri>https://github.com/Infineon/recipe-make-cat1b</uri>
     <desc>20829 Make build recipe provides the make files and scripts for building and programming 20829 applications.</desc>
     <category>Core</category>
-    <req_capabilities>mxsv2</req_capabilities>
+    <req_capabilities>cat1b</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
