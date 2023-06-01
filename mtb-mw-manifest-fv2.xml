@@ -559,6 +559,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -582,6 +587,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.1.0 release</num>
@@ -609,6 +619,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -632,6 +647,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
