@@ -1241,6 +1241,11 @@
         <desc>Latest 6.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>6.32.0 release</num>
+        <commit>release-v6.32.0</commit>
+        <desc>6.32.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>6.26.0 release</num>
         <commit>release-v6.26.0</commit>
         <desc>6.26.0 release</desc>
