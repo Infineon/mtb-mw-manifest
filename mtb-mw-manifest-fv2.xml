@@ -1830,7 +1830,7 @@
     <id>btstack-integration</id>
     <uri>https://github.com/Infineon/btstack-integration</uri>
     <desc><![CDATA[
-    The btstack-integration middleware library provides Bluetooth porting layer component for PSoC&#8482; 6 targets.
+    The btstack-integration middleware library provides Bluetooth&#174; porting layer component for PSoC&#8482; 6 targets.
     ]]></desc>
     <category>Bluetooth&#174;</category>
     <req_capabilities>bt</req_capabilities>
