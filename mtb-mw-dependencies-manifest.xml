@@ -291,6 +291,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.6.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.4.0</commit>
         <dependees>
           <dependee>
@@ -619,6 +628,19 @@
     <versions>
       <version>
         <commit>latest-v10.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v10.4.306</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -1317,6 +1339,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.1.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
@@ -1617,6 +1648,27 @@
     <versions>
       <version>
         <commit>latest-v4.X</commit>
+        <dependees>
+          <dependee>
+            <id>btstack</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v4.5.0</commit>
         <dependees>
           <dependee>
             <id>btstack</id>
@@ -1961,4 +2013,5 @@
       </version>
     </versions>
   </depender>
+
 </dependencies>

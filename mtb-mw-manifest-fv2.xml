@@ -36,6 +36,11 @@
         <desc>3.2.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.1.1 release</num>
+        <commit>release-v3.1.1</commit>
+        <desc>3.1.1 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.0.3 release</num>
         <commit>release-v3.0.3</commit>
         <desc>3.0.3 release</desc>
@@ -159,6 +164,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
+        <desc>3.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.4.0 release</num>
@@ -454,6 +464,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.4.2 release</num>
+        <commit>release-v2.4.2</commit>
+        <desc>2.4.2 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.4.1 release</num>
         <commit>release-v2.4.1</commit>
         <desc>2.4.1 release</desc>
@@ -602,6 +617,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.2 release</num>
+        <commit>release-v1.2.2</commit>
+        <desc>1.2.2 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.2.1 release</num>
@@ -807,6 +827,11 @@
         <num>2.2.1 release</num>
         <commit>release-v2.2.1</commit>
         <desc>2.2.1 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.0.0 release</num>
@@ -1494,7 +1519,7 @@
   <middleware>
     <name>trusted-firmware-m</name>
     <id>trusted-firmware-m</id>
-    <uri>https://github.com/infineon/trusted-firmware-m</uri>
+    <uri>https://github.com/Infineon/trusted-firmware-m</uri>
     <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6 secure_boot</req_capabilities>
@@ -1869,6 +1894,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+        <desc>4.5.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.4.0 release</num>
@@ -2351,4 +2381,5 @@
       </version>
     </versions>
   </middleware>
+
 </middleware>

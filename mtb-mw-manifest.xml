@@ -372,6 +372,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.7.4 release</num>
+        <commit>release-v1.7.4</commit>
+        <desc>1.7.4 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.7.3 release</num>
         <commit>release-v1.7.3</commit>
         <desc>1.7.3 release</desc>
@@ -481,7 +486,7 @@
   <middleware>
     <name>CY8CKIT-028-SENSE</name>
     <id>CY8CKIT-028-SENSE</id>
-    <uri>https://github.com/infineon/CY8CKIT-028-SENSE</uri>
+    <uri>https://github.com/Infineon/CY8CKIT-028-SENSE</uri>
     <desc>The Sense Shield Board (CY8CKIT-028-SENSE) has been designed as a companion to add common sensors, audio components and user interface to an Arduino based baseboard. The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's OLED Display (SSD1306), Orientation Sensor (BMX-160), XENSIV Pressure/Temperature Sensor (DPS310XTSA1), 2 XENSIV MEMS Microphones (IM69D130V01XTSA1), PDM Microphone example code (SPK0838HT4HB), and Audio Codec (WM8960).</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino j2 hal</req_capabilities>
@@ -716,7 +721,7 @@
   <middleware>
     <name>audio-codec-wm8960</name>
     <id>audio-codec-wm8960</id>
-    <uri>https://github.com/infineon/audio-codec-wm8960</uri>
+    <uri>https://github.com/Infineon/audio-codec-wm8960</uri>
     <desc>This library provides functions to support use of the WM8960 audio codec available on the CY8CKIT-028-SENSE shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -886,7 +891,7 @@
   <middleware>
     <name>sensor-orientation-bmx160</name>
     <id>sensor-orientation-bmx160</id>
-    <uri>https://github.com/infineon/sensor-orientation-bmx160</uri>
+    <uri>https://github.com/Infineon/sensor-orientation-bmx160</uri>
     <desc>This library provides functions for interfacing with the BMX-160 I2C/SPI 16-bit Absolute Orientation Sensor with three axis accelerometer, three axis gyroscope, and three axis magnetometer as used on the CY8CKIT-028-SENSE shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -911,7 +916,7 @@
   <middleware>
     <name>sensor-xensiv-dps3xx</name>
     <id>sensor-xensiv-dps3xx</id>
-    <uri>https://github.com/infineon/sensor-xensiv-dps3xx</uri>
+    <uri>https://github.com/Infineon/sensor-xensiv-dps3xx</uri>
     <desc>This library provides functions for interfacing with the XENSIV DPS-310/368 Barometric Pressure Sensors. These are miniaturized digital barometric air pressure sensors with ultra-high precision (&#177;2 cm) and a low current consumption, capable of measuring both pressure and temperature. The pressure sensor element is based on a capacitive sensing principle which guarantees high precision during temperature changes. This library can be setup to use the ModusToolbox&#8482; HAL interface, or using user provided communication functions.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp</req_capabilities>
@@ -1332,6 +1337,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.4.306 release</num>
+        <commit>release-v10.4.306</commit>
+        <desc>10.4.306 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.4.305 release</num>
         <commit>release-v10.4.305</commit>
         <desc>10.4.305 release</desc>
@@ -1578,6 +1588,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.8.0 release</num>
+        <commit>release-v3.8.0</commit>
+        <desc>3.8.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.7.2 release</num>
