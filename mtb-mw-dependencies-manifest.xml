@@ -2047,6 +2047,24 @@
     <id>ubm</id>
     <versions>
       <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>emeeprom</id>
+            <commit>release-v2.20.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>emeeprom</id>
+            <commit>release-v2.20.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v0.X</commit>
         <dependees>
           <dependee>
