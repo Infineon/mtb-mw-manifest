@@ -116,6 +116,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -169,6 +174,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.8.0 release</num>
+        <commit>release-v3.8.0</commit>
+        <desc>3.8.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.7.0 release</num>
@@ -479,6 +489,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.5.4 release</num>
+        <commit>release-v2.5.4</commit>
+        <desc>2.5.4 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.4.3 release</num>
         <commit>release-v2.4.3</commit>
         <desc>2.4.3 release</desc>
@@ -639,6 +654,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -777,6 +797,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.2 release</num>
+        <commit>release-v2.1.2</commit>
+        <desc>2.1.2 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
