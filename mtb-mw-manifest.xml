@@ -1362,11 +1362,6 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.001 release</num>
-        <commit>release-v10.5.001</commit>
-        <desc>10.5.001 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
         <num>10.5.0 release</num>
         <commit>release-v10.5.0</commit>
         <desc>10.5.0 release</desc>
@@ -1771,11 +1766,6 @@
     <category>Core</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
-      <version flow_version="1.0,2.0">
-        <num>Stable 3.4.0 release</num>
-        <commit>mbedtls-3.4.0</commit>
-        <desc>Stable 3.4.0 release</desc>
-      </version>
       <version flow_version="1.0,2.0">
         <num>Stable 2.25.0 release</num>
         <commit>mbedtls-2.25.0</commit>
