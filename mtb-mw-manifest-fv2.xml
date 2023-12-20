@@ -2406,6 +2406,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>xensiv-radar-gestures</name>
+    <id>xensiv-radar-gestures</id>
+    <uri>https://github.com/Infineon/xensiv-radar-gestures</uri>
+    <desc><![CDATA[
+    The XENSIV&#8482; Radar Gestures Detection library to detect various gestures in specified range.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>feather</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+        <desc>0.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>ubm</name>
     <id>ubm</id>
     <uri>https://github.com/Infineon/ubm</uri>
