@@ -509,6 +509,11 @@
         <desc>2.5.4 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.4.4 release</num>
+        <commit>release-v2.4.4</commit>
+        <desc>2.4.4 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.4.3 release</num>
         <commit>release-v2.4.3</commit>
         <desc>2.4.3 release</desc>
