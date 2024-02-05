@@ -2262,6 +2262,21 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>LVGL (Graphics Library)</name>
+    <id>lvgl</id>
+    <uri>https://github.com/lvgl/lvgl</uri>
+    <desc>LVGL (Graphics Library).</desc>
+    <category>Graphics</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>8.3.5 Release</num>
+        <commit>v8.3.5</commit>
+        <desc>8.3.5 Release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware default_location="local" hidden="true">
     <name>mtb-matter</name>
     <id>mtb-matter</id>
