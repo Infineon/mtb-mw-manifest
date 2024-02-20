@@ -2266,7 +2266,15 @@
     <name>LVGL (Graphics Library)</name>
     <id>lvgl</id>
     <uri>https://github.com/lvgl/lvgl</uri>
-    <desc>LVGL (Graphics Library).</desc>
+    <desc><![CDATA[
+    Light and Versatile Graphics Library (LVGL) is the most popular free and open source embedded graphics library to create beautiful UIs for any MCU, MPU and display type.
+    It has all the features to create modern and beautiful GUIs: 30+ built-in widgets, a powerful style system, web inspired layout managers, and a typography system supporting many languages.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://lvgl.io">LVGL home page</a></li>
+          <li><a href="https://docs.lvgl.io/8.3/">Documentation of LVGL</a></li>
+        </ul>
+    ]]></desc>
     <category>Graphics</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
