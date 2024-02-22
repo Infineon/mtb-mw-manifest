@@ -1326,6 +1326,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.20.0 release</num>
+        <commit>release-v3.20.0</commit>
+        <desc>3.20.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.10.0 release</num>
         <commit>release-v3.10.0</commit>
         <desc>3.10.0 release</desc>
@@ -1379,6 +1384,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.20.0 release</num>
+        <commit>release-v1.20.0</commit>
+        <desc>1.20.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.10.0 release</num>
@@ -1449,6 +1459,66 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>pmg-app-common</name>
+    <id>pmg-app-common</id>
+    <uri>https://github.com/Infineon/pmg-app-common</uri>
+    <desc>PmgAppCommon contains common application specific code for PMG1 family of devices.</desc>
+    <category>Middleware</category>
+    <req_capabilities>usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>pdaltmode</name>
+    <id>pdaltmode</id>
+    <uri>https://github.com/Infineon/pdaltmode</uri>
+    <desc>PdAltmode Middleware provides a set of APIs through which the application can initialize, monitor and configure the PD Alternate Mode operation.</desc>
+    <category>Middleware</category>
+    <req_capabilities>usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>hpi</name>
+    <id>hpi</id>
+    <uri>https://github.com/Infineon/hpi</uri>
+    <desc>Host Processor Interface (HPI) middleware implements the HPI transport, protocol, register and PD message handling. It allow the Host Processor or EC to monitor the status of the USB-PD ports,             change configuration, perform firmware updates and transparently interact with other connected USB-PD devices.</desc>
+    <category>Middleware</category>
+    <req_capabilities>usbpd</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
