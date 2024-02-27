@@ -1373,6 +1373,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.1.2</commit>
         <dependees>
           <dependee>
@@ -1441,6 +1450,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.2.1</commit>
         <dependees>
           <dependee>
@@ -1500,6 +1518,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.1</commit>
         <dependees>
           <dependee>
@@ -1524,6 +1551,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.0</commit>
         <dependees>
           <dependee>
             <id>core-make</id>
@@ -1609,6 +1645,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.1.1</commit>
         <dependees>
           <dependee>
@@ -1660,6 +1705,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.2.2</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.0</commit>
         <dependees>
           <dependee>
             <id>core-make</id>
