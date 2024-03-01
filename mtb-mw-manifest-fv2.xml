@@ -2302,78 +2302,299 @@
       </version>
     </versions>
   </middleware>
-  <middleware type="device_data" hidden="true">
+  <middleware type="device_data">
     <name>device-db</name>
     <id>device-db</id>
     <uri>https://github.com/Infineon/device-db</uri>
-    <desc>Device database provides device information for project-creator, configurators, and other tools.</desc>
+    <desc><![CDATA[
+        Device database provides device information for project-creator, configurators,
+        and other ModusToolbox&#8482; tools. The device database is tied to the PDL
+        (Peripheral Driver Library) packages available for different device categories.
+        <br/>
+        Update the device-db to the latest version to see the list of the currently
+        supported part numbers in the BSP Assistant tool.
+    ]]></desc>
     <category>Core</category>
     <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
-        <desc>Latest 4.X release</desc>
+        <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.11.1 release</num>
+        <commit>release-v4.11.1</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>ModusToolbox&#8482; tools performance improvements.</li>
+              <li>Documentation improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.9.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.8.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.3.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.11.1">device-db 4.11.1 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.11.1/DEVICES.md">device-db 4.11.1 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.11.0 release</num>
         <commit>release-v4.11.0</commit>
-        <desc>4.11.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Add support for CYPD7172-39BFXQ, CYPD7192-39BFXS and CYPAS274-32LQXQ part numbers.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.9.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.8.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.3.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.11.0">device-db 4.11.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.11.0/DEVICES.md">device-db 4.11.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.10.0 release</num>
         <commit>release-v4.10.0</commit>
-        <desc>4.10.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Add new CY8C6xxxBTI part numbers.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.9.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.7.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.3.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.10.0">device-db 4.10.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.10.0/DEVICES.md">device-db 4.10.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.9.0 release</num>
         <commit>release-v4.9.0</commit>
-        <desc>4.9.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Add CYW89829B0 device support.</li>
+              <li>Add memory-analyzer support for compatible BSPs.</li>
+              <li>Add new serial memories for QSPI Configurator</li>
+              <li>Fix enable sequences for the supported Octal DDR memories.</li>
+              <li>Improve custom BSPs targeting CYW55513 device.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.9.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.7.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.2.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.9.0">device-db 4.9.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.9.0/DEVICES.md">device-db 4.9.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.7.1 release</num>
         <commit>release-v4.7.1</commit>
-        <desc>4.7.1 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Fix CYPM1311-48LQXI Opamp and TCPWM count.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.7.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.7.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.2.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.7.1">device-db 4.7.1 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.7.1/DEVICES.md">device-db 4.7.1 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.7.0 release</num>
         <commit>release-v4.7.0</commit>
-        <desc>4.7.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds new PSoC 4100S Max part numbers.</li>
+              <li>Adds support for CYT2B7 and CYT2BL devices (PDL update coming soon for full enablement of these devices in ModusToolbox ecosystem).</li>
+              <li>Adds new Serial Flash memories.</li>
+              <li>Minor bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.7.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.7.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.2.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.7.0">device-db 4.7.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.7.0/DEVICES.md">device-db 4.7.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.6.0 release</num>
         <commit>release-v4.6.0</commit>
-        <desc>4.6.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds new WLC1 part numbers.</li>
+              <li>Adds PAG2S device support.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.4.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.5.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.2.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.6.0">device-db 4.6.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.6.0/DEVICES.md">device-db 4.6.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.3.0 release</num>
         <commit>release-v4.3.0</commit>
-        <desc>4.3.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds new CY8C6xx4 devices.</li>
+              <li>Adds new PSoC 4100S Max devices.</li>
+              <li>Adds S25FL128L and S25FL256L Serial Flash memories.</li>
+              <li>Adds DEVICES.md with a list of devices and modules supported by the Device Database.</li>
+              <li>Improves ModusToolbox&#8482; BSP Assistant support for creating custom BSPs by specifying the MPNs.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.3.1</li>
+              <li>mtb-pdl-cat2 &gt;= 2.5.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.1.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.3.0">device-db 4.3.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.3.0/DEVICES.md">device-db 4.3.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.2.0 release</num>
         <commit>release-v4.2.0</commit>
-        <desc>4.2.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds CYW43022 device.</li>
+              <li>Adds LBEE5PK2BC module.</li>
+              <li>Adds new part numbers under existing families: CCG7S, CYW4373, PSoC 4100S Plus, PSoC 4500S, WLC1</li>
+              <li>Minor bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.3.1</li>
+              <li>mtb-pdl-cat2 &gt;= 2.4.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.1.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.2.0">device-db 4.2.0 release notes</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.1.0 release</num>
         <commit>release-v4.1.0</commit>
-        <desc>4.1.0 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds CYW955513 device (Beta support).</li>
+              <li>Minor bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.2.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.2.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.1.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.1.0">device-db 4.1.0 release notes</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.0.4 release</num>
         <commit>release-v4.0.4</commit>
-        <desc>4.0.4 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds new part numbers under exsiting families: PMG1-S3, CCG7S, PSoC 4100S Plus</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat2 &gt;= 2.3.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.0.4">device-db 4.0.4 release notes</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.0.3 release</num>
         <commit>release-v4.0.3</commit>
-        <desc>4.0.3 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.0.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.1.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.1.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.0.3">device-db 4.0.3 release notes</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.0.2 release</num>
         <commit>release-v4.0.2</commit>
-        <desc>4.0.2 release</desc>
+        <desc><![CDATA[
+            <ul>
+              <li>Align with the ModusToolbox&#8482; 3.0 release.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.0.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.0.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.0.2">device-db 4.0.2 release notes</a></li>
+            </ul>
+        ]]></desc>
       </version>
     </versions>
   </middleware>

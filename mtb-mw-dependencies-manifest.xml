@@ -288,6 +288,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -296,6 +300,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -306,6 +314,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -314,6 +326,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -324,6 +340,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -332,6 +352,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -342,6 +366,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -350,6 +378,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -360,6 +392,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -369,6 +405,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -377,6 +417,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -542,6 +586,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -550,6 +598,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -560,6 +612,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -568,6 +624,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -578,6 +638,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -586,6 +650,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -596,6 +664,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -604,6 +676,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -614,6 +690,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -622,6 +702,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -637,6 +721,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -645,6 +733,10 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -655,6 +747,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -664,6 +760,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
@@ -672,6 +772,92 @@
           <dependee>
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>mtb-hal-cat4</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>mtb-pdl-cat5</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
