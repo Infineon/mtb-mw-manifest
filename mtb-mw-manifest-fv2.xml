@@ -2668,7 +2668,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware default_location="local" hidden="true">
+  <middleware default_location="local">
     <name>mtb-matter</name>
     <id>mtb-matter</id>
     <uri>https://github.com/Infineon/mtb-matter</uri>
@@ -2695,7 +2695,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware hidden="true">
+  <middleware>
     <name>matter</name>
     <id>matter</id>
     <uri>https://github.com/Infineon/matter</uri>
