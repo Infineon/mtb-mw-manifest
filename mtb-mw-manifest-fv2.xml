@@ -2343,6 +2343,33 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.14.0 release</num>
+        <commit>release-v4.14.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add CYT2B6 and CYT2B9 device support.</li>
+              <li>Add CCG6DF_CFP and CCG8DF_CFP device support (mtb-pdl-cat2 update coming soon for full enablement of these devices in ModusToolbox ecosystem).</li>
+              <li>Add CYW55913 device support.</li>
+              <li>Add ISM43439-WBP-L151 module support.</li>
+              <li>Add APS6404L memory support.</li>
+              <li>Replace CYPAS274-32LQXQ part number with CYPAS2174-32LQXQ.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.10.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.9.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.3.0</li>
+              <li>mtb-pdl-cat5 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.14.0">device-db 4.14.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.14.0/DEVICES.md">device-db 4.14.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.11.1 release</num>
         <commit>release-v4.11.1</commit>
         <desc><![CDATA[
