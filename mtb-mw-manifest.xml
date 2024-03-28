@@ -63,7 +63,7 @@
     <name>psoc6cm0p</name>
     <id>psoc6cm0p</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6cm0p</uri>
-    <desc>PSoC&#8482; 6 Cortex M0+ prebuilt images enabling flash write services and BLE event handling.</desc>
+    <desc>PSoC&#8482; 6 Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -375,6 +375,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.7.6 release</num>
+        <commit>release-v1.7.6</commit>
+        <desc>1.7.6 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.7.5 release</num>
@@ -1117,7 +1122,7 @@
     <name>bless</name>
     <id>bless</id>
     <uri>https://github.com/cypresssemiconductorco/bless</uri>
-    <desc>PSoC&#8482; 6 BLE Middleware is a comprehensive API to configure the BLE Stack and the underlying chip hardware.</desc>
+    <desc>PSoC&#8482; 6 Bluetooth&#174; Low Energy Middleware is a comprehensive API to configure the Bluetooth&#174; Low Energy Stack and the underlying chip hardware.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6 ble</req_capabilities>
     <versions>
@@ -1372,6 +1377,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.5.002 release</num>
+        <commit>release-v10.5.002</commit>
+        <desc>10.5.002 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.5.001 release</num>
         <commit>release-v10.5.001</commit>
         <desc>10.5.001 release</desc>
@@ -1542,7 +1552,7 @@
     <id>bluetooth-freertos</id>
     <uri>https://github.com/cypresssemiconductorco/bluetooth-freertos</uri>
     <desc><![CDATA[
-    The Bluetooth&#174; freertos middleware library wraps the embedded BLE host stack and provides APIs to interact with Bluetooth&#174; chips.
+    The Bluetooth&#174; freertos middleware library wraps the embedded Bluetooth&#174; Low Energy host stack and provides APIs to interact with Bluetooth&#174; chips.
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/bluetooth-freertos/blob/master/README.md">Bluetooth&#174; freertos library README.md</a></li>
@@ -1638,6 +1648,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.9.0 release</num>
+        <commit>release-v3.9.0</commit>
+        <desc>3.9.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.8.2 release</num>
@@ -1781,7 +1796,7 @@
     <id>mbedtls</id>
     <uri>https://github.com/ARMmbed/mbedtls</uri>
     <desc><![CDATA[
-        ARM mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
+        Arm&#174; mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
         <br/>
         <div class="category">Additional Information:</div>
         <ul>

@@ -126,6 +126,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
         <desc>1.4.0 release</desc>
@@ -157,7 +162,7 @@
     <id>cmsis</id>
     <uri>https://github.com/Infineon/cmsis</uri>
     <desc><![CDATA[
-    CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm Cortex processors. 
+    CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm&#174; Cortex&#174; processors.
     CMSIS defines generic tool interfaces and enables consistent device support. The CMSIS software interfaces simplify software reuse, reduce the learning curve for microcontroller developers, and improve time to market for new devices.
     CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components. 
     CMSIS includes a delivery mechanism for devices, boards, and software, and enables the combination of software components from multiple vendors.
@@ -189,6 +194,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.10.0 release</num>
+        <commit>release-v3.10.0</commit>
+        <desc>3.10.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.9.0 release</num>
@@ -513,45 +523,45 @@
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>2.6.0 release</num>
+        <commit>release-v2.6.0</commit>
+        <desc>2.6.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.5.4 release</num>
         <commit>release-v2.5.4</commit>
         <desc>2.5.4 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.4.4 release</num>
         <commit>release-v2.4.4</commit>
         <desc>2.4.4 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.4.3 release</num>
         <commit>release-v2.4.3</commit>
         <desc>2.4.3 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.4.2 release</num>
         <commit>release-v2.4.2</commit>
         <desc>2.4.2 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.4.1 release</num>
         <commit>release-v2.4.1</commit>
         <desc>2.4.1 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.3.0 release</num>
         <commit>release-v2.3.0</commit>
         <desc>2.3.0 release</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>2.3.0 Beta 1</num>
-        <commit>release-v2.3.0-Beta1</commit>
-        <desc>2.3.0 Beta 1 Release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.2.0 release</num>
@@ -687,6 +697,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.4.0 release</num>
@@ -2087,16 +2102,26 @@
     <ul>
       <li><a href="https://github.com/Infineon/ble-mesh/blob/master/README.md">Bluetooth&#174; LE Mesh library README.md</a></li>
       <li><a href="https://github.com/Infineon/ble-mesh/blob/master/RELEASE.md">Bluetooth&#174; LE Mesh library RELEASE.md</a></li>
-      <li><a href="https://github.com/Infineon/ble-mesh/blob/master/docs/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
+      <li><a href="https://infineon.github.io/ble-mesh/api_reference_manual/html/index.html">Bluetooth&#174; LE Mesh library API reference guide </a></li>
     </ul>
     ]]></desc>
     <category>Bluetooth&#174;</category>
     <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6, cyw20829]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6, cyw20829]">
         <num>4.0.0 release</num>
         <commit>release-v4.0.0</commit>
         <desc>4.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.4.0" req_capabilities_per_version_v2="[bt] [psoc6]">
         <num>3.1.0 release</num>
@@ -2119,6 +2144,11 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>4.7.0 release</num>
+        <commit>release-v4.7.0</commit>
+        <desc>4.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>4.6.0 release</num>
@@ -2172,7 +2202,7 @@
     <id>mbedtls</id>
     <uri>https://github.com/ARMmbed/mbedtls</uri>
     <desc><![CDATA[
-        ARM mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
+        Arm&#174; mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
         <br/>
         <div class="category">Additional Information:</div>
         <ul>
@@ -2203,6 +2233,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>v2.3.0 Release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>v2.3.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>v2.2.0 Release</num>
         <commit>release-v2.2.0</commit>
         <desc>v2.2.0 Release</desc>
@@ -2226,6 +2261,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>v1.6.0 Release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>v1.6.0 Release</desc>
       </version>
       <version flow_version="2.0">
         <num>v1.5.0 Release</num>
@@ -2754,7 +2794,7 @@
     <id>cmsis-dsp</id>
     <uri>https://github.com/ARM-software/CMSIS-DSP</uri>
     <desc><![CDATA[
-    CMSIS DSP software library is a suite of common signal processing functions for use on Cortex-M processor based devices.
+    CMSIS DSP software library is a suite of common signal processing functions for use on Cortex&#174;-M processor based devices.
      Choose the sensor-dsp under PSoC&#8482; 6 Middleware that will also download this library.
      CMSIS DSP is hosted in a GitHub repository external to the Infineon organization on GitHub.
     <br><br><b>License Disclaimer:</b><br>
@@ -2935,14 +2975,24 @@
     STL created in compliance with IEC 60730 Class B and IEC 61508 SIL 2 standards and scalable to different MCUs.<br>
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc4</req_capabilities>
+    <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[psoc4]">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[psoc4]">
         <num>0.1.0 release</num>
         <commit>release-v0.1.0</commit>
         <desc>0.1.0 release</desc>
