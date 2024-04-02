@@ -1188,6 +1188,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>recipe-make-cat5</name>
+    <id>recipe-make-cat5</id>
+    <uri>https://github.com/Infineon/recipe-make-cat5</uri>
+    <desc>CYW55513 Make build recipe provides the make files and scripts for building and programming CYW55513 applications.</desc>
+    <category>Core</category>
+    <req_capabilities>cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>scl</name>
     <id>scl</id>
     <uri>https://github.com/cypresssemiconductorco/scl</uri>

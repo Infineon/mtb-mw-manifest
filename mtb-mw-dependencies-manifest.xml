@@ -1981,6 +1981,29 @@
     </versions>
   </depender>
   <depender>
+    <id>recipe-make-cat5</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.3.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.3.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>ml-middleware</id>
     <versions>
       <version>
