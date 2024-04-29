@@ -1684,6 +1684,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.3.1</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.3.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.3.0</commit>
         <dependees>
           <dependee>
