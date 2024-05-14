@@ -1190,6 +1190,52 @@
     </versions>
   </depender>
   <depender>
+    <id>sensor-motion-bmi270</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmi270</id>
+            <commit>v2.86.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmi270</id>
+            <commit>v2.86.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>sensor-orientation-bmm350</id>
+    <versions>
+      <version>
+        <commit>latest-v0.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmm350</id>
+            <commit>v1.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v0.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmm350</id>
+            <commit>v1.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>CY8CKIT-028-EPD</id>
     <versions>
       <version>

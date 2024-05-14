@@ -3070,5 +3070,78 @@
       </version>
     </versions>
   </middleware>
-
+  <middleware>
+    <name>bmi270</name>
+    <id>bmi270</id>
+    <uri>https://github.com/BoschSensortec/BMI270_SensorAPI</uri>
+    <desc>Bosch BMI-270 Sensor Driver.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.86.1 release</num>
+        <commit>v2.86.1</commit>
+        <desc>2.86.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bmm350</name>
+    <id>bmm350</id>
+    <uri>https://github.com/BoschSensortec/BMM350_SensorAPI</uri>
+    <desc>Bosch BMM-350 Sensor Driver.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.4.0 release</num>
+        <commit>v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-motion-bmi270</name>
+    <id>sensor-motion-bmi270</id>
+    <uri>https://github.com/Infineon/sensor-motion-bmi270</uri>
+    <desc><![CDATA[
+    This library provides functions for interfacing with the BMI270 I2C 16-bit Inertial Measurement Unit with three axis accelerometer and three axis gyroscope as used on the CY8CKIT-062S2-AI and SHIELD_XENSIV_A.
+    ]]></desc>
+    <category>Peripheral</category>
+    <req_capabilities>hal i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+        <desc>0.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-orientation-bmm350</name>
+    <id>sensor-orientation-bmm350</id>
+    <uri>https://github.com/Infineon/sensor-orientation-bmm350</uri>
+    <desc><![CDATA[
+    This library provides functions for interfacing with the BMM350 I2C three axis magnetometer as used on the CY8CKIT-062S2-AI and SHIELD_XENSIV_A.
+    ]]></desc>
+    <category>Peripheral</category>
+    <req_capabilities>hal i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+        <desc>0.5.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
