@@ -301,6 +301,10 @@
             <id>cmsis</id>
             <commit>release-v5.8.0</commit>
           </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
         </dependees>
       </version>
       <version>
