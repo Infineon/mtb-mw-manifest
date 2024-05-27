@@ -3149,4 +3149,30 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>optiga-nbt-lib-c-mtb</name>
+    <id>optiga-nbt-lib-c-mtb</id>
+    <uri>https://github.com/Infineon/optiga-nbt-lib-c-mtb</uri>
+    <desc><![CDATA[
+    This repository contains the NBT 2000 C library for ModusToolbox&#8482;, a host library package which 
+	supports the utilization of the NBT 2000 in embedded ModusToolbox&#8482; applications.
+    ]]></desc>
+    <category>Peripheral</category>
+    <req_capabilities>hal i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
+
+
+
