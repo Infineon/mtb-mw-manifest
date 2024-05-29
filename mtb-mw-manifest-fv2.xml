@@ -164,7 +164,7 @@
     <desc><![CDATA[
     CMSIS for PDL: The Common Microcontroller Software Interface Standard (CMSIS) is a vendor-independent abstraction layer for microcontrollers that are based on Arm&#174; Cortex&#174; processors.
     CMSIS defines generic tool interfaces and enables consistent device support. The CMSIS software interfaces simplify software reuse, reduce the learning curve for microcontroller developers, and improve time to market for new devices.
-    CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components. 
+    CMSIS provides interfaces to processor and peripherals, real-time operating systems, and middleware components.
     CMSIS includes a delivery mechanism for devices, boards, and software, and enables the combination of software components from multiple vendors.
     ]]></desc>
     <category>Core</category>
@@ -522,6 +522,29 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>block-storage</name>
+    <id>block-storage</id>
+    <uri>https://github.com/Infineon/block-storage</uri>
+    <desc><![CDATA[
+    The block-storage library abstracts NVMs. This allows upper layer libraries to be developed independently
+    of the underlying memory architecture and making them more portable.<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
       </version>
     </versions>
   </middleware>
@@ -3022,7 +3045,7 @@
     <id>lz4</id>
     <uri>https://github.com/lz4/lz4</uri>
     <desc><![CDATA[
-    LZ4 is lossless compression algorithm, providing compression speed > 500 MB/s per core, scalable with multi-cores CPU. 
+    LZ4 is lossless compression algorithm, providing compression speed > 500 MB/s per core, scalable with multi-cores CPU.
     It features an extremely fast decoder, with speed in multiple GB/s per core, typically reaching RAM speed limits on multi-core system
     LZ4 library is hosted in a GitHub repository external to the Infineon organization on GitHub.
     <br><br><b>License Disclaimer:</b><br>
