@@ -764,6 +764,37 @@
     </versions>
   </depender>
   <depender>
+    <id>mtb-pdl-cat5</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>mtb-xmclib-cat3</id>
     <versions>
       <version>
@@ -872,29 +903,6 @@
           </dependee>
         </dependees>
       </version>
-      <version>
-        <commit>latest-v0.X</commit>
-        <dependees>
-          <dependee>
-            <id>device-db</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>release-v0.5.0</commit>
-        <dependees>
-          <dependee>
-            <id>device-db</id>
-            <commit>latest-v4.X</commit>
-          </dependee>
-        </dependees>
-      </version>
-    </versions>
-  </depender>
-  <depender>
-    <id>mtb-pdl-cat5</id>
-    <versions>
       <version>
         <commit>latest-v0.X</commit>
         <dependees>
@@ -2602,6 +2610,45 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>at-command-parser</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>

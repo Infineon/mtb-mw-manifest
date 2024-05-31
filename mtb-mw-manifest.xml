@@ -293,6 +293,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.1 release</num>
         <commit>release-v1.4.1</commit>
         <desc>1.4.1 release</desc>
@@ -375,6 +380,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.8.1 release</num>
+        <commit>release-v1.8.1</commit>
+        <desc>1.8.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.7.6 release</num>
@@ -1057,6 +1067,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.1 release</num>
         <commit>release-v2.2.1</commit>
         <desc>2.2.1 release</desc>
@@ -1481,6 +1496,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.2 release</num>
         <commit>release-v1.4.2</commit>
         <desc>1.4.2 release</desc>
@@ -1845,6 +1865,26 @@
         <num>Stable 2.16.3 release</num>
         <commit>mbedtls-2.16.3</commit>
         <desc>Stable 2.16.3 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>at-command-parser</name>
+    <id>at-command-parser</id>
+    <uri>https://github.com/Infineon/at-command-parser</uri>
+    <desc>This library provides an AT command parser library.</desc>
+    <category>Middleware</category>
+    <req_capabilities>cat5</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

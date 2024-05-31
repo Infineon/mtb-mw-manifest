@@ -434,15 +434,15 @@
     <category>Core</category>
     <req_capabilities>cat5</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>Latest 0.X release</num>
-        <commit>latest-v0.X</commit>
-        <desc>Latest 0.X release</desc>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>0.5.0 release</num>
-        <commit>release-v0.5.0</commit>
-        <desc>0.5.0 release</desc>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -723,6 +723,46 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>mtb-hal-cat5</name>
+    <id>mtb-hal-cat5</id>
+    <uri>https://github.com/Infineon/mtb-hal-cat5</uri>
+    <desc>CYW55xx Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the CYW55xx MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat5</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.1.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.1.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>kv-store-cat5</name>
+    <id>kv-store-cat5</id>
+    <uri>https://github.com/Infineon/kv-store-cat5</uri>
+    <desc>This library provides a convenient way to store information as key-value pairs in non-volatile storage.</desc>
+    <category>Utilities</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware hidden="true">
     <name>mtb-template-cat1</name>
     <id>mtb-template-cat1</id>
@@ -882,6 +922,26 @@
         <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
+    <name>mtb-template-cat5</name>
+    <id>mtb-template-cat5</id>
+    <uri>https://github.com/Infineon/mtb-template-cat5</uri>
+    <desc>CAT5 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>cat5</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
