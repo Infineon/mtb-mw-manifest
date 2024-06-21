@@ -619,6 +619,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.11.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.10.0</commit>
         <dependees>
           <dependee>
