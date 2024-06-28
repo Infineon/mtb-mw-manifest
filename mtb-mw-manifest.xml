@@ -1672,12 +1672,17 @@
         </ul>
     ]]></desc>
     <category>Bluetooth&#174;</category>
-    <req_capabilities>psoc6 bt</req_capabilities>
+    <req_capabilities>bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.9.1 release</num>
+        <commit>release-v3.9.1</commit>
+        <desc>3.9.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.9.0 release</num>
