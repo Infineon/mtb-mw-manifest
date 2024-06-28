@@ -196,6 +196,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.11.0 release</num>
+        <commit>release-v3.11.0</commit>
+        <desc>3.11.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.10.1 release</num>
         <commit>release-v3.10.1</commit>
         <desc>3.10.1 release</desc>
@@ -3186,6 +3191,16 @@
     <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -3305,6 +3320,3 @@
     </versions>
   </middleware>
 </middleware>
-
-
-
