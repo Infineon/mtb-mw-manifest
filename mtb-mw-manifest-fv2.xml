@@ -2586,11 +2586,35 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.17.0 release</num>
+        <commit>release-v4.17.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add new PSoC 4100S Plus Automotive part numbers.</li>
+              <li>Add new CCG7S part numbers.</li>
+              <li>Add new TRAVEO&#8482; T2G CYT4DN part numbers.</li>
+              <li>Bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.11.1</li>
+              <li>mtb-pdl-cat2 &gt;= 2.11.0 (new PSoC 4100S Plus and CCG7S part numbers are expected in upcoming 2.12.0)</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.4.0</li>
+              <li>mtb-pdl-cat5 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.17.0">device-db 4.17.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.17.0/DEVICES.md">device-db 4.17.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.16.0 release</num>
         <commit>release-v4.16.0</commit>
         <desc><![CDATA[
             <ul>
-              <li>Add T2G-C-2D-6M device support.</li>
+              <li>Add TRAVEO&#8482; T2G CYT4DN device support.</li>
               <li>Add new PSOC 4000T part numbers.</li>
               <li>Removal of non-primary SWD selections (see release notes under the section 'Design Impact').</li>
               <li>Bug fixes.</li>
