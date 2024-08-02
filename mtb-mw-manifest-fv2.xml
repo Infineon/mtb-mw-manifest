@@ -2319,6 +2319,11 @@
         <desc>Latest 5.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>5.0.1 release</num>
+        <commit>release-v5.0.1</commit>
+        <desc>5.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
         <desc>5.0.0 release</desc>
@@ -3434,6 +3439,28 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-ifx-cyw55500a1</name>
+    <id>bt-fw-ifx-cyw55500a1</id>
+    <uri>https://github.com/Infineon/bt-fw-ifx-cyw55500a1</uri>
+    <desc><![CDATA[
+    The bt-fw-ifx-cyw55500a1 middleware library provides firmware patches for the CYW555xx AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
     </versions>
   </middleware>
