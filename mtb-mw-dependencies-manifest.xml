@@ -2222,6 +2222,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>ml-inference</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v2.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
