@@ -2829,6 +2829,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.40.0</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.30.1</commit>
         <dependees>
           <dependee>

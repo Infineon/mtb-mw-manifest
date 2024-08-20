@@ -567,6 +567,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
@@ -3400,7 +3405,7 @@
     <id>optiga-nbt-lib-c-mtb</id>
     <uri>https://github.com/Infineon/optiga-nbt-lib-c-mtb</uri>
     <desc><![CDATA[
-    This is the OPTIGA&#8482; Authenticate NBT Host Library for ModusToolbox&#8482; which 
+    This is the OPTIGA&#8482; Authenticate NBT Host Library for ModusToolbox&#8482; which
 	supports the utilization of the OPTIGA&#8482; Authenticate NBT in embedded ModusToolbox&#8482; applications.
     ]]></desc>
     <category>Peripheral</category>

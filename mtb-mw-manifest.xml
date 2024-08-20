@@ -1296,6 +1296,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.40.0 release</num>
+        <commit>release-v2.40.0</commit>
+        <desc>2.40.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.30.1 release</num>
         <commit>release-v2.30.1</commit>
         <desc>2.30.1 release</desc>
