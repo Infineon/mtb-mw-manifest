@@ -599,12 +599,17 @@
     <uri>https://github.com/cypresssemiconductorco/retarget-io</uri>
     <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
     <category>Peripheral</category>
-    <req_capabilities>mcu_gp hal</req_capabilities>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.5.0 release</num>
