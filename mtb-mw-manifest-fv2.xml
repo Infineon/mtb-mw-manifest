@@ -26,6 +26,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.3.1 release</num>
         <commit>release-v3.3.1</commit>
         <desc>3.3.1 release</desc>
@@ -1037,7 +1042,14 @@
     <name>recipe-make-cat1a</name>
     <id>recipe-make-cat1a</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat1a</uri>
-    <desc>PSoC&#8482; 6 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 6 applications.</desc>
+    <desc><![CDATA[
+    PSOC&#8482; 6 Make build recipe provides the make files and scripts for building and programming PSOC&#8482; 6 applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1a/blob/master/README.md">CAT1A Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1a/blob/master/RELEASE.md">CAT1A Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat1a</req_capabilities>
     <versions>
@@ -1045,6 +1057,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.2.1 release</num>
@@ -1122,7 +1139,14 @@
     <name>recipe-make-cat1b</name>
     <id>recipe-make-cat1b</id>
     <uri>https://github.com/Infineon/recipe-make-cat1b</uri>
-    <desc>20829 Make build recipe provides the make files and scripts for building and programming 20829 applications.</desc>
+    <desc><![CDATA[
+    AIROC&#8482; CYW20829 Make build recipe provides the make files and scripts for building and programming AIROC&#8482; CYW20829 applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1b/blob/master/README.md">CAT1B Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1b/blob/master/RELEASE.md">CAT1B Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat1b</req_capabilities>
     <versions>
@@ -1130,6 +1154,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.5.0 release</num>
+        <commit>release-v2.5.0</commit>
+        <desc>2.5.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.3.1 release</num>
@@ -1172,7 +1201,14 @@
     <name>recipe-make-cat1c</name>
     <id>recipe-make-cat1c</id>
     <uri>https://github.com/Infineon/recipe-make-cat1c</uri>
-    <desc>XMC7000, Traveo II Make build recipe provides the make files and scripts for building and programming XMC7000 and Traveo II applications.</desc>
+    <desc><![CDATA[
+    XMC7000, Traveo II Make build recipe provides the make files and scripts for building and programming XMC7000 and Traveo II applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1c/blob/master/README.md">CAT1C Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat1c/blob/master/RELEASE.md">CAT1C Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat1c</req_capabilities>
     <versions>
@@ -1180,6 +1216,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.3.0 release</num>
@@ -1208,7 +1249,7 @@
     <id>recipe-make-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat2</uri>
     <desc><![CDATA[
-    PSoC&#8482; 4 Make build recipe provides the make files and scripts for building and programming PSoC&#8482; 4 applications.<br>
+    PSOC&#8482; 4 Make build recipe provides the make files and scripts for building and programming PSOC&#8482; 4 applications.<br>
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/recipe-make-cat2/blob/master/README.md">CAT2 Make build recipe README.md</a></li>
@@ -1227,6 +1268,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.2.0 release</num>
@@ -1284,7 +1330,14 @@
     <name>recipe-make-cat3</name>
     <id>recipe-make-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/recipe-make-cat3</uri>
-    <desc>XMC&#8482; Make build recipe provides the make files and scripts for building and programming XMC&#8482; applications.</desc>
+    <desc><![CDATA[
+    XMC&#8482; Make build recipe provides the make files and scripts for building and programming XMC&#8482; applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat3/blob/master/README.md">CAT3 Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat3/blob/master/RELEASE.md">CAT3 Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat3</req_capabilities>
     <versions>
@@ -1297,6 +1350,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.2.1 release</num>
@@ -1349,7 +1407,14 @@
     <name>recipe-make-cat4</name>
     <id>recipe-make-cat4</id>
     <uri>https://github.com/Infineon/recipe-make-cat4</uri>
-    <desc>4390X&#8482; Make build recipe provides the make files and scripts for building and programming 4390X&#8482; applications.</desc>
+    <desc><![CDATA[
+    4390X&#8482; Make build recipe provides the make files and scripts for building and programming 4390X&#8482; applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat4/blob/master/README.md">CAT4 Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat4/blob/master/RELEASE.md">CAT4 Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat4</req_capabilities>
     <versions>
@@ -1362,6 +1427,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.2.0 release</num>
@@ -1389,7 +1459,14 @@
     <name>recipe-make-cat5</name>
     <id>recipe-make-cat5</id>
     <uri>https://github.com/Infineon/recipe-make-cat5</uri>
-    <desc>CYW55513 Make build recipe provides the make files and scripts for building and programming CYW55513 applications.</desc>
+    <desc><![CDATA[
+    CYW55513/CYW55913 Make build recipe provides the make files and scripts for building and programming CYW55513/CYW55913 applications.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/recipe-make-cat5/blob/master/README.md">CAT5 Make build recipe README.md</a></li>
+          <li><a href="https://github.com/Infineon/recipe-make-cat5/blob/master/RELEASE.md">CAT5 Make build recipe RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat5</req_capabilities>
     <versions>
@@ -1397,6 +1474,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.2.0">
         <num>1.2.1 release</num>
