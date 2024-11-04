@@ -845,6 +845,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.2.0</commit>
         <dependees>
           <dependee>
@@ -2396,6 +2409,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.3.1</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.3.0</commit>
         <dependees>
           <dependee>
@@ -3093,6 +3115,23 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>
