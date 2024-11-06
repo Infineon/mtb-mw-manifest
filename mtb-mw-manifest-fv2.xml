@@ -211,9 +211,14 @@
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
-        <num>Latest 3.X release</num>
+        <num>latest-v3.X</num>
         <commit>latest-v3.X</commit>
-        <desc>Latest 3.X release</desc>
+        <desc>latest-v3.X</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.12.1 release</num>
+        <commit>release-v3.12.1</commit>
+        <desc>3.12.1 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.12.0 release</num>
@@ -2438,6 +2443,26 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>usbfxstack</name>
+    <id>usbfxstack</id>
+    <uri>https://github.com/Infineon/usbfxstack</uri>
+    <desc><![CDATA[
+    The USBFXStack Middleware Library provides a powerful and versatile solution 
+    designed to support the EZ-USB™ FX2G3 device with a variety of integrated modules. 
+    This library includes essential drivers, utilities, and an operating system to help 
+    developers efficiently manage and optimize their applications.<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>usb_device</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
