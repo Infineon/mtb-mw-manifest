@@ -2452,7 +2452,7 @@
     <uri>https://github.com/Infineon/usbfxstack</uri>
     <desc><![CDATA[
     The USBFXStack Middleware Library provides a powerful and versatile solution 
-    designed to support the EZ-USB™ FX2G3 device with a variety of integrated modules. 
+    designed to support the EZ-USB&#8482; FX2G3 device with a variety of integrated modules. 
     This library includes essential drivers, utilities, and an operating system to help 
     developers efficiently manage and optimize their applications.<br>
     ]]></desc>
