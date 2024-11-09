@@ -3816,4 +3816,27 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>motor-ctrl-lib</name>
+    <id>motor-ctrl-lib</id>
+    <uri>https://github.com/Infineon/motor-ctrl-lib</uri>
+    <desc><![CDATA[
+    Motor control library provides the motor control driver interface in along with implementation of motor control algorithm to various control methods,
+    control types and different motors<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[xmc7000]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[xmc7000]">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
