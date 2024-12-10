@@ -226,6 +226,11 @@
         <desc>3.12.1 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.13.0 release</num>
+        <commit>release-v3.13.0</commit>
+        <desc>3.13.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.12.0 release</num>
         <commit>release-v3.12.0</commit>
         <desc>3.12.0 release</desc>
@@ -627,6 +632,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -635,6 +645,26 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-psc3</name>
+    <id>mtb-hal-psc3</id>
+    <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
+    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; Control MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -875,6 +905,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.6.1 release</num>
@@ -1194,6 +1229,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.6.0 release</num>
+        <commit>release-v2.6.0</commit>
+        <desc>2.6.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.5.1 release</num>
@@ -2713,6 +2753,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>v2.5.0 Release</num>
+        <commit>release-v2.5.0</commit>
+        <desc>v2.5.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>v2.4.0 Release</num>
         <commit>release-v2.4.0</commit>
         <desc>v2.4.0 Release</desc>
@@ -3916,15 +3961,42 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[xmc7000]">
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[hppass, xmc7000]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[hppass, xmc7000]">
+        <num>1.9.0 release</num>
+        <commit>release-v1.9.0</commit>
+        <desc>1.9.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[xmc7000]">
         <num>1.8.0 release</num>
         <commit>release-v1.8.0</commit>
         <desc>1.8.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-pwrconv</name>
+    <id>mtb-pwrconv</id>
+    <uri>https://github.com/Infineon/mtb-pwrconv</uri>
+    <desc><![CDATA[
+    ModusToolbox&trade; Power Conversion Middleware <br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>hppass</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

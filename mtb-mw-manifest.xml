@@ -293,6 +293,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.3 release</num>
+        <commit>release-v1.4.3</commit>
+        <desc>1.4.3 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.2 release</num>
         <commit>release-v1.4.2</commit>
         <desc>1.4.2 release</desc>
@@ -380,6 +385,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.9.0 release</num>
+        <commit>release-v1.9.0</commit>
+        <desc>1.9.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.8.2 release</num>
@@ -605,6 +615,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.6.0 release</num>
@@ -1251,6 +1266,16 @@
     <category>Middleware</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+        <desc>Latest 6.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>6.0.0 release</num>
+        <commit>release-v6.0.0</commit>
+        <desc>6.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
@@ -1314,6 +1339,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.50.0 release</num>
+        <commit>release-v2.50.0</commit>
+        <desc>2.50.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.40.0 release</num>
@@ -1437,6 +1467,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.5.003 release</num>
+        <commit>release-v10.5.003</commit>
+        <desc>10.5.003 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.5.002 release</num>
         <commit>release-v10.5.002</commit>
         <desc>10.5.002 release</desc>
@@ -1534,6 +1569,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.5.0 release</num>
@@ -1834,7 +1874,7 @@
   <middleware>
     <name>MCUboot</name>
     <id>mcuboot</id>
-    <uri>https://github.com/JuulLabs-OSS/mcuboot</uri>
+    <uri>https://github.com/mcu-tools/mcuboot</uri>
     <desc>MCUboot is a secure bootloader for 32-bit MCUs.</desc>
     <category>Middleware</category>
     <req_capabilities>cat1</req_capabilities>
@@ -1940,6 +1980,29 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ifx-mbedtls</name>
+    <id>ifx-mbedtls</id>
+    <uri>https://github.com/Infineon/ifx-mbedtls</uri>
+    <desc><![CDATA[
+        ifx-mbedtls is a port of Arm&#174; mbedTLS library for Infineon devices.
+        mbedTLS is an open-source cryptographic library designed for embedded systems and IoT devices. It provides secure communication protocols, encryption algorithms, and certificate management, offering lightweight and efficient solutions for implementing secure communication and data protection in constrained environments.
+        This Infineon port contains support of crypto accelerations provided by Infineon hardware blocks
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.5.102 release</num>
+        <commit>release-v3.5.102</commit>
+        <desc>3.5.102 release</desc>
       </version>
     </versions>
   </middleware>
