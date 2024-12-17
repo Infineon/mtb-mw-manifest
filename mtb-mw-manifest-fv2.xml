@@ -136,6 +136,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
@@ -196,6 +201,11 @@
         <desc>Latest 5.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>5.8.2 release</num>
+        <commit>release-v5.8.2</commit>
+        <desc>5.8.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>5.8.1 release</num>
         <commit>release-v5.8.1</commit>
         <desc>5.8.1 release</desc>
@@ -221,14 +231,19 @@
         <desc>latest-v3.X</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
-        <num>3.12.1 release</num>
-        <commit>release-v3.12.1</commit>
-        <desc>3.12.1 release</desc>
+        <num>3.14.0 release</num>
+        <commit>release-v3.14.0</commit>
+        <desc>3.14.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.13.0 release</num>
         <commit>release-v3.13.0</commit>
         <desc>3.13.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.12.1 release</num>
+        <commit>release-v3.12.1</commit>
+        <desc>3.12.1 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.12.0 release</num>
@@ -500,6 +515,16 @@
     <req_capabilities>cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -682,6 +707,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>2.6.2 release</num>
+        <commit>release-v2.6.2</commit>
+        <desc>2.6.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.6.1 release</num>
         <commit>release-v2.6.1</commit>
         <desc>2.6.1 release</desc>
@@ -855,6 +885,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.1.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.1.0">
         <num>1.1.0 release</num>
@@ -1753,29 +1788,34 @@
     Adding this library will also download and add littlefs to your project. It is your responsibility to understand and accept the littlefs license.
     ]]></desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6, cat1a, cyw20829]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6, cat1a, cyw20829]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>2.0.1 release</num>
         <commit>release-v2.0.1</commit>
         <desc>2.0.1 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -2753,6 +2793,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>v2.6.0 Release</num>
+        <commit>release-v2.6.0</commit>
+        <desc>v2.6.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>v2.5.0 Release</num>
         <commit>release-v2.5.0</commit>
         <desc>v2.5.0 Release</desc>
@@ -3650,6 +3695,16 @@
     <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -3915,6 +3970,248 @@
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-mur-cyw43439</name>
+    <id>bt-fw-mur-cyw43439</id>
+    <uri>https://github.com/Infineon/bt-fw-mur-cyw43439</uri>
+    <desc><![CDATA[
+    The bt-fw-mur-cyw43439 middleware library provides firmware patches for the CYW43439 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43439</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-lai-cyw43439</name>
+    <id>bt-fw-lai-cyw43439</id>
+    <uri>https://github.com/Infineon/bt-fw-lai-cyw43439</uri>
+    <desc><![CDATA[
+    The bt-fw-lai-cyw43439 middleware library provides firmware patches for the CYW43439 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43439</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-mur-cyw4373</name>
+    <id>bt-fw-mur-cyw4373</id>
+    <uri>https://github.com/Infineon/bt-fw-mur-cyw4373</uri>
+    <desc><![CDATA[
+    The bt-fw-mur-cyw4373 middleware library provides firmware patches for the CYW4373 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw4373</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-lai-cyw4373</name>
+    <id>bt-fw-lai-cyw4373</id>
+    <uri>https://github.com/Infineon/bt-fw-lai-cyw4373</uri>
+    <desc><![CDATA[
+    The bt-fw-lai-cyw4373 middleware library provides firmware patches for the CYW4373 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw4373</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-mur-cyw4343w</name>
+    <id>bt-fw-mur-cyw4343w</id>
+    <uri>https://github.com/Infineon/bt-fw-mur-cyw4343w</uri>
+    <desc><![CDATA[
+    The bt-fw-mur-cyw4343w middleware library provides firmware patches for the CYW4343W AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw4343w</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-azw-cyw43438</name>
+    <id>bt-fw-azw-cyw43438</id>
+    <uri>https://github.com/Infineon/bt-fw-azw-cyw43438</uri>
+    <desc><![CDATA[
+    The bt-fw-azw-cyw43438 middleware library provides firmware patches for the CYW43438 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43438</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-ifx-cyw43022</name>
+    <id>bt-fw-ifx-cyw43022</id>
+    <uri>https://github.com/Infineon/bt-fw-ifx-cyw43022</uri>
+    <desc><![CDATA[
+    The bt-fw-ifx-cyw43022 middleware library provides firmware patches for the CYW43022 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43022</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-ifx-cyw43012</name>
+    <id>bt-fw-ifx-cyw43012</id>
+    <uri>https://github.com/Infineon/bt-fw-ifx-cyw43012</uri>
+    <desc><![CDATA[
+    The bt-fw-ifx-cyw43012 middleware library provides firmware patches for the CYW43012 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43012</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-mur-cyw43012</name>
+    <id>bt-fw-mur-cyw43012</id>
+    <uri>https://github.com/Infineon/bt-fw-mur-cyw43012</uri>
+    <desc><![CDATA[
+    The bt-fw-mur-cyw43012 middleware library provides firmware patches for the CYW43012 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43012</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-usi-cyw43012</name>
+    <id>bt-fw-usi-cyw43012</id>
+    <uri>https://github.com/Infineon/bt-fw-usi-cyw43012</uri>
+    <desc><![CDATA[
+    The bt-fw-usi-cyw43012 middleware library provides firmware patches for the CYW43012 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43012</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-ism-cyw43439</name>
+    <id>bt-fw-ism-cyw43439</id>
+    <uri>https://github.com/Infineon/bt-fw-ism-cyw43439</uri>
+    <desc><![CDATA[
+    The bt-fw-ism-cyw43439 middleware library provides firmware patches for the CYW43439 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw43439</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
