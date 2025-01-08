@@ -2,7 +2,7 @@
   <middleware>
     <name>psoc6pdl</name>
     <id>psoc6pdl</id>
-    <uri>https://github.com/Infineon/psoc6pdl</uri>
+    <uri>https://github.com/cypresssemiconductorco/psoc6pdl</uri>
     <desc>The PSoC&#8482; 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
@@ -62,7 +62,7 @@
   <middleware>
     <name>psoc6cm0p</name>
     <id>psoc6cm0p</id>
-    <uri>https://github.com/Infineon/psoc6cm0p</uri>
+    <uri>https://github.com/cypresssemiconductorco/psoc6cm0p</uri>
     <desc>PSoC&#8482; 6 Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
@@ -157,7 +157,7 @@
   <middleware>
     <name>psoc6hal</name>
     <id>psoc6hal</id>
-    <uri>https://github.com/Infineon/psoc6hal</uri>
+    <uri>https://github.com/cypresssemiconductorco/psoc6hal</uri>
     <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the using the defined Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
@@ -207,7 +207,7 @@
   <middleware>
     <name>psoc6make</name>
     <id>psoc6make</id>
-    <uri>https://github.com/Infineon/psoc6make</uri>
+    <uri>https://github.com/cypresssemiconductorco/psoc6make</uri>
     <desc>PSoC&#8482; 6 Base Build Library.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
@@ -282,7 +282,7 @@
   <middleware>
     <name>core-lib</name>
     <id>core-lib</id>
-    <uri>https://github.com/Infineon/core-lib</uri>
+    <uri>https://github.com/cypresssemiconductorco/core-lib</uri>
     <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
     <category>Core</category>
     <req_capabilities>mcu_gp</req_capabilities>
@@ -372,7 +372,7 @@
   <middleware>
     <name>abstraction-rtos</name>
     <id>abstraction-rtos</id>
-    <uri>https://github.com/Infineon/abstraction-rtos</uri>
+    <uri>https://github.com/cypresssemiconductorco/abstraction-rtos</uri>
     <desc><![CDATA[
     The RTOS Abstraction Library provides a generic API that allows ModusToolbox&#8482; middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.
     <br><br><b>Note:</b>
@@ -491,7 +491,7 @@
   <middleware>
     <name>CY8CKIT-028-EPD</name>
     <id>CY8CKIT-028-EPD</id>
-    <uri>https://github.com/Infineon/CY8CKIT-028-EPD</uri>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-EPD</uri>
     <desc>The CY8CKIT-028-EPD library provides APIs for interacting with the Shield Board's E2271CS021 EInk display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Thermistor.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino hal</req_capabilities>
@@ -551,7 +551,7 @@
   <middleware>
     <name>CY8CKIT-028-TFT</name>
     <id>CY8CKIT-028-TFT</id>
-    <uri>https://github.com/Infineon/CY8CKIT-028-TFT</uri>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-028-TFT</uri>
     <desc>The CY8CKIT-028-TFT library provides APIs for interacting with the Shield Board's ST7789v TFT display, BMI-160 Motion Sensor, SPK0838HT4H-B Microphone, and Light Sensor.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino j2 hal</req_capabilities>
@@ -581,7 +581,7 @@
   <middleware>
     <name>CY8CKIT-032</name>
     <id>CY8CKIT-032</id>
-    <uri>https://github.com/Infineon/CY8CKIT-032</uri>
+    <uri>https://github.com/cypresssemiconductorco/CY8CKIT-032</uri>
     <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSoC&#8482; 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CAPSENSE&#8482; user interface.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino hal</req_capabilities>
@@ -606,7 +606,7 @@
   <middleware>
     <name>retarget-io</name>
     <id>retarget-io</id>
-    <uri>https://github.com/Infineon/retarget-io</uri>
+    <uri>https://github.com/cypresssemiconductorco/retarget-io</uri>
     <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp</req_capabilities>
@@ -666,7 +666,7 @@
   <middleware>
     <name>rgb-led</name>
     <id>rgb-led</id>
-    <uri>https://github.com/Infineon/rgb-led</uri>
+    <uri>https://github.com/cypresssemiconductorco/rgb-led</uri>
     <desc>The RGB LED library provides APIs for controlling the color and intensity the RGB LED on our kits.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -706,7 +706,7 @@
   <middleware>
     <name>serial-flash</name>
     <id>serial-flash</id>
-    <uri>https://github.com/Infineon/serial-flash</uri>
+    <uri>https://github.com/cypresssemiconductorco/serial-flash</uri>
     <desc>The Serial Flash library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal qspi</req_capabilities>
@@ -761,7 +761,7 @@
   <middleware>
     <name>audio-codec-ak4954a</name>
     <id>audio-codec-ak4954a</id>
-    <uri>https://github.com/Infineon/audio-codec-ak4954a</uri>
+    <uri>https://github.com/cypresssemiconductorco/audio-codec-ak4954a</uri>
     <desc>This library provides functions to support use of the AK4954A audio codec found on the CY8CKIT-028-TFT shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -811,7 +811,7 @@
   <middleware>
     <name>display-eink-e2271cs021</name>
     <id>display-eink-e2271cs021</id>
-    <uri>https://github.com/Infineon/display-eink-e2271cs021</uri>
+    <uri>https://github.com/cypresssemiconductorco/display-eink-e2271cs021</uri>
     <desc>This library provides functions for supporting the 2.7" EPD Display (E2271CS021). This is the same display as used on the CY8CKIT-028-EPD shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -841,7 +841,7 @@
   <middleware>
     <name>display-oled-ssd1306</name>
     <id>display-oled-ssd1306</id>
-    <uri>https://github.com/Infineon/display-oled-ssd1306</uri>
+    <uri>https://github.com/cypresssemiconductorco/display-oled-ssd1306</uri>
     <desc>This library provides functions to support the 128x64 pixel dot matrix OLED display driven by SSD1306 controller. This is the same display as used on the CY8CKIT-032 shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -876,7 +876,7 @@
   <middleware>
     <name>display-tft-st7789v</name>
     <id>display-tft-st7789v</id>
-    <uri>https://github.com/Infineon/display-tft-st7789v</uri>
+    <uri>https://github.com/cypresssemiconductorco/display-tft-st7789v</uri>
     <desc>This library provides functions for supporting a 2.4 inch TFT LCD driven by an ST7789V controller. This is the same display as used on the CY8CKIT-028-TFT shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -901,7 +901,7 @@
   <middleware>
     <name>sensor-light</name>
     <id>sensor-light</id>
-    <uri>https://github.com/Infineon/sensor-light</uri>
+    <uri>https://github.com/cypresssemiconductorco/sensor-light</uri>
     <desc>This library provides functions to support use of a phototransistor ambient light sensor such as the TEMT6000 as used on the CY8CKIT-028-TFT shield.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -931,7 +931,7 @@
   <middleware>
     <name>sensor-motion-bmi160</name>
     <id>sensor-motion-bmi160</id>
-    <uri>https://github.com/Infineon/sensor-motion-bmi160</uri>
+    <uri>https://github.com/cypresssemiconductorco/sensor-motion-bmi160</uri>
     <desc>This library provides functions for interfacing with the BMI-160 I2C/SPI 16-bit Inertial Measurement Unit with three axis accelerometer and three axis gyroscope as used on the CY8CKIT-028-TFT and CY8CKIT-028-TFT shields.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -1026,7 +1026,7 @@
   <middleware>
     <name>thermistor</name>
     <id>thermistor</id>
-    <uri>https://github.com/Infineon/thermistor</uri>
+    <uri>https://github.com/cypresssemiconductorco/thermistor</uri>
     <desc>This library provides functions for reading an NTC GPIO based thermistor temperature sensor as used on some shields.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp hal</req_capabilities>
@@ -1061,7 +1061,7 @@
   <middleware>
     <name>udb-sdio-whd</name>
     <id>udb-sdio-whd</id>
-    <uri>https://github.com/Infineon/udb-sdio-whd</uri>
+    <uri>https://github.com/cypresssemiconductorco/udb-sdio-whd</uri>
     <desc>The UDB SDIO for WHD library provides a UDB based SDIO interface that allows for communicating between a PSoC&#8482; 6 and a AIROC&#8482; wireless device such as the CYW4343W, CYW43438, or CYW43012.</desc>
     <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx hal udb</req_capabilities>
@@ -1106,7 +1106,7 @@
   <middleware>
     <name>whd-bsp-integration</name>
     <id>whd-bsp-integration</id>
-    <uri>https://github.com/Infineon/whd-bsp-integration</uri>
+    <uri>https://github.com/cypresssemiconductorco/whd-bsp-integration</uri>
     <desc>The WHD + BSP Integration library provides some convenience functions for connecting the WiFi Host Driver (WHD) library to a Board Support Package (BSP) that includes a WLAN chip.</desc>
     <category>Wi-Fi</category>
     <req_capabilities>wifi hal</req_capabilities>
@@ -1191,7 +1191,7 @@
   <middleware>
     <name>bless</name>
     <id>bless</id>
-    <uri>https://github.com/Infineon/bless</uri>
+    <uri>https://github.com/cypresssemiconductorco/bless</uri>
     <desc>PSoC&#8482; 6 Bluetooth&#174; Low Energy Middleware is a comprehensive API to configure the Bluetooth&#174; Low Energy Stack and the underlying chip hardware.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6 ble</req_capabilities>
@@ -1231,7 +1231,7 @@
   <middleware>
     <name>capsense</name>
     <id>capsense</id>
-    <uri>https://github.com/Infineon/capsense</uri>
+    <uri>https://github.com/cypresssemiconductorco/capsense</uri>
     <!-- NOTE: remember to sync description and req_capabilities to mtb-mw-manifest.xml -->
     <desc><![CDATA[
     Capacitive sensing solution (CAPSENSE&#8482;) enables a variety of applications such as touch, gesture and proximity detection
@@ -1267,7 +1267,7 @@
   <middleware>
     <name>dfu</name>
     <id>dfu</id>
-    <uri>https://github.com/Infineon/dfu</uri>
+    <uri>https://github.com/cypresssemiconductorco/dfu</uri>
     <desc><![CDATA[
     The Device Firmware Update (DFU) Middleware Library provides a low-level API for the implementation of firmware loader and
      firmware loadable applications using a number of transport interfaces, e.g. UART, I2C, SPI, and USB.<br>
@@ -1336,7 +1336,7 @@
   <middleware>
     <name>emeeprom</name>
     <id>emeeprom</id>
-    <uri>https://github.com/Infineon/emeeprom</uri>
+    <uri>https://github.com/cypresssemiconductorco/emeeprom</uri>
     <desc><![CDATA[
     The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482 & XMC 7xxx&#8482; device flash memory.
      This allows you to store nonvolatile data with support for wear leveling and redundant copy features.<br>
@@ -1390,7 +1390,7 @@
   <middleware>
     <name>emwin</name>
     <id>emwin</id>
-    <uri>https://github.com/Infineon/emwin</uri>
+    <uri>https://github.com/cypresssemiconductorco/emwin</uri>
     <desc>SEGGER emWin embedded graphic library and graphical user interface (GUI) framework.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6</req_capabilities>
@@ -1435,7 +1435,7 @@
   <middleware>
     <name>usbdev</name>
     <id>usbdev</id>
-    <uri>https://github.com/Infineon/usbdev</uri>
+    <uri>https://github.com/cypresssemiconductorco/usbdev</uri>
     <desc>USB Device library for a full-speed USB 2.0 compliant device framework.</desc>
     <category>Middleware</category>
     <req_capabilities>usb_device</req_capabilities>
@@ -1460,7 +1460,7 @@
   <middleware>
     <name>freertos</name>
     <id>freertos</id>
-    <uri>https://github.com/Infineon/freertos</uri>
+    <uri>https://github.com/cypresssemiconductorco/freertos</uri>
     <desc><![CDATA[
     A FreeRTOS is a small operating system for microcontrollers. A FreeRTOS kernel is distributed as standard C source files
      with configuration header file.<br>
@@ -1571,7 +1571,7 @@
   <middleware>
     <name>clib-support</name>
     <id>clib-support</id>
-    <uri>https://github.com/Infineon/clib-support</uri>
+    <uri>https://github.com/cypresssemiconductorco/clib-support</uri>
     <desc><![CDATA[
     The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.
     <br><br><b>Note:</b>
@@ -1635,7 +1635,7 @@
   <middleware>
     <name>kv-store</name>
     <id>kv-store</id>
-    <uri>https://github.com/Infineon/kv-store</uri>
+    <uri>https://github.com/cypresssemiconductorco/kv-store</uri>
     <desc>This library provides a convenient way to store information as key-value pairs in non-volatile storage.</desc>
     <category>Utilities</category>
     <req_capabilities>mcu_gp</req_capabilities>
@@ -1670,14 +1670,14 @@
   <middleware>
     <name>bluetooth-freertos</name>
     <id>bluetooth-freertos</id>
-    <uri>https://github.com/Infineon/bluetooth-freertos</uri>
+    <uri>https://github.com/cypresssemiconductorco/bluetooth-freertos</uri>
     <desc><![CDATA[
     The Bluetooth&#174; freertos middleware library wraps the embedded Bluetooth&#174; Low Energy host stack and provides APIs to interact with Bluetooth&#174; chips.
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/bluetooth-freertos/blob/master/README.md">Bluetooth&#174; freertos library README.md</a></li>
           <li><a href="https://github.com/Infineon/bluetooth-freertos/blob/master/RELEASE.md">Bluetooth&#174; freertos library RELEASE.md</a></li>
-          <li><a href="https://Infineon.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth&#174; freertos library API reference guide </a></li>
+          <li><a href="https://cypresssemiconductorco.github.io/bluetooth-freertos/api_reference_manual/html/index.html">Bluetooth&#174; freertos library API reference guide </a></li>
         </ul>
     ]]></desc>
     <category>Bluetooth&#174;</category>
@@ -1753,7 +1753,7 @@
   <middleware>
     <name>btstack</name>
     <id>btstack</id>
-    <uri>https://github.com/Infineon/btstack</uri>
+    <uri>https://github.com/cypresssemiconductorco/btstack</uri>
     <desc><![CDATA[BTSTACK is our Bluetooth&#174; Host Protocol Stack implementation. The stack is optimized to work on our Bluetooth&#174; controllers. The BTSTACK supports Bluetooth&#174; BR/EDR and Bluetooth&#174; LE core protocols. The stack is available as libraries built for Arm&#174; Cortex&#174;-M3 and Cortex&#174;-M4 cores using Arm&#174;, GCC and IAR toolchains. Further there are two build variants of stack libraries, LE only and Dual-mode. Applications that use LE can take advantage of reduced size of LE only library and build LE peripheral or even central applications. Dual-mode library supports both LE and BR/EDR protocols.
     <div class="category">Additional Information:</div>
         <ul>
