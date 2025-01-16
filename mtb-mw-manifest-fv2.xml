@@ -530,6 +530,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
@@ -2646,9 +2651,9 @@
     <id>usbfxstack</id>
     <uri>https://github.com/Infineon/usbfxstack</uri>
     <desc><![CDATA[
-    The USBFXStack Middleware Library provides a powerful and versatile solution 
+    The USBFXStack Middleware Library provides a powerful and versatile solution
     designed to support the EZ-USB&#8482; FX device family with a variety of integrated modules.
-    This library includes essential drivers, utilities, and an operating system to help 
+    This library includes essential drivers, utilities, and an operating system to help
     developers efficiently manage and optimize their applications.<br>
     ]]></desc>
     <category>Middleware</category>
@@ -4340,6 +4345,16 @@
     <category>Bluetooth&#174;</category>
     <req_capabilities>bt cyw55xxx</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
