@@ -2438,9 +2438,14 @@
     <req_capabilities>hal i2c uart</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>Latest 4.X release</num>
-        <commit>latest-v4.X</commit>
-        <desc>Latest 4.X release</desc>
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>5.3.0 release</num>
+        <commit>release-v5.3.0</commit>
+        <desc>5.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.1.0 release</num>
