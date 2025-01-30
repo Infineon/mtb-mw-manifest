@@ -677,6 +677,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -698,6 +703,26 @@
     <id>mtb-hal-psc3</id>
     <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
     <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; Control MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-t2gc2d6m</name>
+    <id>mtb-hal-t2gc2d6m</id>
+    <uri>https://github.com/Infineon/mtb-hal-t2gc2d6m</uri>
+    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
@@ -960,6 +985,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.7.1 release</num>
+        <commit>release-v1.7.1</commit>
+        <desc>1.7.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.7.0 release</num>
