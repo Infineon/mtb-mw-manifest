@@ -2745,6 +2745,24 @@
     <id>ml-middleware</id>
     <versions>
       <version>
+        <commit>release-v3.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.0.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.0.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>

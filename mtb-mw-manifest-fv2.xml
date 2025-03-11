@@ -2192,9 +2192,9 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>v2.0.0 Release</num>
+        <num>2.0.0 Release</num>
         <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
+        <desc>2.0.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
         <num>Latest 1.X release</num>
@@ -2202,19 +2202,19 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
-        <num>v1.2.0 Release</num>
+        <num>1.2.0 Release</num>
         <commit>release-v1.2.0</commit>
-        <desc>v1.2.0 Release</desc>
+        <desc>1.2.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.3.1">
-        <num>v1.1.0 Release</num>
+        <num>1.1.0 Release</num>
         <commit>release-v1.1.0</commit>
-        <desc>v1.1.0 Release</desc>
+        <desc>1.1.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.2.3" tools_max_version="2.2.3">
-        <num>v1.0.0 Release</num>
+        <num>1.0.0 Release</num>
         <commit>release-v1.0.0</commit>
-        <desc>v1.0.0 Release</desc>
+        <desc>1.0.0 Release</desc>
       </version>
     </versions>
   </middleware>
@@ -2230,19 +2230,29 @@
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.1 Release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>v2.0.1 Release</num>
+        <num>2.0.1 Release</num>
         <commit>release-v2.0.1</commit>
-        <desc>v2.0.1 Release</desc>
+        <desc>2.0.1 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>v2.0.0 Release</num>
+        <num>2.0.0 Release</num>
         <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
+        <desc>2.0.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
         <num>Latest 1.X release</num>
@@ -2250,9 +2260,9 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="2.4.0">
-        <num>v1.0.0 Release</num>
+        <num>1.0.0 Release</num>
         <commit>release-v1.0.0</commit>
-        <desc>v1.0.0 Release</desc>
+        <desc>1.0.0 Release</desc>
       </version>
     </versions>
   </middleware>
@@ -2295,14 +2305,24 @@
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.1 Release</num>
+        <commit>release-v3.0.1</commit>
+        <desc>3.0.1 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>v2.0.0 Release</num>
+        <num>2.0.0 Release</num>
         <commit>release-v2.0.0</commit>
-        <desc>v2.0.0 Release</desc>
+        <desc>2.0.0 Release</desc>
       </version>
     </versions>
   </middleware>
