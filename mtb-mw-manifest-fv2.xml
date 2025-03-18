@@ -241,6 +241,11 @@
         <desc>latest-v3.X</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.15.1 release</num>
+        <commit>release-v3.15.1</commit>
+        <desc>3.15.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.15.0 release</num>
         <commit>release-v3.15.0</commit>
         <desc>3.15.0 release</desc>
