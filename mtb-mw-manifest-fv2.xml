@@ -719,17 +719,44 @@
     </versions>
   </middleware>
   <middleware>
+    <name>syspm-callbacks-psc3</name>
+    <id>syspm-callbacks-psc3</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-psc3</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-psc3</name>
     <id>mtb-hal-psc3</id>
     <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
     <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; Control MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
-    <req_capabilities>cat1</req_capabilities>
+    <req_capabilities>cat1b</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>1.0.0 release</num>
