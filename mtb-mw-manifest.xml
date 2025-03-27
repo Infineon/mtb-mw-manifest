@@ -3,7 +3,7 @@
     <name>psoc6pdl</name>
     <id>psoc6pdl</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6pdl</uri>
-    <desc>The PSoC&#8482; 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <desc>The PSOC&#8482; 6 Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -63,7 +63,7 @@
     <name>psoc6cm0p</name>
     <id>psoc6cm0p</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6cm0p</uri>
-    <desc>PSoC&#8482; 6 Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
+    <desc>PSOC&#8482; 6 Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -158,7 +158,7 @@
     <name>psoc6hal</name>
     <id>psoc6hal</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6hal</uri>
-    <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the using the defined Hardware Abstraction Layer.</desc>
+    <desc>PSOC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; 6 MCU resources using the using the defined Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -208,7 +208,7 @@
     <name>psoc6make</name>
     <id>psoc6make</id>
     <uri>https://github.com/cypresssemiconductorco/psoc6make</uri>
-    <desc>PSoC&#8482; 6 Base Build Library.</desc>
+    <desc>PSOC&#8482; 6 Base Build Library.</desc>
     <category>Core</category>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
@@ -587,7 +587,7 @@
     <name>CY8CKIT-032</name>
     <id>CY8CKIT-032</id>
     <uri>https://github.com/cypresssemiconductorco/CY8CKIT-032</uri>
-    <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSoC&#8482; 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CAPSENSE&#8482; user interface.</desc>
+    <desc>The CY8CKIT-032 library provides APIs for interacting with the Shield Board's OLED display and the PSOC&#8482; 4 Analog Coprocessor to read analog sensors (temperature, humidity, ambient light and potentiometer voltage) and to provide a CAPSENSE&#8482; user interface.</desc>
     <category>Peripheral</category>
     <req_capabilities>mcu_gp arduino hal</req_capabilities>
     <versions>
@@ -1067,7 +1067,7 @@
     <name>udb-sdio-whd</name>
     <id>udb-sdio-whd</id>
     <uri>https://github.com/cypresssemiconductorco/udb-sdio-whd</uri>
-    <desc>The UDB SDIO for WHD library provides a UDB based SDIO interface that allows for communicating between a PSoC&#8482; 6 and a AIROC&#8482; wireless device such as the CYW4343W, CYW43438, or CYW43012.</desc>
+    <desc>The UDB SDIO for WHD library provides a UDB based SDIO interface that allows for communicating between a PSOC&#8482; 6 and a AIROC&#8482; wireless device such as the CYW4343W, CYW43438, or CYW43012.</desc>
     <category>Wi-Fi</category>
     <req_capabilities>psoc6 cyw43xxx hal udb</req_capabilities>
     <versions>
@@ -1197,7 +1197,7 @@
     <name>bless</name>
     <id>bless</id>
     <uri>https://github.com/cypresssemiconductorco/bless</uri>
-    <desc>PSoC&#8482; 6 Bluetooth&#174; Low Energy Middleware is a comprehensive API to configure the Bluetooth&#174; Low Energy Stack and the underlying chip hardware.</desc>
+    <desc>PSOC&#8482; 6 Bluetooth&#174; Low Energy Middleware is a comprehensive API to configure the Bluetooth&#174; Low Energy Stack and the underlying chip hardware.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6 ble</req_capabilities>
     <versions>
@@ -1343,7 +1343,7 @@
     <id>emeeprom</id>
     <uri>https://github.com/cypresssemiconductorco/emeeprom</uri>
     <desc><![CDATA[
-    The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482 & XMC 7xxx&#8482; device flash memory.
+    The Emulated EEPROM middleware emulates an EEPROM device in the PSOC&#8482 & XMC&#8482 7xxx; device flash memory.
      This allows you to store nonvolatile data with support for wear leveling and redundant copy features.<br>
     <div class="category">Additional Information:</div>
         <ul>
@@ -1485,6 +1485,11 @@
         <num>Latest 10.X release</num>
         <commit>latest-v10.X</commit>
         <desc>Latest 10.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>10.5.004 release</num>
+        <commit>release-v10.5.004</commit>
+        <desc>10.5.004 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>10.5.003 release</num>
@@ -2035,9 +2040,52 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.6.100 release</num>
+        <commit>release-v3.6.100</commit>
+        <desc>3.6.100 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.5.102 release</num>
         <commit>release-v3.5.102</commit>
         <desc>3.5.102 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ifx-trusted-firmware-m</name>
+    <id>ifx-trusted-firmware-m</id>
+    <uri>https://github.com/Infineon/ifx-trusted-firmware-m</uri>
+    <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.100 release</num>
+        <commit>release-v2.1.100</commit>
+        <desc>2.1.100 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ifx-trusted-firmware-m-ns</name>
+    <id>ifx-trusted-firmware-m-ns</id>
+    <uri>https://github.com/Infineon/ifx-trusted-firmware-m-ns</uri>
+    <desc>Trusted Firmware-M (TF-M) Non-secure Client Extension (NSCE) library.</desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.100 release</num>
+        <commit>release-v2.1.100</commit>
+        <desc>2.1.100 release</desc>
       </version>
     </versions>
   </middleware>

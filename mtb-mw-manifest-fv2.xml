@@ -26,6 +26,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>3.5.2 release</num>
+        <commit>release-v3.5.2</commit>
+        <desc>3.5.2 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
         <num>3.5.1 release</num>
         <commit>release-v3.5.1</commit>
         <desc>3.5.1 release</desc>
@@ -239,6 +244,11 @@
         <num>latest-v3.X</num>
         <commit>latest-v3.X</commit>
         <desc>latest-v3.X</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.16.0 release</num>
+        <commit>release-v3.16.0</commit>
+        <desc>3.16.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.15.1 release</num>
@@ -545,6 +555,16 @@
     <req_capabilities>cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -605,6 +625,11 @@
         <desc>Latest 4.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.5.0 release</num>
+        <commit>release-v4.5.0</commit>
+        <desc>4.5.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.4.0 release</num>
         <commit>release-v4.4.0</commit>
         <desc>4.4.0 release</desc>
@@ -652,6 +677,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>ecat</name>
+    <id>mtb-xmc-ecat</id>
+    <uri>https://github.com/Infineon/mtb-xmc-ecat</uri>
+    <desc><![CDATA[The EtherCAT Middleware consists of all the elements necessary to start the EtherCAT slave
+    development with the Beckhoff Slave Stack Code (SSC) including the EtherCAT
+    Slave Solution personality for the ModusToolbox&trade;.]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>xmc4000</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-xmc-emeeprom</name>
     <id>mtb-xmc-emeeprom</id>
     <uri>https://github.com/Infineon/mtb-xmc-emeeprom</uri>
@@ -662,7 +709,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/em_eeprom_api_reference_manual/html/modules.html"> XMC EEPROM Middleware Library API reference guide</a></li>
+          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/em_eeprom_api_reference_manual/html/modules.html"> XMC&#8482 EEPROM Middleware Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -744,7 +791,7 @@
     <name>mtb-hal-psc3</name>
     <id>mtb-hal-psc3</id>
     <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
-    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; Control MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; Control MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat1b</req_capabilities>
     <versions>
@@ -769,7 +816,7 @@
     <name>mtb-hal-t2gc2d6m</name>
     <id>mtb-hal-t2gc2d6m</id>
     <uri>https://github.com/Infineon/mtb-hal-t2gc2d6m</uri>
-    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
@@ -789,7 +836,7 @@
     <name>mtb-hal-cat1</name>
     <id>mtb-hal-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
-    <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc>PSOC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
@@ -797,6 +844,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="2.2.0">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
+        <desc>2.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>2.6.2 release</num>
@@ -889,7 +941,7 @@
     <name>mtb-hal-cat2</name>
     <id>mtb-hal-cat2</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat2</uri>
-    <desc>PMG &amp; PSoC&#8482; 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PMG/PSoC&#8482; 4 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc>PMG &amp; PSOC&#8482; 4 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PMG/PSOC&#8482; 4 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat2</req_capabilities>
     <versions>
@@ -973,6 +1025,16 @@
     <category>Core</category>
     <req_capabilities>cat5</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.1.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.1.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="3.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -1228,6 +1290,16 @@
     <category>Core</category>
     <req_capabilities>cat5</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -1900,7 +1972,7 @@
     <uri>https://github.com/littlefs-project/littlefs</uri>
     <desc><![CDATA[
     A little fail-safe filesystem designed for microcontrollers.
-     Choose the mtb-littlefs under PSoC&#8482; 6 Middleware that will also download this library.
+     Choose the mtb-littlefs under PSOC&#8482; 6 Middleware that will also download this library.
      The mtb-littlefs implements the block device drivers necessary for using a littelfs on the Infineon MCUs.
      A littlefs is hosted in a GitHub repository external to the Infineon organization on GitHub.
     <br><br><b>License Disclaimer:</b><br>
@@ -2362,7 +2434,7 @@
     <name>p64_utils</name>
     <id>p64_utils</id>
     <uri>https://github.com/cypresssemiconductorco/p64_utils</uri>
-    <desc>Secure Boot Utilities Middleware Library is a set of utility code for PSoC&#8482;64 device performing operations like providing an interface to Secure FlashBoot SysCalls including PSA cryptographic functions, generic syscall functions, base64 decode provisioning JWT packet, parsing JSON data, policy parsing helpers, dynamic memory manager.</desc>
+    <desc>Secure Boot Utilities Middleware Library is a set of utility code for PSOC&#8482;64 device performing operations like providing an interface to Secure FlashBoot SysCalls including PSA cryptographic functions, generic syscall functions, base64 decode provisioning JWT packet, parsing JSON data, policy parsing helpers, dynamic memory manager.</desc>
     <category>Middleware</category>
     <req_capabilities>psoc6 secure_boot</req_capabilities>
     <versions>
@@ -2802,7 +2874,7 @@
     <id>ble-mesh</id>
     <uri>https://github.com/Infineon/ble-mesh</uri>
     <desc><![CDATA[
-    The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSoC&#8482; 6 + 43012 Bluetooth&#174;, CYW920829M2 chips.
+    The Bluetooth&#174; LE Mesh middleware libraries and included adaptation code allows user to create LE Mesh applications for PSOC&#8482; 6 + 43012 Bluetooth&#174;, CYW920829M2 chips.
     Components included are binaries for Mesh Core, Mesh Models and Mesh Provisioner libraries and adaptation code to create mesh applications.
     <div class="category">Additional Information:</div>
     <ul>
@@ -2841,7 +2913,7 @@
     <id>btstack-integration</id>
     <uri>https://github.com/Infineon/btstack-integration</uri>
     <desc><![CDATA[
-    The btstack-integration middleware library provides Bluetooth&#174; porting layer component for PSoC&#8482; 6 targets.
+    The btstack-integration middleware library provides Bluetooth&#174; porting layer component for PSOC&#8482; 6 targets.
     ]]></desc>
     <category>Bluetooth&#174;</category>
     <req_capabilities>bt</req_capabilities>
@@ -2992,6 +3064,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>v2.7.0 Release</num>
+        <commit>release-v2.7.0</commit>
+        <desc>v2.7.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>v2.6.0 Release</num>
@@ -3245,7 +3322,7 @@
               <li>Add trigger connectivity data for 55513 and 55913 series.</li>
               <li>Update pin connectivity data for 55913 series.</li>
               <li>Remove bt-configurator support for 20707/20736/20737/30739 series.</li>
-              <li>Add sdio capability for applicable PSoC&#8482; 6, XMC7000 and TRAVEO&#8482; T2G MPNs.</li>
+              <li>Add sdio capability for applicable PSOC&#8482; 6, XMC7000 and TRAVEO&#8482; T2G MPNs.</li>
               <li>Bug fixes.</li>
             </ul>
             <div class="category">Recommended device support libraries:</div>
@@ -3267,7 +3344,7 @@
         <commit>release-v4.17.0</commit>
         <desc><![CDATA[
             <ul>
-              <li>Add new PSoC 4100S Plus Automotive part numbers.</li>
+              <li>Add new PSOC 4100S Plus Automotive part numbers.</li>
               <li>Add new CCG7S part numbers.</li>
               <li>Add new TRAVEO&#8482; T2G CYT4DN part numbers.</li>
               <li>Bug fixes.</li>
@@ -3275,7 +3352,7 @@
             <div class="category">Recommended device support libraries:</div>
             <ul>
               <li>mtb-pdl-cat1 &gt;= 3.11.1</li>
-              <li>mtb-pdl-cat2 &gt;= 2.11.0 (new PSoC 4100S Plus and CCG7S part numbers are expected in upcoming 2.12.0)</li>
+              <li>mtb-pdl-cat2 &gt;= 2.11.0 (new PSOC 4100S Plus and CCG7S part numbers are expected in upcoming 2.12.0)</li>
               <li>mtb-xmclib-cat3 &gt;= 4.4.0</li>
               <li>mtb-pdl-cat5 1.0.0</li>
             </ul>
@@ -3315,7 +3392,7 @@
         <commit>release-v4.15.0</commit>
         <desc><![CDATA[
             <ul>
-              <li>Add new PSoC 4000S part numbers.</li>
+              <li>Add new PSOC 4000S part numbers.</li>
               <li>Add new CYW20829B0 part numbers.</li>
               <li>Replace CYW20829B0KML part number with CYW20829B0021.</li>
               <li>Replace CYW89829B0KML part number with CYW89829B0022.</li>
@@ -3325,7 +3402,7 @@
             <div class="category">Recommended device support libraries:</div>
             <ul>
               <li>mtb-pdl-cat1 &gt;= 3.10.1</li>
-              <li>mtb-pdl-cat2 &gt;= 2.9.0 (new PSoC 4000S part numbers are expected in upcoming 2.10.0)</li>
+              <li>mtb-pdl-cat2 &gt;= 2.9.0 (new PSOC 4000S part numbers are expected in upcoming 2.10.0)</li>
               <li>mtb-xmclib-cat3 &gt;= 4.3.0</li>
               <li>mtb-pdl-cat5 1.0.0</li>
             </ul>
@@ -3475,7 +3552,7 @@
         <commit>release-v4.7.0</commit>
         <desc><![CDATA[
             <ul>
-              <li>Adds new PSoC 4100S Max part numbers.</li>
+              <li>Adds new PSOC 4100S Max part numbers.</li>
               <li>Adds support for CYT2B7 and CYT2BL devices (PDL update coming soon for full enablement of these devices in ModusToolbox ecosystem).</li>
               <li>Adds new Serial Flash memories.</li>
               <li>Minor bug fixes and improvements.</li>
@@ -3520,7 +3597,7 @@
         <desc><![CDATA[
             <ul>
               <li>Adds new CY8C6xx4 devices.</li>
-              <li>Adds new PSoC 4100S Max devices.</li>
+              <li>Adds new PSOC 4100S Max devices.</li>
               <li>Adds S25FL128L and S25FL256L Serial Flash memories.</li>
               <li>Adds DEVICES.md with a list of devices and modules supported by the Device Database.</li>
               <li>Improves ModusToolbox&#8482; BSP Assistant support for creating custom BSPs by specifying the MPNs.</li>
@@ -3546,7 +3623,7 @@
             <ul>
               <li>Adds CYW43022 device.</li>
               <li>Adds LBEE5PK2BC module.</li>
-              <li>Adds new part numbers under existing families: CCG7S, CYW4373, PSoC 4100S Plus, PSoC 4500S, WLC1</li>
+              <li>Adds new part numbers under existing families: CCG7S, CYW4373, PSOC 4100S Plus, PSOC 4500S, WLC1</li>
               <li>Minor bug fixes and improvements.</li>
             </ul>
             <div class="category">Recommended device support libraries:</div>
@@ -3586,7 +3663,7 @@
         <commit>release-v4.0.4</commit>
         <desc><![CDATA[
             <ul>
-              <li>Adds new part numbers under exsiting families: PMG1-S3, CCG7S, PSoC 4100S Plus</li>
+              <li>Adds new part numbers under exsiting families: PMG1-S3, CCG7S, PSOC 4100S Plus</li>
             </ul>
             <div class="category">Recommended device support libraries:</div>
             <ul>
@@ -3764,7 +3841,7 @@
     <uri>https://github.com/ARM-software/CMSIS-DSP</uri>
     <desc><![CDATA[
     CMSIS DSP software library is a suite of common signal processing functions for use on Cortex&#174;-M processor based devices.
-     Choose the sensor-dsp under PSoC&#8482; 6 Middleware that will also download this library.
+     Choose the sensor-dsp under PSOC&#8482; 6 Middleware that will also download this library.
      CMSIS DSP is hosted in a GitHub repository external to the Infineon organization on GitHub.
     <br><br><b>License Disclaimer:</b><br>
     Adding this library will download and add CMSIS DSP to your project. It is your responsibility to understand and accept the CMSIS DSP license.<br>
@@ -3952,6 +4029,11 @@
         <desc>Latest 3.X Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>3.1.0 release</num>
         <commit>release-v3.1.0</commit>
         <desc>3.1.0 release</desc>
@@ -4123,6 +4205,11 @@
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>0.5.2 release</num>
+        <commit>release-v0.5.2</commit>
+        <desc>0.5.2 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
         <num>0.5.1 release</num>
