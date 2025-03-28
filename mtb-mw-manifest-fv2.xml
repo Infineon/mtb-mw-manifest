@@ -3236,6 +3236,31 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.22.0 release</num>
+        <commit>release-v4.22.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add new CCG7S part numbers: CYPD7194-40BFXS, CYPD7195-40BFXS and CYPD7196-40BFXS.</li>
+              <li>Add new CYW89829 part numbers: CYW89829B1062 and CYW89829B0062.</li>
+              <li>Add new PSOC&#8482; 4000T part number (CY8C4046LQQ-T412).</li>
+              <li>Add CYW55533 connectivity device support.</li>
+              <li>General bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.16.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.16.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.5.0</li>
+              <li>mtb-pdl-cat5 &gt;= 3.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.22.0">device-db 4.22.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.22.0/DEVICES.md">device-db 4.22.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.21.0 release</num>
         <commit>release-v4.21.0</commit>
         <desc><![CDATA[
