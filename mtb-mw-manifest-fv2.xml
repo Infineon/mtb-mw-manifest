@@ -4701,4 +4701,26 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>tviic2d-gfx-mw</name>
+    <id>tviic2d-gfx-mw</id>
+    <uri>https://github.com/Infineon/tviic2d-gfx-mw</uri>
+    <desc><![CDATA[
+    ModusToolbox&trade; Graphics Driver for TRAVEO&trade; II Cluster devices<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>t2gc2d</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
