@@ -719,7 +719,8 @@
         <ul>
           <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/mtb-xmc-emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/em_eeprom_api_reference_manual/html/modules.html"> XMC&#8482 EEPROM Middleware Library API reference guide</a></li>
+          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/xmc1_em_eeprom_api_reference_manual/html/modules.html"> XMC1 EEPROM Middleware Library API reference guide</a></li>
+          <li><a href="https://infineon.github.io/mtb-xmc-emeeprom/xmc4_em_eeprom_api_reference_manual/html/modules.html"> XMC4 EEPROM Middleware Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
@@ -848,7 +849,7 @@
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
     <desc>PSOC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
-    <req_capabilities>cat1</req_capabilities>
+    <req_capabilities>cat1a cat1b cat1c</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 2.X release</num>
@@ -1073,7 +1074,7 @@
     <uri>https://github.com/Infineon/kv-store-cat5</uri>
     <desc>This library provides a convenient way to store information as key-value pairs in non-volatile storage.</desc>
     <category>Utilities</category>
-    <req_capabilities>mcu_gp</req_capabilities>
+    <req_capabilities>mcu_gp cat5</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>

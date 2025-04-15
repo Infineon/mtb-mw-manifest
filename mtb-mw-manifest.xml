@@ -1349,7 +1349,7 @@
         <ul>
           <li><a href="https://github.com/Infineon/emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
           <li><a href="https://github.com/Infineon/emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
-          <li><a href="https://infineon.github.io/emeeprom/em_eeprom_api_reference_manual/html/modules.html">Em_EEPROM Middleware Library API reference guide</a></li>
+          <li><a href="https://infineon.github.io/emeeprom/html/index.html ">Em_EEPROM Middleware Library API reference guide</a></li>
         </ul>
     ]]></desc>
     <category>Middleware</category>
