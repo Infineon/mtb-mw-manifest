@@ -1226,6 +1226,20 @@
     </versions>
   </depender>
   <depender>
+    <id>mtb-hal-xmc72</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-xmc72</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>mtb-hal-cat4</id>
     <versions>
       <version>
@@ -3653,11 +3667,20 @@
         </dependees>
       </version>
       <version>
-        <commit>release-v2.50.0</commit>
+        <commit>release-v2.60.0</commit>
         <dependees>
           <dependee>
             <id>block-storage</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.50.0</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>release-v1.2.1</commit>
           </dependee>
         </dependees>
       </version>
@@ -3666,7 +3689,7 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.2.1</commit>
           </dependee>
         </dependees>
       </version>
@@ -3675,7 +3698,30 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
+            <commit>release-v1.2.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>kv-store</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>release-v1.3.0</commit>
           </dependee>
         </dependees>
       </version>

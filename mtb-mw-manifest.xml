@@ -764,6 +764,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>serial-memory</name>
+    <id>serial-memory</id>
+    <uri>https://github.com/Infineon/serial-memory</uri>
+    <desc>The Serial Memory library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal qspi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>audio-codec-ak4954a</name>
     <id>audio-codec-ak4954a</id>
     <uri>https://github.com/cypresssemiconductorco/audio-codec-ak4954a</uri>
@@ -1361,6 +1381,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.60.0 release</num>
+        <commit>release-v2.60.0</commit>
+        <desc>2.60.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.50.0 release</num>
         <commit>release-v2.50.0</commit>
         <desc>2.50.0 release</desc>
@@ -1650,6 +1675,16 @@
     <category>Utilities</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>

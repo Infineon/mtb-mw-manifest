@@ -755,6 +755,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.1 release</num>
         <commit>release-v1.2.1</commit>
         <desc>1.2.1 release</desc>
@@ -780,6 +785,28 @@
     <name>syspm-callbacks-psc3</name>
     <id>syspm-callbacks-psc3</id>
     <uri>https://github.com/Infineon/syspm-callbacks-psc3</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>syspm-callbacks-xmc72</name>
+    <id>syspm-callbacks-xmc72</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-xmc72</uri>
     <desc><![CDATA[
     Syspm callback Utility Library provides a set of callbacks that can be registered by the
     application to handle deep-sleep entry/exit of select peripherals.
@@ -829,7 +856,27 @@
     <uri>https://github.com/Infineon/mtb-hal-t2gc2d6m</uri>
     <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
-    <req_capabilities>cat1</req_capabilities>
+    <req_capabilities>cat1c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-xmc72</name>
+    <id>mtb-hal-xmc72</id>
+    <uri>https://github.com/Infineon/mtb-hal-xmc72</uri>
+    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>Latest 1.X release</num>
