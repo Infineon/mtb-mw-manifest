@@ -692,7 +692,7 @@
     </versions>
   </middleware>
   <middleware>
-    <name>ecat</name>
+    <name>mtb-xmc-ecat</name>
     <id>mtb-xmc-ecat</id>
     <uri>https://github.com/Infineon/mtb-xmc-ecat</uri>
     <desc><![CDATA[The EtherCAT Middleware consists of all the elements necessary to start the EtherCAT slave
@@ -701,10 +701,15 @@
     <category>Middleware</category>
     <req_capabilities>xmc4000</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.4.0">
+      <version flow_version="2.0" tools_min_version="3.5.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>1.0.0 release</num>
@@ -4795,6 +4800,16 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[hppass, xmc7000]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[hppass, xmc7000]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[hppass, xmc7000]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -4822,6 +4837,16 @@
     <category>Middleware</category>
     <req_capabilities>hppass</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
