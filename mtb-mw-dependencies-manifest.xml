@@ -1237,6 +1237,15 @@
           </dependee>
         </dependees>
       </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-xmc72</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
     </versions>
   </depender>
   <depender>

@@ -879,7 +879,7 @@
     <name>mtb-hal-xmc72</name>
     <id>mtb-hal-xmc72</id>
     <uri>https://github.com/Infineon/mtb-hal-xmc72</uri>
-    <desc>PSoC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
     <req_capabilities>cat1c</req_capabilities>
     <versions>
@@ -895,13 +895,13 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[cat1a,cat1b,cat1c]">
     <name>mtb-hal-cat1</name>
     <id>mtb-hal-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-hal-cat1</uri>
     <desc>PSOC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
     <category>Core</category>
-    <req_capabilities>cat1a cat1b cat1c</req_capabilities>
+    <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="2.2.0">
         <num>Latest 2.X release</num>
