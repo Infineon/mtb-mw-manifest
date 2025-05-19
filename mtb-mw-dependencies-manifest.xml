@@ -1226,6 +1226,29 @@
     </versions>
   </depender>
   <depender>
+    <id>mtb-hal-t2gc2d6m</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d6m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d6m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>mtb-hal-xmc72</id>
     <versions>
       <version>
