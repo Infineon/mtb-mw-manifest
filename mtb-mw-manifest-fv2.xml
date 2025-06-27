@@ -3431,6 +3431,33 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.26.0 release</num>
+        <commit>release-v4.26.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add new PMG1-B2 part number: CYPM1216-68LQXI.</li>
+              <li>Add new CYW20829 and CYW89829 part numbers: CYW20829B1000, CYW20829B1010 and CYW89829B1232.</li>
+              <li>Add PSOC&#8482; 4 HV PA 144k device support.</li>
+              <li>Add new XMC&#8482; 1400 part numbers.</li>
+              <li>Add XMC&#8482; 5100 and XMC&#8482; 5300 device support.</li>
+              <li>Add new CYW955533WLSDM2 and CYW955533WLUSBM2 modules.</li>
+              <li>General bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.17.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.17.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.6.0</li>
+              <li>mtb-pdl-cat5 &gt;= 3.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.26.0">device-db 4.26.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.26.0/DEVICES.md">device-db 4.26.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.23.0 release</num>
         <commit>release-v4.23.0</commit>
         <desc><![CDATA[
