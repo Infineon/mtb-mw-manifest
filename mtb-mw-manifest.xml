@@ -293,6 +293,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.4 release</num>
+        <commit>release-v1.4.4</commit>
+        <desc>1.4.4 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.3 release</num>
         <commit>release-v1.4.3</commit>
         <desc>1.4.3 release</desc>
