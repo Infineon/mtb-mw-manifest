@@ -2618,6 +2618,11 @@
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 Release</desc>
       </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.0.1 Release</num>
+        <commit>release-v2.0.1</commit>
+        <desc>2.0.1 Release</desc>
+      </version>
     </versions>
   </middleware>
   <middleware>

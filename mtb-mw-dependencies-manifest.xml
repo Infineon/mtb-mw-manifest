@@ -3064,7 +3064,7 @@
           </dependee>
           <dependee>
             <id>ml-tflite-micro</id>
-            <commit>release-v2.0.0</commit>
+            <commit>release-v2.0.1</commit>
           </dependee>
         </dependees>
       </version>
@@ -3078,6 +3078,10 @@
           <dependee>
             <id>ml-tflite-micro</id>
             <commit>release-v2.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v2.0.1</commit>
           </dependee>
         </dependees>
       </version>
