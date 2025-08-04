@@ -256,6 +256,11 @@
         <desc>latest-v3.X</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.17.0 release</num>
+        <commit>release-v3.17.0</commit>
+        <desc>3.17.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.16.0 release</num>
         <commit>release-v3.16.0</commit>
         <desc>3.16.0 release</desc>
@@ -1229,6 +1234,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.7.3 release</num>
+        <commit>release-v1.7.3</commit>
+        <desc>1.7.3 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.7.2 release</num>
@@ -2860,6 +2870,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.1.0 release</num>
