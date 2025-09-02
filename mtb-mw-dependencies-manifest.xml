@@ -3169,6 +3169,27 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v6.2.1</commit>
+        <dependees>
+          <dependee>
+            <id>btstack</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v6.2.0</commit>
         <dependees>
           <dependee>
