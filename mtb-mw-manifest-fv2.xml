@@ -15,7 +15,7 @@
     <category>Core</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="2.0" tools_min_version="3.4.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
@@ -236,6 +236,16 @@
     <req_capabilities/>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+        <desc>Latest 6.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>6.1.0 release</num>
+        <commit>release-v6.1.0</commit>
+        <desc>6.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>Latest 5.X release</num>
         <commit>latest-v5.X</commit>
         <desc>Latest 5.X release</desc>
@@ -258,6 +268,46 @@
     </versions>
   </middleware>
   <middleware type="device_support">
+    <name>mtb-dsl-pse8xxgp</name>
+    <id>mtb-dsl-pse8xxgp</id>
+    <uri>https://github.com/Infineon/mtb-dsl-pse8xxgp</uri>
+    <desc>Device support library for Explorer PSE8XXGP devices.</desc>
+    <category>Core</category>
+    <req_capabilities>pse8xxgp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
+    <name>mtb-dsl-pse8xxgo</name>
+    <id>mtb-dsl-pse8xxgo</id>
+    <uri>https://github.com/Infineon/mtb-dsl-pse8xxgo</uri>
+    <desc>Device support library for PSE8XXGO devices.</desc>
+    <category>Core</category>
+    <req_capabilities>pse8xxgo</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[cat1a,cat1b,cat1c]" type="device_support">
     <name>mtb-pdl-cat1</name>
     <id>mtb-pdl-cat1</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-pdl-cat1</uri>
@@ -956,6 +1006,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
@@ -979,6 +1034,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>1.0.0 release</num>
@@ -1363,6 +1423,46 @@
     </versions>
   </middleware>
   <middleware hidden="true">
+    <name>mtb-template-pse8xxgp</name>
+    <id>mtb-template-pse8xxgp</id>
+    <uri>https://github.com/Infineon/mtb-template-pse8xxgp</uri>
+    <desc>PSE8XXGP BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>pse8xxgp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
+    <name>mtb-template-pse8xxgo</name>
+    <id>mtb-template-pse8xxgo</id>
+    <uri>https://github.com/Infineon/mtb-template-pse8xxgo</uri>
+    <desc>PSE8XXGO BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>pse8xxgo</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
     <name>mtb-template-cat2</name>
     <id>mtb-template-cat2</id>
     <uri>https://github.com/Infineon/mtb-template-cat2</uri>
@@ -1516,6 +1616,29 @@
         <desc>1.0.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-srf</name>
+    <id>mtb-srf</id>
+    <uri>https://github.com/Infineon/mtb-srf</uri>
+    <desc><![CDATA[
+    The Secure Request Framework (SRF) exists to provide a reusable infastructure for implementing
+    multiple secure operations via a single non-secure-callable entry point.  This framework is
+    designed to be generic with no dependency on or knowledge of any particular hardware operation.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -2259,6 +2382,16 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6, cat1a, cyw20829]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -2577,7 +2710,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psoc6, pse8xxgp]">
     <name>ml-middleware</name>
     <id>ml-middleware</id>
     <uri>https://github.com/Infineon/ml-middleware</uri>
@@ -2586,12 +2719,17 @@
       functionality to support streaming validation data on the embedded target.
     </desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.1.0 Release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.0.1 Release</num>
@@ -2631,42 +2769,57 @@
     <uri>https://github.com/cypresssemiconductorco/emfile</uri>
     <desc>SEGGER emFile - A FAT16/32 filesystem for embedded systems supporting SPI NOR flash and SD card.</desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>mcu_gp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="2.2.0">
+      <version flow_version="2.0" tools_min_version="2.2.0" req_capabilities_per_version_v2="[psoc6]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psoc6, pse8xxgp]">
     <name>ml-tflite-micro</name>
     <id>ml-tflite-micro</id>
     <uri>https://github.com/Infineon/ml-tflite-micro</uri>
     <desc>The ml-tflite-micro library is a pre-configured TensorFlow tflite-micro runtime library for the Infineon PSoC6&#8482; platform.</desc>
     <category>Middleware</category>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.1.0 Release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.0.1 Release</num>
@@ -2826,6 +2979,16 @@
     <category>Peripheral</category>
     <req_capabilities>hal spi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="2.2.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3035,6 +3198,16 @@
     <req_capabilities>usb_device</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
@@ -3082,6 +3255,16 @@
     <category>Middleware</category>
     <req_capabilities>usb_host</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3321,6 +3504,38 @@
     </versions>
   </middleware>
   <middleware>
+    <name>bt-audio-profiles</name>
+    <id>bt-audio-profiles</id>
+    <uri>https://github.com/Infineon/bt-audio-profiles</uri>
+    <desc><![CDATA[
+    The bt-audio-profiles middleware library provides Bluetooth&#174; Classic Profiles - A2DP, AVRCP, HFP, and SPP.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>airoc-hci-transport</name>
     <id>airoc-hci-transport</id>
     <uri>https://github.com/Infineon/airoc-hci-transport</uri>
@@ -3385,6 +3600,16 @@
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>v3.0.0 Release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>v3.0.0 Release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
@@ -3561,6 +3786,25 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.29.0 release</num>
+        <commit>release-v4.29.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Adds PSE8xxGM, PSE8xxGO and PSE8xxGP devices.</li>
+              <li>General bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-device-support-pse8xxgp &gt;= 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.29.0">device-db 4.29.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.29.0/DEVICES.md">device-db 4.29.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.28.0 release</num>
         <commit>release-v4.28.0</commit>
         <desc><![CDATA[
@@ -3589,20 +3833,12 @@
         <commit>release-v4.26.0</commit>
         <desc><![CDATA[
             <ul>
-              <li>Add new PMG1-B2 part number: CYPM1216-68LQXI.</li>
-              <li>Add new CYW20829 and CYW89829 part numbers: CYW20829B1000, CYW20829B1010 and CYW89829B1232.</li>
-              <li>Add PSOC&#8482; 4 HV PA 144k device support.</li>
-              <li>Add new XMC&#8482; 1400 part numbers.</li>
-              <li>Add XMC&#8482; 5100 and XMC&#8482; 5300 device support.</li>
-              <li>Add new CYW955533WLSDM2 and CYW955533WLUSBM2 modules.</li>
+              <li>Adds PSE8xxGM, PSE8xxGO and PSE8xxGP devices (Beta support).</li>
               <li>General bug fixes and improvements.</li>
             </ul>
             <div class="category">Recommended device support libraries:</div>
             <ul>
-              <li>mtb-pdl-cat1 &gt;= 3.17.0</li>
-              <li>mtb-pdl-cat2 &gt;= 2.17.0</li>
-              <li>mtb-xmclib-cat3 &gt;= 4.6.0</li>
-              <li>mtb-pdl-cat5 &gt;= 3.0.0</li>
+              <li>TBD</li>
             </ul>
             <div class="category">Additional Information:</div>
             <ul>
@@ -4143,7 +4379,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[cat1, pse8xxgp]">
     <name>LVGL (Graphics Library)</name>
     <id>lvgl</id>
     <uri>https://github.com/lvgl/lvgl</uri>
@@ -4153,12 +4389,17 @@
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://lvgl.io">LVGL home page</a></li>
-          <li><a href="https://docs.lvgl.io/8.3/">Documentation of LVGL</a></li>
+          <li><a href="https://docs.lvgl.io/">Documentation of LVGL</a></li>
         </ul>
     ]]></desc>
     <category>Graphics</category>
     <req_capabilities>cat1</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>9.2.0 Release</num>
+        <commit>v9.2.0</commit>
+        <desc>9.2.0 Release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>8.3.5 Release</num>
         <commit>v8.3.5</commit>
@@ -4616,6 +4857,16 @@
     <category>Peripheral</category>
     <req_capabilities>hal i2c</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
@@ -4633,32 +4884,41 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[i2c, i3c]">
     <name>sensor-orientation-bmm350</name>
     <id>sensor-orientation-bmm350</id>
     <uri>https://github.com/Infineon/sensor-orientation-bmm350</uri>
     <desc><![CDATA[
-    This library provides functions for interfacing with the BMM350 I2C three axis magnetometer as used on the CY8CKIT-062S2-AI and SHIELD_XENSIV_A.
+    This library provides functions for interfacing with the BMM350 three axis magnetometer.
     ]]></desc>
     <category>Peripheral</category>
-    <req_capabilities>hal i2c</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>0.5.2 release</num>
         <commit>release-v0.5.2</commit>
         <desc>0.5.2 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>0.5.1 release</num>
         <commit>release-v0.5.1</commit>
         <desc>0.5.1 release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
         <desc>0.5.0 release</desc>
@@ -4750,7 +5010,7 @@
     This repo contains the required Bluetooth&#174; firmware patch for Infineon AIROC&#8482; CYW20829B0 device.
     ]]></desc>
     <category>Bluetooth&#174;</category>
-    <req_capabilities>bt</req_capabilities>
+    <req_capabilities>bt cyw20829</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
@@ -4792,7 +5052,7 @@
     This repo contains the required Bluetooth&#174; firmware patch for Infineon AIROC&#8482; CYW89829B0 device.
     ]]></desc>
     <category>Bluetooth&#174;</category>
-    <req_capabilities>bt</req_capabilities>
+    <req_capabilities>bt cyw89829</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
@@ -5076,7 +5336,7 @@
     The bt-fw-ifx-cyw55500a1 middleware library provides firmware patches for the CYW555xx AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
     ]]></desc>
     <category>Bluetooth&#174;</category>
-    <req_capabilities>bt cyw55xxx</req_capabilities>
+    <req_capabilities>bt cyw55513</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
@@ -5117,6 +5377,28 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-mur-cyw55513</name>
+    <id>bt-fw-mur-cyw55513</id>
+    <uri>https://github.com/Infineon/bt-fw-mur-cyw55513</uri>
+    <desc><![CDATA[
+    The bt-fw-mur-cyw55513 middleware library provides firmware patches for the CYW55513 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -5221,6 +5503,612 @@
         <desc>1.0.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+    <name>se-rt-services-utils</name>
+    <id>se-rt-services-utils</id>
+    <uri>https://github.com/Infineon/se-rt-services-utils</uri>
+    <desc><![CDATA[
+    Secure Enclave Runtime Services Utils library provides implementation of service calls to Secure Enclave Runtime Services and provides functionality like PSA Crypto (including side channel protected algorithms), Attestation, Protection and Anti-rollback Counters APIs.<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ifx-mbedtls</name>
+    <id>ifx-mbedtls</id>
+    <uri>https://github.com/Infineon/ifx-mbedtls</uri>
+    <desc><![CDATA[
+        ifx-mbedtls is a port of Arm&#174; mbedTLS library for Infineon devices.
+        mbedTLS is an open-source cryptographic library designed for embedded systems and IoT devices. It provides secure communication protocols, encryption algorithms, and certificate management, offering lightweight and efficient solutions for implementing secure communication and data protection in constrained environments.
+        This Infineon port contains support of crypto accelerations provided by Infineon hardware blocks
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>3.6.300 release</num>
+        <commit>release-v3.6.300</commit>
+        <desc>3.6.300 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
+        <num>3.6.100 release</num>
+        <commit>release-v3.6.100</commit>
+        <desc>3.6.100 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
+        <num>3.5.102 release</num>
+        <commit>release-v3.5.102</commit>
+        <desc>3.5.102 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
+    <name>ifx-tf-m-pse84epc2</name>
+    <id>ifx-tf-m-pse84epc2</id>
+    <uri>https://github.com/Infineon/ifx-tf-m-pse84epc2</uri>
+    <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.300 release</num>
+        <commit>release-v2.1.300</commit>
+        <desc>2.1.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
+    <name>ifx-tf-m-pse84epc4</name>
+    <id>ifx-tf-m-pse84epc4</id>
+    <uri>https://github.com/Infineon/ifx-tf-m-pse84epc4</uri>
+    <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.300 release</num>
+        <commit>release-v2.1.300</commit>
+        <desc>2.1.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>ifx-tf-m-ns</name>
+    <id>ifx-tf-m-ns</id>
+    <uri>https://github.com/Infineon/ifx-tf-m-ns</uri>
+    <desc>Trusted Firmware-M (TF-M) Non-secure Client Extension (NSCE) library.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.300 release</num>
+        <commit>release-v2.1.300</commit>
+        <desc>2.1.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>staged-voice-control</name>
+    <id>staged-voice-control</id>
+    <uri>https://github.com/Infineon/staged-voice-control</uri>
+    <desc><![CDATA[
+    Staged voice control middleware has in-built support for the wake word models (Ok Infineon, Hey Google, Alexa). User can choose one of the wake word model.Staged voice control middleware provides configuration to enable components in the audio pipeline based on the use case (e.g., it allows to enable SOD, LPWWD, HPWWD, ASR component in the system).
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>speech-onset-detection</name>
+    <id>speech-onset-detection</id>
+    <uri>https://github.com/Infineon/speech-onset-detection</uri>
+    <desc><![CDATA[
+    The purpose of a speech onset detector (SOD) is to detect the beginning of a spoken word or utterance. For the target application, the SOD is the first stage of a low power multi-stage wake-up phrase solution. The device is placed in a very low power stand-by mode, but may be woken by the utterance of wake-up phrase.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-front-end</name>
+    <id>audio-front-end</id>
+    <uri>https://github.com/Infineon/audio-front-end</uri>
+    <desc><![CDATA[
+    AFE is an agnostic audio processing technology that allows a more accurate recognition of voice commands (far-field or close field) by removing the inference sound captured from the microphone. It extracts user's voice and cancels out an unintended sound to provide the clear speech recognition and better wake word detection.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-voice-core</name>
+    <id>audio-voice-core</id>
+    <uri>https://github.com/Infineon/audio-voice-core</uri>
+    <desc><![CDATA[
+    Audio voice core middleware consist of core audio algorithm implementation. It contains core algorithm implementation for speech-onset-detection, low-power wake word detection, and audio front-end.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>buffer-pool-manager</name>
+    <id>buffer-pool-manager</id>
+    <uri>https://github.com/Infineon/buffer-pool-manager</uri>
+    <desc><![CDATA[
+    Buffer pool manager middleware library provides APIs to create pool of fixed size buffers, receive the available buffer and free it back to the pool after the use.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>touch-ctp-ft6146-m00</name>
+    <id>touch-ctp-ft6146-m00</id>
+    <uri>https://github.com/Infineon/touch-ctp-ft6146-m00</uri>
+    <desc><![CDATA[
+        This is the driver library for FT6146-M00 touch controller enabling capacitive touch functionality for the Dastek 1.43-inch 466x466 MIPI DSI circular AMOLED display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>touch-ctp-ft3268</name>
+    <id>touch-ctp-ft3268</id>
+    <uri>https://github.com/Infineon/touch-ctp-ft3268</uri>
+    <desc><![CDATA[
+        This is the driver library for FT3268 touch controller enabling capacitive touch functionality for the Microtech 1.43-inch 466x466 MIPI DSI circular AMOLED display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>display-amoled-co5300</name>
+    <id>display-amoled-co5300</id>
+    <uri>https://github.com/Infineon/display-amoled-co5300</uri>
+    <desc><![CDATA[
+        This is the driver library for CO5300 display controller driving 1.43-inch 466x466 MIPI DSI AMOLED display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://admin.osptek.com/uploads/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf">CO5300 display controller</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>touch-ctp-gt911</name>
+    <id>touch-ctp-gt911</id>
+    <uri>https://github.com/Infineon/touch-ctp-gt911</uri>
+    <desc><![CDATA[
+        This is the driver library for GT911 touch controller enabling capacitive touch functionality for the Waveshare 7-inch 1024x600 Raspberry Pi DSI LCD (C) display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.crystalfontz.com/controllers/datasheet-viewer.php?id=464">GT911 5-Point Capacitive Touch Controller</a></li>
+          <li><a href="https://www.waveshare.com/7inch-dsi-lcd-c.htm">Waveshare 7-inch Raspberry Pi DSI LCD (C) 1024x600 Display</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>display-dsi-waveshare-7-0-lcd-c</name>
+    <id>display-dsi-waveshare-7-0-lcd-c</id>
+    <uri>https://github.com/Infineon/display-dsi-waveshare-7-0-lcd-c</uri>
+    <desc><![CDATA[
+        This is the display driver library for Waveshare 7-inch 1024x600 Raspberry Pi DSI LCD (C) display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.waveshare.com/7inch-dsi-lcd-c.htm">Waveshare 7-inch Raspberry Pi DSI LCD (C) 1024x600 Display</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>touch-ctp-ili2511</name>
+    <id>touch-ctp-ili2511</id>
+    <uri>https://github.com/Infineon/touch-ctp-ili2511</uri>
+    <desc><![CDATA[
+        This is the driver library for ILI2511 touch controller enabling capacitive touch functionality for the Winstar 10.1-inch 1024x600 DSI LCD (WF101JTYAHMNB0) display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.crystalfontz.com/controllers/datasheet-viewer.php?id=487">ILI2511 Single Chip Capacitive Touch Sensor Controller</a></li>
+          <li><a href="https://www.winstar.com.tw/products/tft-lcd/ips-tft/ips-touch.html">Winstar 10.1-inch 1024x600 TFT LCD</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>display-tft-ek79007ad3</name>
+    <id>display-tft-ek79007ad3</id>
+    <uri>https://github.com/Infineon/display-tft-ek79007ad3</uri>
+    <desc><![CDATA[
+        This is the driver library for EK79007AD3 display controller driving Winstar 10.1-inch 1024x600 DSI LCD (WF101JTYAHMNB0) display connected to the PSOC&#8482; Edge E84 Evaluation Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.winstar.com.tw/products/tft-lcd/ips-tft/ips-touch.html">Winstar 10.1-inch 1024x600 TFT LCD</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>touch-ctp-ft5406</name>
+    <id>touch-ctp-ft5406</id>
+    <uri>https://github.com/Infineon/touch-ctp-ft5406</uri>
+    <desc><![CDATA[
+        This is the driver library for FT5406 touch controller, designed to support the capacitive touch panel of Waveshare Raspberry Pi displays connected to the PSOC&#8482; Edge E8 MCU Kits.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.displayfuture.com/Display/datasheet/controller/FT5x06.pdf">FT5x06 True Multi-Touch Capacitive Touch Panel Controller</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>display-dsi-waveshare-4-3-lcd</name>
+    <id>display-dsi-waveshare-4-3-lcd</id>
+    <uri>https://github.com/Infineon/display-dsi-waveshare-4-3-lcd</uri>
+    <desc><![CDATA[
+        This is the display driver library for Waveshare 4.3-inch 800x480 Raspberry Pi DSI LCD display connected to the PSOC&#8482; Edge E8 MCU Kits.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.waveshare.com/4.3inch-dsi-lcd.htm">Waveshare 4.3-inch DSI Capacitive Touch Display</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>voice-assistant</name>
+    <id>voice-assistant</id>
+    <uri>https://github.com/Infineon/voice-assistant</uri>
+    <desc><![CDATA[
+    The DEEPCRAFT&#8482; voice assistant is a Edge AI software product used to create and deploy voice assistants (Wake Word Detection + Natural Language Understanding) into an embedded environment. it works in combination with the DEEPCRAFT&#8482; Voice Assistant cloud tool, which is used to define the wake word and commands to be detected.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
+    <name>ifx-mcuboot-pse84</name>
+    <id>ifx-mcuboot-pse84</id>
+    <uri>https://github.com/Infineon/ifx-mcuboot-pse84</uri>
+    <desc><![CDATA[
+        ifx-mcuboot-pse84 is a port of MCUboot library for PSE84 Infineon devices.
+        MCUBoot is an open-source, secure bootloader for 32-bit microcontrollers. It is designed to provide a flexible and reliable mechanism for securely updating firmware images on embedded devices. MCUBoot supports features such as image authentication (using cryptographic signatures), rollback protection, and multiple image slots for safe firmware upgrades. It is widely used in IoT and embedded systems to ensure that only trusted firmware is executed on the device.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-sw-codecs</name>
+    <id>audio-sw-codecs</id>
+    <uri>https://github.com/Infineon/audio-sw-codecs</uri>
+    <desc><![CDATA[
+    Audio software codec middleware implements an abstraction layer to a audio software codec. This middleware abstracts multiple audio codec that helps applications to have an unified interface across the various software codec.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-codec-tlv320dac3100</name>
+    <id>audio-codec-tlv320dac3100</id>
+    <uri>https://github.com/Infineon/audio-codec-tlv320dac3100</uri>
+    <desc><![CDATA[This library provides functions to support use of the TLV320DAC3100 audio codec.
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>audio</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sensor-xensiv-dps3xx</name>
+    <id>sensor-xensiv-dps3xx</id>
+    <uri>https://github.com/Infineon/sensor-xensiv-dps3xx</uri>
+    <desc>This library provides functions for interfacing with the XENSIV DPS-310/368 Barometric Pressure Sensors. These are miniaturized digital barometric air pressure sensors with ultra-high precision (&#177;2 cm) and a low current consumption, capable of measuring both pressure and temperature. The pressure sensor element is based on a capacitive sensing principle which guarantees high precision during temperature changes. This library can be setup to use the ModusToolbox&#8482; HAL interface, or using user provided communication functions.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>sht4x</name>
+    <id>sht4x</id>
+    <uri>https://github.com/Sensirion/embedded-i2c-sht4x</uri>
+    <desc>Sensirion SHT4X Library</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.1.0 release</num>
+        <commit>1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="mcu_gp i2c">
+    <name>sensor-humidity-sht4x</name>
+    <id>sensor-humidity-sht4x</id>
+    <uri>https://github.com/Infineon/sensor-humidity-sht4x</uri>
+    <desc><![CDATA[
+    This library provides functions for interfacing with the I2C-based SHT40 Humidity and Temperature sensor from Sensirion on PSOC&trade; Edge device.
+    ]]></desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>

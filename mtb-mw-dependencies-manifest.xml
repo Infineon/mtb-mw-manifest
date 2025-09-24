@@ -277,7 +277,116 @@
       </version>
     </versions>
   </depender>
-
+  <depender>
+    <id>mtb-dsl-pse8xxgp</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v6.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.29.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v6.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.29.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>mtb-dsl-pse8xxgo</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v6.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.29.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v6.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.29.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
   <depender>
     <id>mtb-pdl-cat1</id>
     <versions>
@@ -1329,7 +1438,25 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d6m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d6m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
             <id>syspm-callbacks-t2gc2d6m</id>
@@ -1344,6 +1471,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-xmc72</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
         <dependees>
           <dependee>
             <id>syspm-callbacks-xmc72</id>
@@ -1426,6 +1562,19 @@
     <versions>
       <version>
         <commit>latest-v10.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v10.6.2</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -1621,6 +1770,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.0</commit>
         <dependees>
           <dependee>
@@ -1751,6 +1909,24 @@
     <id>sensor-motion-bmi270</id>
     <versions>
       <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmi270</id>
+            <commit>v2.86.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmi270</id>
+            <commit>v2.86.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>latest-v0.X</commit>
         <dependees>
           <dependee>
@@ -1782,6 +1958,24 @@
   <depender>
     <id>sensor-orientation-bmm350</id>
     <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>bmm350</id>
+            <commit>v1.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>bmm350</id>
+            <commit>v1.4.0</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v0.X</commit>
         <dependees>
@@ -2256,6 +2450,32 @@
   <depender>
     <id>mtb-littlefs</id>
     <versions>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>littlefs</id>
+            <commit>v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>serial-memory</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>littlefs</id>
+            <commit>v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>serial-memory</id>
+            <commit>latest-v3.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v2.X</commit>
         <dependees>
@@ -3095,6 +3315,15 @@
     <id>ml-middleware</id>
     <versions>
       <version>
+        <commit>release-v3.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.0.1</commit>
         <dependees>
           <dependee>
@@ -3108,7 +3337,7 @@
         <dependees>
           <dependee>
             <id>ml-tflite-micro</id>
-            <commit>release-v3.0.1</commit>
+            <commit>release-v3.1.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3934,6 +4163,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.0.0</commit>
         <dependees>
           <dependee>
@@ -4001,23 +4239,109 @@
     </versions>
   </depender>
   <depender>
-    <id>ifx-trusted-firmware-m</id>
+    <id>ifx-tf-m-ns</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.300</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>ifx-tf-m-pse84epc2</id>
     <versions>
       <version>
         <commit>latest-v2.X</commit>
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
-            <commit>release-v3.6.100</commit>
+            <commit>release-v3.6.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
           </dependee>
         </dependees>
       </version>
       <version>
-        <commit>release-v2.1.100</commit>
+        <commit>release-v2.1.300</commit>
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
-            <commit>release-v3.6.100</commit>
+            <commit>release-v3.6.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>ifx-tf-m-pse84epc4</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.300</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.0.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>release-v1.0.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -4031,7 +4355,16 @@
         <dependees>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>release-v2.7.0</commit>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.6.300</commit>
+        <dependees>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>release-v3.0.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -4041,6 +4374,215 @@
           <dependee>
             <id>cy-mbedtls-acceleration</id>
             <commit>release-v2.7.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>staged-voice-control</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>speech-onset-detection</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>audio-front-end</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>buffer-pool-manager</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>voice-assistant</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>speech-onset-detection</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>speech-onset-detection</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>audio-sw-codecs</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.1</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>sensor-humidity-sht4x</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>sht4x</id>
+            <commit>1.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>sht4x</id>
+            <commit>1.1.0</commit>
           </dependee>
         </dependees>
       </version>

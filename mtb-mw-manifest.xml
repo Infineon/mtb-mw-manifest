@@ -293,6 +293,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.4.4 release</num>
         <commit>release-v1.4.4</commit>
         <desc>1.4.4 release</desc>
@@ -390,6 +395,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.11.0 release</num>
+        <commit>release-v1.11.0</commit>
+        <desc>1.11.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.10.0 release</num>
@@ -782,6 +792,16 @@
     <req_capabilities>mcu_gp hal qspi</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>latest-v3.X</num>
+        <commit>latest-v3.X</commit>
+        <desc>latest-v3.X</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
@@ -1039,7 +1059,7 @@
     <uri>https://github.com/Infineon/sensor-xensiv-dps3xx</uri>
     <desc>This library provides functions for interfacing with the XENSIV DPS-310/368 Barometric Pressure Sensors. These are miniaturized digital barometric air pressure sensors with ultra-high precision (&#177;2 cm) and a low current consumption, capable of measuring both pressure and temperature. The pressure sensor element is based on a capacitive sensing principle which guarantees high precision during temperature changes. This library can be setup to use the ModusToolbox&#8482; HAL interface, or using user provided communication functions.</desc>
     <category>Peripheral</category>
-    <req_capabilities>mcu_gp</req_capabilities>
+    <req_capabilities>mcu_gp hal</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 1.X release</num>
@@ -1150,6 +1170,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.4.0 release</num>
+        <commit>release-v2.4.0</commit>
+        <desc>2.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.3.1 release</num>
@@ -1320,6 +1345,11 @@
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
         <desc>Latest 6.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>6.1.0 release</num>
+        <commit>release-v6.1.0</commit>
+        <desc>6.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>6.0.0 release</num>
@@ -1522,6 +1552,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.6.2 release</num>
+        <commit>release-v10.6.2</commit>
+        <desc>10.6.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.5.004 release</num>
         <commit>release-v10.5.004</commit>
         <desc>10.5.004 release</desc>
@@ -1607,6 +1642,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -1629,6 +1669,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.6.0 release</num>
@@ -1691,6 +1736,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
         <desc>2.0.0 release</desc>
@@ -1716,6 +1766,53 @@
         <desc>1.0.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[cat1, pse8xxgp] [hal]">
+    <name>async-transfer</name>
+    <id>async-transfer</id>
+    <uri>https://github.com/Infineon/async-transfer</uri>
+    <desc><![CDATA[
+    Async Transfer Utility Library provides an implementation of data transfer functions in which the user
+    initiates the data transfer on the desired communication peripheral and then the data transfer happens in the
+    background without the user involvement
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>cat1 hal</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-ipc</name>
+    <id>mtb-ipc</id>
+    <uri>https://github.com/Infineon/mtb-ipc</uri>
+    <desc><![CDATA[
+    The IPC driver allows communication between multiple CPUs or between multiple tasks
+    operating in different domains within a single CPU. It supports binary semaphores
+    and message queues, similar to how they are used for task interactions in an RTOS envrionment.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -2089,39 +2186,12 @@
     </versions>
   </middleware>
   <middleware>
-    <name>ifx-mbedtls</name>
-    <id>ifx-mbedtls</id>
-    <uri>https://github.com/Infineon/ifx-mbedtls</uri>
-    <desc><![CDATA[
-        ifx-mbedtls is a port of Arm&#174; mbedTLS library for Infineon devices.
-        mbedTLS is an open-source cryptographic library designed for embedded systems and IoT devices. It provides secure communication protocols, encryption algorithms, and certificate management, offering lightweight and efficient solutions for implementing secure communication and data protection in constrained environments.
-        This Infineon port contains support of crypto accelerations provided by Infineon hardware blocks
-    ]]></desc>
-    <category>Middleware</category>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>Latest 3.X release</num>
-        <commit>latest-v3.X</commit>
-        <desc>Latest 3.X release</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>3.6.100 release</num>
-        <commit>release-v3.6.100</commit>
-        <desc>3.6.100 release</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>3.5.102 release</num>
-        <commit>release-v3.5.102</commit>
-        <desc>3.5.102 release</desc>
-      </version>
-    </versions>
-  </middleware>
-  <middleware>
     <name>ifx-trusted-firmware-m</name>
     <id>ifx-trusted-firmware-m</id>
     <uri>https://github.com/Infineon/ifx-trusted-firmware-m</uri>
     <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
     <category>Middleware</category>
+    <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 2.X release</num>
@@ -2140,6 +2210,7 @@
     <id>ifx-trusted-firmware-m-ns</id>
     <uri>https://github.com/Infineon/ifx-trusted-firmware-m-ns</uri>
     <desc>Trusted Firmware-M (TF-M) Non-secure Client Extension (NSCE) library.</desc>
+    <req_capabilities>cat1</req_capabilities>
     <category>Middleware</category>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
