@@ -285,11 +285,11 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>latest-v6.X</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
-            <commit>release-v4.29.0</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>core-make</id>
@@ -297,11 +297,36 @@
           </dependee>
           <dependee>
             <id>async-transfer</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -310,11 +335,11 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>latest-v6.X</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
-            <commit>release-v4.29.0</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>core-make</id>
@@ -322,11 +347,11 @@
           </dependee>
           <dependee>
             <id>async-transfer</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -340,11 +365,11 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>latest-v6.X</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
-            <commit>release-v4.29.0</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>core-make</id>
@@ -352,11 +377,36 @@
           </dependee>
           <dependee>
             <id>async-transfer</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -365,11 +415,11 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>latest-v6.X</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
-            <commit>release-v4.29.0</commit>
+            <commit>latest-v4.X</commit>
           </dependee>
           <dependee>
             <id>core-make</id>
@@ -377,11 +427,11 @@
           </dependee>
           <dependee>
             <id>async-transfer</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -1588,6 +1638,19 @@
     <versions>
       <version>
         <commit>latest-v10.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v10.6.201</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -4139,6 +4202,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.70.0</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.60.0</commit>
         <dependees>
           <dependee>
@@ -4152,7 +4224,7 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
-            <commit>release-v1.2.1</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4161,7 +4233,7 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
-            <commit>release-v1.2.1</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4170,7 +4242,7 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
-            <commit>release-v1.2.1</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4181,6 +4253,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.0</commit>
         <dependees>
           <dependee>
             <id>block-storage</id>
@@ -4202,7 +4283,7 @@
         <dependees>
           <dependee>
             <id>block-storage</id>
-            <commit>release-v1.3.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4272,11 +4353,24 @@
         <dependees>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.400</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4285,11 +4379,11 @@
         <dependees>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4303,15 +4397,32 @@
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
-            <commit>release-v3.6.300</commit>
+            <commit>release-v3.6.400</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.400</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.400</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4324,11 +4435,11 @@
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4342,15 +4453,32 @@
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
-            <commit>release-v3.6.300</commit>
+            <commit>release-v3.6.400</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.400</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.400</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4363,11 +4491,11 @@
           </dependee>
           <dependee>
             <id>mtb-srf</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
             <id>mtb-ipc</id>
-            <commit>release-v1.0.0</commit>
+            <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4378,6 +4506,15 @@
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>release-v3.0.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.6.400</commit>
         <dependees>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
@@ -4419,10 +4556,6 @@
             <id>freertos</id>
             <commit>latest-v10.X</commit>
           </dependee>
-          <dependee>
-            <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
         </dependees>
       </version>
       <version>
@@ -4436,10 +4569,6 @@
             <id>freertos</id>
             <commit>latest-v10.X</commit>
           </dependee>
-          <dependee>
-            <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
         </dependees>
       </version>
     </versions>
@@ -4451,10 +4580,6 @@
         <commit>latest-v1.X</commit>
         <dependees>
           <dependee>
-            <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
             <id>connectivity-utilities</id>
             <commit>latest-v4.X</commit>
           </dependee>
@@ -4463,10 +4588,6 @@
       <version>
         <commit>release-v1.0.1</commit>
         <dependees>
-          <dependee>
-            <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
           <dependee>
             <id>connectivity-utilities</id>
             <commit>latest-v4.X</commit>
@@ -4480,6 +4601,23 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.2</commit>
         <dependees>
           <dependee>
             <id>audio-voice-core</id>
@@ -4581,6 +4719,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.2</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.1</commit>
         <dependees>
           <dependee>
@@ -4596,6 +4743,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>sht4x</id>
+            <commit>1.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
             <id>sht4x</id>
