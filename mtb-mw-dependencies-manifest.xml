@@ -454,6 +454,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.18.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v5.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.17.0</commit>
         <dependees>
           <dependee>
@@ -1491,6 +1504,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.1.1</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-psc3</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.0</commit>
         <dependees>
           <dependee>
@@ -1506,6 +1528,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d6m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.2</commit>
         <dependees>
           <dependee>
             <id>syspm-callbacks-t2gc2d6m</id>
@@ -1547,6 +1578,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-xmc72</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.2</commit>
         <dependees>
           <dependee>
             <id>syspm-callbacks-xmc72</id>
