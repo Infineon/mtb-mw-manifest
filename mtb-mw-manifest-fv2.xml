@@ -3215,6 +3215,11 @@
         <desc>Latest 8.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>8.10.0 release</num>
+        <commit>release-v8.10.0</commit>
+        <desc>8.10.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
         <num>8.0.0 release</num>
         <commit>release-v8.0.0</commit>
         <desc>8.0.0 release</desc>
