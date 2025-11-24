@@ -5067,6 +5067,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -6378,6 +6383,11 @@
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>0.5.1 release</num>
+        <commit>release-v0.5.1</commit>
+        <desc>0.5.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>0.5.0 release</num>
