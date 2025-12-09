@@ -4596,6 +4596,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -4628,6 +4633,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -4636,6 +4646,33 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>matter-mbedtls</name>
+    <id>matter-mbedtls</id>
+    <uri>https://github.com/Infineon/matter-mbedtls</uri>
+    <desc><![CDATA[
+        This library contains the essential files needed by Matter extracted from the mbedtls repository - https://github.com/Infineon/ifx-mbedtls.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/matter-mbedtls/blob/master/README.md">MTB Matter Library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
       </version>
     </versions>
   </middleware>
@@ -4668,6 +4705,33 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware default_location="local">
+    <name>matter-wifi-cat5</name>
+    <id>matter-wifi-cat5</id>
+    <uri>https://github.com/Infineon/matter-wifi-cat5</uri>
+    <desc><![CDATA[
+        This is an empty library that just serves to allow the appropriate connectivity dependencies (wifi, thread, etc) to be pulled in with the matter and mtb-matter libraries.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/matter-wifi/blob/master/README.md">MTB Matter Library README.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>wifi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
       </version>
     </versions>
   </middleware>

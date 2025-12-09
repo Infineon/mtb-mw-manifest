@@ -4067,7 +4067,7 @@
           </dependee>
           <dependee>
             <id>btstack-integration</id>
-            <commit>latest-v4.X</commit>
+            <commit>latest-v5.X</commit>
           </dependee>
           <dependee>
             <id>wifi-core-freertos-lwip-mbedtls</id>
@@ -4084,6 +4084,14 @@
           <dependee>
             <id>serial-flash</id>
             <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-bootloader-abstraction</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-update</id>
+            <commit>latest-v4.X</commit>
           </dependee>
         </dependees>
       </version>
@@ -4108,10 +4116,6 @@
           </dependee>
           <dependee>
             <id>kv-store</id>
-            <commit>latest-v1.X</commit>
-          </dependee>
-          <dependee>
-            <id>retarget-io</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
@@ -4144,11 +4148,78 @@
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>retarget-io</id>
+            <id>serial-flash</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>matter-wifi-cat5</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-matter</id>
             <commit>latest-v1.X</commit>
           </dependee>
           <dependee>
-            <id>serial-flash</id>
+            <id>matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>matter-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>kv-store-cat5</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-bootloader-abstraction</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-update</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-threadx-cat5</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.4.2</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>matter</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>matter-mbedtls</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>kv-store-cat5</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-bootloader-abstraction</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>ota-update</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>wifi-core-threadx-cat5</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
