@@ -3512,6 +3512,16 @@
     <req_capabilities>bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 7.X release</num>
+        <commit>latest-v7.X</commit>
+        <desc>Latest 7.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>7.0.0 release</num>
+        <commit>release-v7.0.0</commit>
+        <desc>7.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
         <desc>Latest 6.X release</desc>
@@ -3662,6 +3672,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.2.1 release</num>
