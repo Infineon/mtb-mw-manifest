@@ -1753,6 +1753,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v10.6.202</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v10.6.201</commit>
         <dependees>
           <dependee>

@@ -1565,7 +1565,8 @@
     A FreeRTOS is a small operating system for microcontrollers. A FreeRTOS kernel is distributed as standard C source files
      with configuration header file.<br>
     <br><b>License Disclaimer:</b><br>
-    Adding this library will download and add FreeRTOS to your project. It is your responsibility to understand and accept the FreeRTOS license.<br>
+    Adding this library will download and add FreeRTOS to your project. It is your responsibility to understand and accept the FreeRTOS license.
+    Due to CVE-2024-28115 vulnerability in older versions, please use FreeRTOS v10.6.202 release or later.<br>
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/freertos/blob/master/README.md">FreeRTOS kernel README.md</a></li>
@@ -1582,6 +1583,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.6.202 release</num>
+        <commit>release-v10.6.202</commit>
+        <desc>10.6.202 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.6.201 release</num>
         <commit>release-v10.6.201</commit>
         <desc>10.6.201 release</desc>
@@ -1592,54 +1598,54 @@
         <desc>10.6.2 release</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.004 release</num>
+        <num>[CVE-2024-28815] 10.5.004 release</num>
         <commit>release-v10.5.004</commit>
-        <desc>10.5.004 release</desc>
+        <desc>10.5.004 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.003 release</num>
+        <num>[CVE-2024-28815] 10.5.003 release</num>
         <commit>release-v10.5.003</commit>
-        <desc>10.5.003 release</desc>
+        <desc>10.5.003 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.002 release</num>
+        <num>[CVE-2024-28815] 10.5.002 release</num>
         <commit>release-v10.5.002</commit>
-        <desc>10.5.002 release</desc>
+        <desc>10.5.002 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.001 release</num>
+        <num>[CVE-2024-28815] 10.5.001 release</num>
         <commit>release-v10.5.001</commit>
-        <desc>10.5.001 release</desc>
+        <desc>10.5.001 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.5.0 release</num>
+        <num>[CVE-2024-28815] 10.5.0 release</num>
         <commit>release-v10.5.0</commit>
-        <desc>10.5.0 release</desc>
+        <desc>10.5.0 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.306 release</num>
+        <num>[CVE-2024-28815] 10.4.306 release</num>
         <commit>release-v10.4.306</commit>
-        <desc>10.4.306 release</desc>
+        <desc>10.4.306 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.305 release</num>
+        <num>[CVE-2024-28815] 10.4.305 release</num>
         <commit>release-v10.4.305</commit>
-        <desc>10.4.305 release</desc>
+        <desc>10.4.305 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.304 release</num>
+        <num>[CVE-2024-28815] 10.4.304 release</num>
         <commit>release-v10.4.304</commit>
-        <desc>10.4.304 release</desc>
+        <desc>10.4.304 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.303 release</num>
+        <num>[CVE-2024-28815] 10.4.303 release</num>
         <commit>release-v10.4.303</commit>
-        <desc>10.4.303 release</desc>
+        <desc>10.4.303 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>10.4.302 release</num>
+        <num>[CVE-2024-28815] 10.4.302 release</num>
         <commit>release-v10.4.302</commit>
-        <desc>10.4.302 release</desc>
+        <desc>10.4.302 release. Not recommended use of version earlier than 10.6.2, due to CVE-2024-28115 vulnerability.</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>10.4.4 release (Obsolete)</num>
