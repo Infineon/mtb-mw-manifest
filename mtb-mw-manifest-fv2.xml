@@ -3964,6 +3964,34 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.34.0 release</num>
+        <commit>release-v4.34.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add PSOC&#8482; 4 HV PA PPM device support.</li>
+              <li>Add CYT3DL device support.</li>
+              <li>Add new PSOC&#8482; 4000T part numbers: CY8C4046ZZQ-T451, CY8C4046ZZQ-T411, CY8C4046ZZI-T411 and CY8C4046FNI-T412B.</li>
+              <li>Add new PSOC&#8482; 4100T Plus part number: CY8C4147AZQ-T413.</li>
+              <li>Add new PSOC&#8482; 4100S Plus part numbers: CY8C4147AZQ-S445I and CY8C4147AZQ-S455I.</li>
+              <li>General bug fixes and improvements.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.18.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.19.1</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.6.0</li>
+              <li>mtb-pdl-cat5 &gt;= 4.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.1.1</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.1.1</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.34.0">device-db 4.34.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.34.0/DEVICES.md">device-db 4.34.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.33.0 release</num>
         <commit>release-v4.33.0</commit>
         <desc><![CDATA[
