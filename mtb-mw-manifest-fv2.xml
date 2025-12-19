@@ -1018,6 +1018,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>syspm-callbacks-t2gbh8m</name>
+    <id>syspm-callbacks-t2gbh8m</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-t2gbh8m</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-psc3</name>
     <id>mtb-hal-psc3</id>
     <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
@@ -1048,10 +1070,36 @@
     </versions>
   </middleware>
   <middleware>
+    <name>mtb-hal-t2gbh8m</name>
+    <id>mtb-hal-t2gbh8m</id>
+    <uri>https://github.com/Infineon/mtb-hal-t2gbh8m</uri>
+    <desc><![CDATA[
+    TRAVEO&trade; Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use
+    the TRAVEO&trade; T2G Body High MCU resources using the ModusToolbox&trade; Hardware Abstraction Layer.
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>cat1c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-t2gc2d6m</name>
     <id>mtb-hal-t2gc2d6m</id>
     <uri>https://github.com/Infineon/mtb-hal-t2gc2d6m</uri>
-    <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc><![CDATA[
+    TRAVEO&trade; Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use
+    the TRAVEO&trade; T2G Cluster 6M MCU resources using the ModusToolbox&trade; Hardware Abstraction Layer.
+    ]]></desc>
     <category>Core</category>
     <req_capabilities>cat1c</req_capabilities>
     <versions>
