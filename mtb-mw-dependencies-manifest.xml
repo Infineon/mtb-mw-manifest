@@ -306,6 +306,31 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.1.1</commit>
         <dependees>
           <dependee>
@@ -387,6 +412,31 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.0</commit>
         <dependees>
           <dependee>
             <id>cmsis</id>
@@ -4832,6 +4882,19 @@
           </dependee>
         </dependees>
       </version>
+      <version>
+        <commit>release-v1.1.0</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
     </versions>
   </depender>
   <depender>
@@ -4865,7 +4928,7 @@
         <dependees>
           <dependee>
             <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
+            <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
             <id>connectivity-utilities</id>
@@ -4882,7 +4945,7 @@
         <dependees>
           <dependee>
             <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
+            <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
             <id>connectivity-utilities</id>
@@ -4899,7 +4962,7 @@
         <dependees>
           <dependee>
             <id>audio-voice-core</id>
-            <commit>latest-v1.X</commit>
+            <commit>latest-v2.X</commit>
           </dependee>
           <dependee>
             <id>connectivity-utilities</id>
@@ -4939,6 +5002,32 @@
   <depender>
     <id>voice-assistant</id>
     <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>speech-onset-detection</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>audio-voice-core</id>
+            <commit>latest-v2.X</commit>
+          </dependee>
+          <dependee>
+            <id>speech-onset-detection</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
       <version>
         <commit>latest-v1.X</commit>
         <dependees>
