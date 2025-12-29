@@ -554,6 +554,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v3.19.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v5.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.18.0</commit>
         <dependees>
           <dependee>
@@ -1009,6 +1022,19 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.2</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.19.1</commit>
         <dependees>
           <dependee>
             <id>cmsis</id>
@@ -1512,6 +1538,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v4.7.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>release-v5.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.6.0</commit>
         <dependees>
           <dependee>
@@ -1609,6 +1648,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-psc3</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.1.2</commit>
         <dependees>
           <dependee>
             <id>syspm-callbacks-psc3</id>
