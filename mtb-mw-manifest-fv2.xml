@@ -1955,7 +1955,7 @@
     <id>recipe-make-cat1b</id>
     <uri>https://github.com/Infineon/recipe-make-cat1b</uri>
     <desc><![CDATA[
-    AIROC&#8482; CYW20829 Make build recipe provides the make files and scripts for building and programming AIROC&#8482; CYW20829 applications.<br>
+    AIROC&#8482; CYW20829 and PSOC&#8482; Control C3 Make build recipe provides the make files and scripts for building and programming AIROC&#8482; CYW20829 and PSOC&#8482; Control C3 applications.<br>
     <div class="category">Additional Information:</div>
         <ul>
           <li><a href="https://github.com/Infineon/recipe-make-cat1b/blob/master/README.md">CAT1B Make build recipe README.md</a></li>
@@ -1969,6 +1969,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>2.8.2 release</num>
+        <commit>release-v2.8.2</commit>
+        <desc>2.8.2 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>2.8.1 release</num>
