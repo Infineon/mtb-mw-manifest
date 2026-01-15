@@ -293,7 +293,7 @@
           </dependee>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
           <dependee>
             <id>async-transfer</id>
@@ -318,7 +318,7 @@
           </dependee>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
           <dependee>
             <id>async-transfer</id>
@@ -423,7 +423,7 @@
           </dependee>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
           <dependee>
             <id>async-transfer</id>
@@ -448,7 +448,7 @@
           </dependee>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
           <dependee>
             <id>async-transfer</id>
@@ -2899,7 +2899,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -2908,7 +2908,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3030,7 +3030,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3039,7 +3039,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3170,7 +3170,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3179,7 +3179,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3265,7 +3265,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3274,7 +3274,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3396,7 +3396,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3405,7 +3405,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3509,7 +3509,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3518,7 +3518,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3595,7 +3595,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -3604,7 +3604,7 @@
         <dependees>
           <dependee>
             <id>core-make</id>
-            <commit>release-v3.7.0</commit>
+            <commit>release-v3.8.0</commit>
           </dependee>
         </dependees>
       </version>
