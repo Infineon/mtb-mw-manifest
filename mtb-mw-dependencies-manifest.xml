@@ -306,6 +306,31 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.3.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.7.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.2.0</commit>
         <dependees>
           <dependee>
@@ -4739,6 +4764,19 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.1.500</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.1.400</commit>
         <dependees>
           <dependee>
@@ -4771,6 +4809,23 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.400</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.500</commit>
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
@@ -4827,6 +4882,23 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-mbedtls</id>
+            <commit>release-v3.6.400</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-ipc</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.1.500</commit>
         <dependees>
           <dependee>
             <id>ifx-mbedtls</id>
