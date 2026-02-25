@@ -3195,6 +3195,46 @@
     </versions>
   </middleware>
   <middleware>
+    <name>sensor-xensiv-bgt60cutrxx</name>
+    <id>sensor-xensiv-bgt60cutrxx</id>
+    <uri>https://github.com/Infineon/sensor-xensiv-bgt60cutrxx</uri>
+    <desc>This library provides functions for interfacing with the XENSIV&#8482; BGT60CUTRxx 60GHz CMOS radar sensors.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>xensiv-cmos-radar-sensing</name>
+    <id>xensiv-cmos-radar-sensing</id>
+    <uri>https://github.com/Infineon/xensiv-cmos-radar-sensing</uri>
+    <desc>This library provides APIs to interface with the CmosRadarSensing library that allows to build up people tracking applications.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>spi</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>sensor-xensiv-bgt60trxx</name>
     <id>sensor-xensiv-bgt60trxx</id>
     <uri>https://github.com/Infineon/sensor-xensiv-bgt60trxx</uri>
