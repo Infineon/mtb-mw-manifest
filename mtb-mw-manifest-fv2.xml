@@ -176,6 +176,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.10.0 release</num>
+        <commit>release-v1.10.0</commit>
+        <desc>1.10.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.9.0 release</num>
         <commit>release-v1.9.0</commit>
         <desc>1.9.0 release</desc>
@@ -364,6 +369,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.20.0 release</num>
+        <commit>release-v3.20.0</commit>
+        <desc>3.20.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.19.0 release</num>
@@ -1019,6 +1029,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>syspm-callbacks-t2gc2d4m</name>
+    <id>syspm-callbacks-t2gc2d4m</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-t2gc2d4m</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>syspm-callbacks-t2gc2d6m</name>
     <id>syspm-callbacks-t2gc2d6m</id>
     <uri>https://github.com/Infineon/syspm-callbacks-t2gc2d6m</uri>
@@ -1143,6 +1175,29 @@
     </versions>
   </middleware>
   <middleware>
+    <name>mtb-hal-t2gc2d4m</name>
+    <id>mtb-hal-t2gc2d4m</id>
+    <uri>https://github.com/Infineon/mtb-hal-t2gc2d4m</uri>
+    <desc><![CDATA[
+    TRAVEO&trade; Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use
+    the TRAVEO&trade; T2G Cluster 6M MCU resources using the ModusToolbox&trade; Hardware Abstraction Layer.
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>cat1c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-t2gc2d6m</name>
     <id>mtb-hal-t2gc2d6m</id>
     <uri>https://github.com/Infineon/mtb-hal-t2gc2d6m</uri>
@@ -1184,7 +1239,7 @@
     <name>mtb-hal-xmc72</name>
     <id>mtb-hal-xmc72</id>
     <uri>https://github.com/Infineon/mtb-hal-xmc72</uri>
-    <desc>PSOC&#8482; Control Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <desc><![CDATA[XMC&trade; Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the XMC&trade; MCU resources using the ModusToolbox&trade; Hardware Abstraction Layer.]]></desc>
     <category>Core</category>
     <req_capabilities>cat1c</req_capabilities>
     <versions>
@@ -1492,6 +1547,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.7.6 release</num>
@@ -6000,12 +6060,12 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -6028,14 +6088,14 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+        <desc>1.0.2 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.3.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

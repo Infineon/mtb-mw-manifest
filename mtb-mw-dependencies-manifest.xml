@@ -570,7 +570,20 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>latest-v5.X</commit>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.20.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
@@ -1776,6 +1789,29 @@
         <dependees>
           <dependee>
             <id>syspm-callbacks-t2gbh8m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>mtb-hal-t2gc2d4m</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d4m</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>syspm-callbacks-t2gc2d4m</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>
