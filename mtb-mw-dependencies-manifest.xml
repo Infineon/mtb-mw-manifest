@@ -3780,6 +3780,15 @@
     <id>ml-middleware</id>
     <versions>
       <version>
+        <commit>release-v3.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.2.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.1.0</commit>
         <dependees>
           <dependee>
@@ -3802,7 +3811,7 @@
         <dependees>
           <dependee>
             <id>ml-tflite-micro</id>
-            <commit>release-v3.1.0</commit>
+            <commit>release-v3.2.0</commit>
           </dependee>
         </dependees>
       </version>

@@ -3030,6 +3030,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.2.0 Release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.1.0 Release</num>
         <commit>release-v3.1.0</commit>
         <desc>3.1.0 Release</desc>
@@ -3118,6 +3123,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.2.0 Release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.1.0 Release</num>
