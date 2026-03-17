@@ -3800,6 +3800,11 @@
         <desc>Latest 7.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>7.0.1 release</num>
+        <commit>release-v7.0.1</commit>
+        <desc>7.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>7.0.0 release</num>
         <commit>release-v7.0.0</commit>
         <desc>7.0.0 release</desc>
