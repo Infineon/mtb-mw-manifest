@@ -376,6 +376,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.21.0 release</num>
+        <commit>release-v3.21.0</commit>
+        <desc>3.21.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.20.1 release</num>
         <commit>release-v3.20.1</commit>
         <desc>3.20.1 release</desc>
@@ -1132,6 +1137,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>syspm-callbacks-xmc5x</name>
+    <id>syspm-callbacks-xmc5x</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-xmc5x</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>mtb-hal-psc3</name>
     <id>mtb-hal-psc3</id>
     <uri>https://github.com/Infineon/mtb-hal-psc3</uri>
@@ -1526,6 +1553,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>mtb-hal-xmc5x</name>
+    <id>mtb-hal-xmc5x</id>
+    <uri>https://github.com/Infineon/mtb-hal-xmc5x</uri>
+    <desc>XMC5000 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the XMC5000 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1a</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>kv-store-cat5</name>
     <id>kv-store-cat5</id>
     <uri>https://github.com/Infineon/kv-store-cat5</uri>
@@ -1562,6 +1609,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.9.0 release</num>
+        <commit>release-v1.9.0</commit>
+        <desc>1.9.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.8.1 release</num>
@@ -1953,10 +2005,15 @@
     <category>Core</category>
     <req_capabilities>cat1a</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0">
+      <version flow_version="2.0" tools_min_version="3.4.0">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>2.7.0 release</num>
+        <commit>release-v2.7.0</commit>
+        <desc>2.7.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>2.6.0 release</num>
