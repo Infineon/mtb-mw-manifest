@@ -6909,4 +6909,20 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>mtb-mw-pctrl</name>
+    <id>mtb-mw-pctrl</id>
+    <uri>https://github.com/Infineon/mtb-mw-pctrl</uri>
+    <desc><![CDATA[
+    ModusToolbox&trade; Power Control MW Library
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
