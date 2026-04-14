@@ -4266,6 +4266,29 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.37.0 release</num>
+        <commit>release-v4.37.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.21.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.20.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 4.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.4.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.4.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.37.0">device-db 4.37.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.37.0/DEVICES.md">device-db 4.37.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.36.0 release</num>
         <commit>release-v4.36.0</commit>
         <desc><![CDATA[
