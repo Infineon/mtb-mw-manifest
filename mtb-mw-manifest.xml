@@ -754,96 +754,6 @@
     </versions>
   </middleware>
   <middleware>
-    <name>serial-flash</name>
-    <id>serial-flash</id>
-    <uri>https://github.com/cypresssemiconductorco/serial-flash</uri>
-    <desc>The Serial Flash library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
-    <category>Peripheral</category>
-    <req_capabilities>mcu_gp hal qspi</req_capabilities>
-    <versions>
-      <version flow_version="1.0,2.0">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-        <desc>Latest 1.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.4.3 release</num>
-        <commit>release-v1.4.3</commit>
-        <desc>1.4.3 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.4.2 release</num>
-        <commit>release-v1.4.2</commit>
-        <desc>1.4.2 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.3.0 release</num>
-        <commit>release-v1.3.0</commit>
-        <desc>1.3.0 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
-        <desc>1.2.0 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
-        <desc>1.1.0 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.2 release</num>
-        <commit>release-v1.0.2</commit>
-        <desc>1.0.2 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.1 release</num>
-        <commit>release-v1.0.1</commit>
-        <desc>1.0.1 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-        <desc>1.0.0 release</desc>
-      </version>
-    </versions>
-  </middleware>
-  <middleware>
-    <name>serial-memory</name>
-    <id>serial-memory</id>
-    <uri>https://github.com/Infineon/serial-memory</uri>
-    <desc>The Serial Memory library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
-    <category>Peripheral</category>
-    <req_capabilities>mcu_gp hal qspi</req_capabilities>
-    <versions>
-      <version flow_version="1.0,2.0">
-        <num>latest-v3.X</num>
-        <commit>latest-v3.X</commit>
-        <desc>latest-v3.X</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>3.1.0 release</num>
-        <commit>release-v3.1.0</commit>
-        <desc>3.1.0 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>3.0.0 release</num>
-        <commit>release-v3.0.0</commit>
-        <desc>3.0.0 release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>Latest 2.X release</num>
-        <commit>latest-v2.X</commit>
-        <desc>Latest 2.X release</desc>
-      </version>
-      <version flow_version="1.0,2.0">
-        <num>2.0.0 release</num>
-        <commit>release-v2.0.0</commit>
-        <desc>2.0.0 release</desc>
-      </version>
-    </versions>
-  </middleware>
-  <middleware>
     <name>audio-codec-ak4954a</name>
     <id>audio-codec-ak4954a</id>
     <uri>https://github.com/cypresssemiconductorco/audio-codec-ak4954a</uri>
@@ -1200,6 +1110,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.6.0 release</num>
+        <commit>release-v2.6.0</commit>
+        <desc>2.6.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.5.0 release</num>
@@ -2348,6 +2263,101 @@
         <num>2.1.100 release</num>
         <commit>release-v2.1.100</commit>
         <desc>2.1.100 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[cat1a, cat1b, cat1c] hal qspi">
+    <name>serial-flash</name>
+    <id>serial-flash</id>
+    <uri>https://github.com/cypresssemiconductorco/serial-flash</uri>
+    <desc>The Serial Flash library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal qspi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.3 release</num>
+        <commit>release-v1.4.3</commit>
+        <desc>1.4.3 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.2 release</num>
+        <commit>release-v1.4.2</commit>
+        <desc>1.4.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+        <desc>1.0.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.1 release</num>
+        <commit>release-v1.0.1</commit>
+        <desc>1.0.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x1, pse8x2, pse8x3, pse8x5, pse8x6, pse8x7] hal qspi">
+    <name>serial-memory</name>
+    <id>serial-memory</id>
+    <uri>https://github.com/Infineon/serial-memory</uri>
+    <desc>The Serial Memory library provides APIs for interacting with an external flash connected to the SPI or QSPI interface.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal qspi</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>latest-v3.X</num>
+        <commit>latest-v3.X</commit>
+        <desc>latest-v3.X</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.2.0 release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>3.2.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
       </version>
     </versions>
   </middleware>
