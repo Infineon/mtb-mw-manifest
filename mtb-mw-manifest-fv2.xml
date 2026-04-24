@@ -3595,6 +3595,11 @@
         <desc>Latest 9.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>9.10.0 release</num>
+        <commit>release-v9.10.0</commit>
+        <desc>9.10.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
         <num>9.0.0 release</num>
         <commit>release-v9.0.0</commit>
         <desc>9.0.0 release</desc>
