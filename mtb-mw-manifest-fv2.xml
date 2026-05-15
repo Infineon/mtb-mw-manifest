@@ -382,6 +382,26 @@
       </version>
     </versions>
   </middleware>
+  <middleware type="device_support">
+    <name>ifx-wolfcrypto</name>
+    <id>ifx-wolfcrypto</id>
+    <uri>https://github.com/Infineon/ifx-wolfcrypto</uri>
+    <desc>ifx-wolfcrypto is based on wolfCrypt, which is part of the wolfSSL embedded SSL library.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>latest-v5.X</num>
+        <commit>latest-v5.X</commit>
+        <desc>latest-v5.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>5.9.0 release</num>
+        <commit>release-v5.9.0</commit>
+        <desc>5.9.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
   <middleware req_capabilities_v2="[cat1a,cat1b,cat1c]" type="device_support">
     <name>mtb-pdl-cat1</name>
     <id>mtb-pdl-cat1</id>
