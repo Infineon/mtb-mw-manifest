@@ -6308,6 +6308,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>afx</name>
+    <id>afx</id>
+    <uri>https://github.com/Infineon/afx</uri>
+    <desc><![CDATA[
+    This ModusToolbox&trade; Application Framework library provides common functionality to support other Infineon middleware, code examples, and user applications to share common functionality and resources in a cohesive manner.  Using this library for the provided functionality ensures middleware compatibility and avoids many resource conflicts that may otherwise be non-trivial to resolve. <br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>tviic2d-gfx-mw</name>
     <id>tviic2d-gfx-mw</id>
     <uri>https://github.com/Infineon/tviic2d-gfx-mw</uri>
