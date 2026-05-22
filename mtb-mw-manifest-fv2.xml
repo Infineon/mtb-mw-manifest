@@ -3434,6 +3434,10 @@
     <category>Peripheral</category>
     <req_capabilities>spi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
@@ -3454,6 +3458,10 @@
     <category>Peripheral</category>
     <req_capabilities>spi</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.4.0" req_capabilities_per_version="bsp_gen5">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
