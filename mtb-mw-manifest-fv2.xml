@@ -181,6 +181,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.11.0 release</num>
+        <commit>release-v1.11.0</commit>
+        <desc>1.11.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.10.0 release</num>
         <commit>release-v1.10.0</commit>
         <desc>1.10.0 release</desc>
@@ -414,6 +419,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.22.0 release</num>
+        <commit>release-v3.22.0</commit>
+        <desc>3.22.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.21.1 release</num>
@@ -1170,6 +1180,28 @@
     </versions>
   </middleware>
   <middleware>
+    <name>syspm-callbacks-t2gbh16m</name>
+    <id>syspm-callbacks-t2gbh16m</id>
+    <uri>https://github.com/Infineon/syspm-callbacks-t2gbh16m</uri>
+    <desc><![CDATA[
+    Syspm callback Utility Library provides a set of callbacks that can be registered by the
+    application to handle deep-sleep entry/exit of select peripherals.
+    ]]></desc>
+    <category>Middleware</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>syspm-callbacks-t2gbh8m</name>
     <id>syspm-callbacks-t2gbh8m</id>
     <uri>https://github.com/Infineon/syspm-callbacks-t2gbh8m</uri>
@@ -1242,6 +1274,29 @@
         <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-t2gbh16m</name>
+    <id>mtb-hal-t2gbh16m</id>
+    <uri>https://github.com/Infineon/mtb-hal-t2gbh16m</uri>
+    <desc><![CDATA[
+    TRAVEO&trade; Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use
+    the TRAVEO&trade; T2G Body High 16M MCU resources using the ModusToolbox&trade; Hardware Abstraction Layer.
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>cat1c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -1664,6 +1719,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.10.0 release</num>
+        <commit>release-v1.10.0</commit>
+        <desc>1.10.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.9.0 release</num>
@@ -2288,6 +2348,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.4.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.4.0">
         <num>1.6.1 release</num>
