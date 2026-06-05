@@ -635,6 +635,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>2.21.0 release</num>
+        <commit>release-v2.21.0</commit>
+        <desc>2.21.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>2.20.0 release</num>
         <commit>release-v2.20.0</commit>
         <desc>2.20.0 release</desc>
@@ -982,6 +987,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -1048,6 +1058,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.3.2 release</num>
@@ -1257,6 +1272,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>1.1.2 release</num>
@@ -1979,6 +1999,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.2.2 release</num>
@@ -3693,6 +3718,16 @@
     <category>Middleware</category>
     <versions>
       <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>Latest 10.X release</num>
+        <commit>latest-v10.X</commit>
+        <desc>Latest 10.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>10.0.0 release</num>
+        <commit>release-v10.0.0</commit>
+        <desc>10.0.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
         <num>Latest 9.X release</num>
         <commit>latest-v9.X</commit>
         <desc>Latest 9.X release</desc>
@@ -4437,7 +4472,7 @@
             </ul>
             <div class="category">Recommended device support libraries:</div>
             <ul>
-              <li>mtb-pdl-cat1 &gt;= 3.21.0</li>
+              <li>mtb-pdl-cat1 &gt;= 3.22.0</li>
               <li>mtb-pdl-cat2 &gt;= 2.20.0</li>
               <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
               <li>mtb-pdl-cat5 &gt;= 4.0.0</li>
@@ -5559,6 +5594,11 @@
         <desc>Latest 3.X Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>3.4.0 release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>3.3.1 release</num>
         <commit>release-v3.3.1</commit>
         <desc>3.3.1 release</desc>
@@ -6404,6 +6444,31 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-oscilloscope</name>
+    <id>mtb-oscilloscope</id>
+    <uri>https://github.com/Infineon/mtb-oscilloscope</uri>
+    <desc><![CDATA[
+    A lightweight software oscilloscope library for ModusToolbox&trade; embedded
+    applications. It periodically samples up to eight in-memory variables of
+    configurable data type, supports trigger / continuous / single-shot capture
+    modes, and exposes the captured buffers to a host probe for visualization. <br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 0.X release</num>
+        <commit>latest-v0.X</commit>
+        <desc>Latest 0.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>0.5.0 release</num>
+        <commit>release-v0.5.0</commit>
+        <desc>0.5.0 release</desc>
       </version>
     </versions>
   </middleware>
