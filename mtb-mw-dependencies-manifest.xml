@@ -3633,6 +3633,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v2.6.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.9.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v2.5.0</commit>
         <dependees>
           <dependee>
