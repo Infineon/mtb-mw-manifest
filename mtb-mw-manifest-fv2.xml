@@ -902,6 +902,86 @@
     </versions>
   </middleware>
   <middleware type="device_support">
+    <name>mtb-pdl-cat5-ezurio</name>
+    <id>mtb-pdl-cat5-ezurio</id>
+    <uri>https://github.com/Ezurio/mtb-pdl-cat5-ezurio</uri>
+    <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <category>Core</category>
+    <req_capabilities>cat5_ezurio</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+        <desc>Latest 4.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>4.0.0 release</num>
+        <commit>release-v4.0.0</commit>
+        <desc>4.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
     <name>mtb-xmclib-cat3</name>
     <id>mtb-xmclib-cat3</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-xmclib-cat3</uri>
