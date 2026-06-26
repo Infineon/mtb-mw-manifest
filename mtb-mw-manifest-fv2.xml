@@ -7400,4 +7400,58 @@
       </version>
     </versions>
   </middleware>
+  <middleware>
+    <name>display-tft-st7701s</name>
+    <id>display-tft-st7701s</id>
+    <uri>https://github.com/Infineon/display-tft-st7701s</uri>
+    <desc><![CDATA[
+        This is the display driver library for RK040HF001 4-inch TFT LCD driven by an ST7701S display connected to the PSOC&#8482; Edge E84 HMI Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.rocktech.com.hk/lcd-product/rk040hf001">RK040HF001 4-inch TFT Capacitive Touch Display</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>touch-ctp-ft5446</name>
+    <id>touch-ctp-ft5446</id>
+    <uri>https://github.com/Infineon/touch-ctp-ft5446</uri>
+    <desc><![CDATA[
+        This is the driver library for FT5446 touch controller, designed to support the capacitive touch panel of RK040HF001 display connected to the PSOC&#8482; Edge E84 HMI Kit.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://www.displayfuture.com/Display/datasheet/controller/FT5x46.pdf">FT5x46 True Multi-Touch Capacitive Touch Panel Controller</a></li>
+        </ul>
+    ]]></desc>
+    <category>Graphics</category>
+    <req_capabilities>gfx i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
 </middleware>
