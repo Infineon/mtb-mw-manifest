@@ -5689,6 +5689,11 @@
         <desc>Latest 3.X Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+        <num>3.4.1 release</num>
+        <commit>release-v3.4.1</commit>
+        <desc>3.4.1 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>3.4.0 release</num>
         <commit>release-v3.4.0</commit>
         <desc>3.4.0 release</desc>
