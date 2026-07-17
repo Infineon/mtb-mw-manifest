@@ -293,6 +293,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
@@ -655,6 +660,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.10.0 release</num>
+        <commit>release-v1.10.0</commit>
+        <desc>1.10.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.9.0 release</num>
@@ -1618,6 +1628,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.0.2 release</num>
+        <commit>release-v1.0.2</commit>
+        <desc>1.0.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
         <desc>1.0.1 release</desc>
@@ -1645,6 +1660,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.9.0 release</num>
+        <commit>release-v1.9.0</commit>
+        <desc>1.9.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.8.0 release</num>
@@ -1717,6 +1737,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.2.1 release</num>
+        <commit>release-v2.2.1</commit>
+        <desc>2.2.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.2.0 release</num>
         <commit>release-v2.2.0</commit>
         <desc>2.2.0 release</desc>
@@ -1774,6 +1799,11 @@
         <num>latest-v1.X</num>
         <commit>latest-v1.X</commit>
         <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
+        <desc>1.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>1.1.0 release</num>

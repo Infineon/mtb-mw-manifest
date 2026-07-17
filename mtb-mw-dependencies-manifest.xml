@@ -2641,6 +2641,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.0.2</commit>
+        <dependees>
+          <dependee>
+            <id>freertos</id>
+            <commit>latest-v10.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.0.1</commit>
         <dependees>
           <dependee>
@@ -5277,6 +5286,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>block-storage</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.2.1</commit>
         <dependees>
           <dependee>
             <id>block-storage</id>
