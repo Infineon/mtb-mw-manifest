@@ -301,6 +301,11 @@
         <desc>latest-v1.X</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.5.0 release</num>
         <commit>release-v1.5.0</commit>
         <desc>1.5.0 release</desc>
@@ -349,6 +354,11 @@
         <num>latest-v1.X</num>
         <commit>latest-v1.X</commit>
         <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.6.0 release</num>
+        <commit>release-v1.6.0</commit>
+        <desc>1.6.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.5.0 release</num>
@@ -404,6 +414,26 @@
         <num>5.9.0 release</num>
         <commit>release-v5.9.0</commit>
         <desc>5.9.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8x6, pse8x2, pse8x3, pse8x5]" type="device_support">
+    <name>mtb-dsl-pse8x6</name>
+    <id>mtb-dsl-pse8x6</id>
+    <uri>https://github.com/Infineon/mtb-dsl-pse8x6</uri>
+    <desc>Device support library for Explorer PSE8X6 devices.</desc>
+    <category>Core</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -1971,6 +2001,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -2006,6 +2041,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.4.0 release</num>
+        <commit>release-v1.4.0</commit>
+        <desc>1.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
         <desc>1.3.0 release</desc>
@@ -2019,6 +2059,26 @@
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
         <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8x6, pse8x2, pse8x3, pse8x5]" hidden="true">
+    <name>mtb-template-pse8x6</name>
+    <id>mtb-template-pse8x6</id>
+    <uri>https://github.com/Infineon/mtb-template-pse8x6</uri>
+    <desc>PSE8X6 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.0.0 release</num>
@@ -3362,6 +3422,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.4.0 Release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.3.0 Release</num>
         <commit>release-v3.3.0</commit>
         <desc>3.3.0 Release</desc>
@@ -3465,6 +3530,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.4.0 Release</num>
+        <commit>release-v3.4.0</commit>
+        <desc>3.4.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.3.0 Release</num>
@@ -4589,6 +4659,31 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.38.0 release</num>
+        <commit>release-v4.38.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add PSE8x2, PSE8x3, PSE8x5 and PSE8x6 device support.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.21.1</li>
+              <li>mtb-pdl-cat2 &gt;= 2.20.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 5.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.5.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.5.0</li>
+              <li>mtb-dsl-pse8x6 &gt;= 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.38.0">device-db 4.38.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.38.0/DEVICES.md">device-db 4.38.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.37.0 release</num>
         <commit>release-v4.37.0</commit>
         <desc><![CDATA[
@@ -5354,6 +5449,11 @@
     <req_capabilities>cat1</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.3.0">
+        <num>9.5.0 Release</num>
+        <commit>v9.5.0</commit>
+        <desc>9.5.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.3.0">
         <num>9.2.0 Release</num>
         <commit>v9.2.0</commit>
         <desc>9.2.0 Release</desc>
@@ -5929,6 +6029,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
         <num>1.0.1 release</num>
@@ -6674,6 +6779,11 @@
         <desc>Latest 3.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>3.6.606 release</num>
+        <commit>release-v3.6.606</commit>
+        <desc>3.6.606 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>3.6.400 release</num>
         <commit>release-v3.6.400</commit>
         <desc>3.6.400 release</desc>
@@ -6709,6 +6819,16 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.600 release</num>
+        <commit>release-v2.1.600</commit>
+        <desc>2.1.600 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>TF-Mv2.1.600</num>
+        <commit>TF-Mv2.1.600</commit>
+        <desc>TF-Mv2.1.600</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.500 release</num>
         <commit>release-v2.1.500</commit>
         <desc>2.1.500 release</desc>
@@ -6737,6 +6857,16 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.600 release</num>
+        <commit>release-v2.1.600</commit>
+        <desc>2.1.600 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>TF-Mv2.1.600</num>
+        <commit>TF-Mv2.1.600</commit>
+        <desc>TF-Mv2.1.600</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.500 release</num>
@@ -6769,6 +6899,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+        <num>2.1.600 release</num>
+        <commit>release-v2.1.600</commit>
+        <desc>2.1.600 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.500 release</num>
         <commit>release-v2.1.500</commit>
         <desc>2.1.500 release</desc>
@@ -6786,6 +6921,51 @@
     </versions>
   </middleware>
   <middleware>
+    <name>QCBOR</name>
+    <id>QCBOR</id>
+    <uri>https://github.com/laurencelundblade/QCBOR</uri>
+    <desc>QCBOR library</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>QCBOR-v1.2 release</num>
+        <commit>v1.2</commit>
+        <desc>QCBOR-v1.2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>t_cose</name>
+    <id>t_cose</id>
+    <uri>https://github.com/laurencelundblade/t_cose</uri>
+    <desc>t_cose library</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>t_cose-v2.0-alpha-2 release</num>
+        <commit>v2.0-alpha-2</commit>
+        <desc>v2.0-alpha-2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>tf-m-extras</name>
+    <id>tf-m-extras</id>
+    <uri>https://github.com/TrustedFirmware-M/tf-m-extras</uri>
+    <desc>tf-m-extras library</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>f051983 release</num>
+        <commit>f051983</commit>
+        <desc>f051983 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>staged-voice-control</name>
     <id>staged-voice-control</id>
     <uri>https://github.com/Infineon/staged-voice-control</uri>
@@ -6799,6 +6979,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>2.0.0 release</num>
@@ -6885,6 +7070,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.0 release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>3.1.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.0.0 release</num>
@@ -7239,6 +7429,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
         <desc>1.2.0 release</desc>
@@ -7483,6 +7678,28 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>image-jpeg-codec</name>
+    <id>image-jpeg-codec</id>
+    <uri>https://github.com/Infineon/image-jpeg-codec</uri>
+    <desc><![CDATA[
+    This library provides functions for encoding and decoding JPEG images in memory on ModusToolbox&#8482; platforms. It wraps the industry-standard libjpeg library and exposes a minimal two-function API that works directly with RGB565 pixel data.<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
