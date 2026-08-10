@@ -288,6 +288,26 @@
     </versions>
   </middleware>
   <middleware type="device_support">
+    <name>mtb-dsl-psc3m6</name>
+    <id>mtb-dsl-psc3m6</id>
+    <uri>https://github.com/Infineon/mtb-dsl-psc3m6</uri>
+    <desc>Device support library for Boy2P PSC3M6 devices.</desc>
+    <category>Core</category>
+    <req_capabilities>psc3m6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
     <name>mtb-dsl-pse8xxgp</name>
     <id>mtb-dsl-pse8xxgp</id>
     <uri>https://github.com/Infineon/mtb-dsl-pse8xxgp</uri>
@@ -397,18 +417,23 @@
       </version>
     </versions>
   </middleware>
-  <middleware type="device_support">
+  <middleware req_capabilities_v2="[psc3m6]">
     <name>ifx-wolfcrypto</name>
     <id>ifx-wolfcrypto</id>
     <uri>https://github.com/Infineon/ifx-wolfcrypto</uri>
     <desc>ifx-wolfcrypto is based on wolfCrypt, which is part of the wolfSSL embedded SSL library.</desc>
     <category>Core</category>
-    <req_capabilities>cat1</req_capabilities>
+    <req_capabilities>psc3m6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>latest-v5.X</num>
         <commit>latest-v5.X</commit>
         <desc>latest-v5.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>5.9.1 release</num>
+        <commit>release-v5.9.1</commit>
+        <desc>5.9.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>5.9.0 release</num>
@@ -2028,6 +2053,26 @@
     </versions>
   </middleware>
   <middleware hidden="true">
+    <name>mtb-template-psc3m6</name>
+    <id>mtb-template-psc3m6</id>
+    <uri>https://github.com/Infineon/mtb-template-psc3m6</uri>
+    <desc>PSC3M6 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>psc3m6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+        <desc>1.0.4 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
     <name>mtb-template-pse8xxgo</name>
     <id>mtb-template-pse8xxgo</id>
     <uri>https://github.com/Infineon/mtb-template-pse8xxgo</uri>
@@ -2282,6 +2327,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.2.1 release</num>
+        <commit>release-v1.2.1</commit>
+        <desc>1.2.1 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0">
         <num>1.1.1 release</num>
@@ -4031,6 +4081,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.2.0 release</num>
+        <commit>release-v2.2.0</commit>
+        <desc>2.2.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.1.0 release</num>
         <commit>release-v2.1.0</commit>
         <desc>2.1.0 release</desc>
@@ -4087,6 +4142,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.3.0 release</num>
+        <commit>release-v2.3.0</commit>
+        <desc>2.3.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>2.2.0 release</num>
@@ -4473,10 +4533,15 @@
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6]">
+        <num>v3.1.0 Release</num>
+        <commit>release-v3.1.0</commit>
+        <desc>v3.1.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>v3.0.0 Release</num>
@@ -4657,6 +4722,36 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.39.0 release</num>
+        <commit>release-v4.39.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add new CCG7D part numbers: CYPD7294-68BFXS, CYPD7295-68BFXS, CYPD7296-68BFXS and CYPD7297-68BFXS.</li>
+              <li>Add PSOC&#8482; Control PSC3M6 and PSC3P6 device support.</li>
+              <li>Add new PSOC&#8482; Control PSC3M3, PSC3M5, PSC3P2 and PSC3P5 part numbers.</li>
+              <li>Add FCS962N-LP module support.</li>,
+              <li>Add GD25LQ128E and GD25Q16E QSPI memory configurations.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.23.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.21.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 5.0.0</li>
+              <li>mtb-dsl-psc3m6 &gt;= 1.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8x6 &gt;= 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.39.0">device-db 4.39.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.39.0/DEVICES.md">device-db 4.39.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.38.0 release</num>
@@ -5813,10 +5908,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6]">
+        <num>3.5.0 release</num>
+        <commit>release-v3.5.0</commit>
+        <desc>3.5.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1]">
         <num>3.4.1 release</num>
@@ -6634,7 +6734,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-pmbus</name>
     <id>mtb-pmbus</id>
     <uri>https://github.com/Infineon/mtb-pmbus</uri>
@@ -6644,14 +6744,24 @@
     embedded systems. PMBus (Power Management Bus) is an open standard
     digital power management protocol that enables communication with power
     conversion and management devices. <br>
+    <div class="category">Additional Information:</div>
+      <ul>
+        <li><a href="https://github.com/Infineon/mtb-pmbus/blob/master/README.md">PMBus middleware README.md</a></li>
+        <li><a href="https://github.com/Infineon/mtb-pmbus/blob/master/RELEASE.md">PMBus middleware RELEASE.md</a></li>
+      </ul>
     ]]></desc>
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5, psc3p6, psc3m6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5, psc3p6, psc3m6]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0" req_capabilities_per_version_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
         <num>1.0.0 release</num>
@@ -6773,12 +6883,12 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
         <num>3.6.606 release</num>
         <commit>release-v3.6.606</commit>
         <desc>3.6.606 release</desc>
@@ -7409,6 +7519,46 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>crypto-suite-psc3</name>
+    <id>crypto-suite-psc3</id>
+    <uri>https://github.com/Infineon/crypto-suite-psc3</uri>
+    <desc>Crypto Suite Library package, provides a set of APIs for cryptographic primitives using the on-board accelerators.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[psc3p6, psc3m6]">
+        <num>Latest 6.X release</num>
+        <commit>latest-v6.X</commit>
+        <desc>Latest 6.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[psc3p6, psc3m6]">
+        <num>6.1.2 release</num>
+        <commit>release-v6.1.2</commit>
+        <desc>6.1.2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3p6, psc3m6]">
+    <name>ifx-mcuboot-psc3m6</name>
+    <id>ifx-mcuboot-psc3m6</id>
+    <uri>https://github.com/Infineon/ifx-mcuboot-psc3m6</uri>
+    <desc>ifx-mcuboot-psc3m6 is a port of MCUboot library for PSC3M6 Infineon devices.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.9.500 release</num>
+        <commit>release-v1.9.500</commit>
+        <desc>1.9.500 release</desc>
       </version>
     </versions>
   </middleware>

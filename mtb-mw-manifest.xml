@@ -1312,6 +1312,11 @@
         <desc>Latest 6.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>6.2.100 release</num>
+        <commit>release-v6.2.100</commit>
+        <desc>6.2.100 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>6.1.0 release</num>
         <commit>release-v6.1.0</commit>
         <desc>6.1.0 release</desc>
@@ -1783,7 +1788,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[cat1, pse8xxgp] [hal]">
+  <middleware req_capabilities_v2="[cat1, pse8xxgp, psc3m6] [hal]">
     <name>async-transfer</name>
     <id>async-transfer</id>
     <uri>https://github.com/Infineon/async-transfer</uri>
@@ -2139,7 +2144,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psoc6, cat1c, cyw20829, cyw89829, psc3p2, psc3m3, psc3m5, psc3p5]">
     <name>MCUboot</name>
     <id>mcuboot</id>
     <uri>https://github.com/mcu-tools/mcuboot</uri>

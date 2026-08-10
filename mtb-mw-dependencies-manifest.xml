@@ -508,6 +508,61 @@
     </versions>
   </depender>
   <depender>
+    <id>mtb-dsl-psc3m6</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.39.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.2.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>release-v4.39.0</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.8.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.2.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>mtb-dsl-pse8xxgo</id>
     <versions>
       <version>
@@ -5816,7 +5871,11 @@
         <dependees>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>release-v3.0.0</commit>
+            <commit>release-v3.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>crypto-suite-psc3</id>
+            <commit>release-v6.1.2</commit>
           </dependee>
         </dependees>
       </version>
@@ -5825,7 +5884,11 @@
         <dependees>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>release-v3.0.0</commit>
+            <commit>release-v3.1.0</commit>
+          </dependee>
+          <dependee>
+            <id>crypto-suite-psc3</id>
+            <commit>release-v6.1.2</commit>
           </dependee>
         </dependees>
       </version>
