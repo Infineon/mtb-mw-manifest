@@ -1958,6 +1958,11 @@
         <desc>Latest 5.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>5.0.6 release</num>
+        <commit>release-v5.0.6</commit>
+        <desc>5.0.6 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>5.0.5 release</num>
         <commit>release-v5.0.5</commit>
         <desc>5.0.5 release</desc>

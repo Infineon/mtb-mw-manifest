@@ -4305,6 +4305,11 @@
         <desc>Latest 7.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>7.0.2 release</num>
+        <commit>release-v7.0.2</commit>
+        <desc>7.0.2 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>7.0.1 release</num>
         <commit>release-v7.0.1</commit>
         <desc>7.0.1 release</desc>
@@ -4437,6 +4442,11 @@
         <desc>Latest 2.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>2.0.4 release</num>
+        <commit>release-v2.0.4</commit>
+        <desc>2.0.4 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>2.0.3 release</num>
         <commit>release-v2.0.3</commit>
         <desc>2.0.3 release</desc>
@@ -4475,6 +4485,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.1 release</num>
+        <commit>release-v1.3.1</commit>
+        <desc>1.3.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.3.0 release</num>
