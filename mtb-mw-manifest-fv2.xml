@@ -6659,7 +6659,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>motor-ctrl-lib</name>
     <id>motor-ctrl-lib</id>
     <uri>https://github.com/Infineon/motor-ctrl-lib</uri>
@@ -6717,12 +6717,12 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>mtb-pwrconv</name>
     <id>mtb-pwrconv</id>
     <uri>https://github.com/Infineon/mtb-pwrconv</uri>
     <desc><![CDATA[
-    ModusToolbox&trade; Power Conversion Middleware <br>
+    ModusToolbox&trade; Buck Power Conversion Middleware <br>
     ]]></desc>
     <category>Middleware</category>
     <req_capabilities>hppass</req_capabilities>
@@ -6731,6 +6731,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+        <desc>2.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.5.0">
         <num>2.0.0 release</num>
@@ -7778,6 +7783,33 @@
     <req_capabilities>hppass</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-pwrlib-llc</name>
+    <id>mtb-pwrlib-llc</id>
+    <uri>https://github.com/Infineon/mtb-pwrlib-llc</uri>
+    <desc><![CDATA[
+    ModusToolbox&trade; LLC Power Conversion Middleware <br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>hppass</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
