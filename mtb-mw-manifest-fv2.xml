@@ -885,6 +885,11 @@
         <desc>Latest 5.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+        <desc>5.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0">
         <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
         <desc>5.0.0 release</desc>
@@ -6596,6 +6601,16 @@
     <req_capabilities>bt cyw55513</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+        <desc>Latest 5.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+        <desc>5.1.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
@@ -7905,6 +7920,106 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>audio-profiles-controls-module</name>
+    <id>audio-profiles-controls-module</id>
+    <uri>https://github.com/Infineon/audio-profiles-controls-module</uri>
+    <desc>The Audio lib contents decoupled form the btsdk-audio contails the button components as well</desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>cyw55513 cyw20829 cyw89829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>common-include</name>
+    <id>common-include</id>
+    <uri>https://github.com/Infineon/common-include</uri>
+    <desc>The common lib contents decoupled form the btsdk repos btsdk-common and btsdk-include</desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>Client-Control</name>
+    <id>Client-Control</id>
+    <uri>https://github.com/Infineon/Client-Control</uri>
+    <desc>Clint control tool</desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>BTSpy-utils</name>
+    <id>BTSpy-utils</id>
+    <uri>https://github.com/Infineon/BTSpy-utils</uri>
+    <desc> BTSPy tool </desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>pan-profile</name>
+    <id>pan-profile</id>
+    <uri>https://github.com/Infineon/pan-profile</uri>
+    <desc> Pan Profile library </desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>cyw55513</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest v1.X release</desc>
       </version>
     </versions>
   </middleware>
