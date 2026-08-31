@@ -1533,6 +1533,11 @@
         <desc>Latest 10.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>10.6.203 release</num>
+        <commit>release-v10.6.203</commit>
+        <desc>10.6.203 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>10.6.202 release</num>
         <commit>release-v10.6.202</commit>
         <desc>10.6.202 release</desc>

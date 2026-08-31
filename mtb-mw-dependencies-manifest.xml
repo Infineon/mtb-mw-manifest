@@ -848,10 +848,54 @@
     </versions>
   </depender>
   <depender>
+    <id>mtb-dsl-psc1m3</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>mtb-pdl-cat1</id>
     <versions>
       <version>
         <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.24.0</commit>
         <dependees>
           <dependee>
             <id>cmsis</id>
@@ -1322,7 +1366,6 @@
       </version>
     </versions>
   </depender>
-
   <depender>
     <id>psoc6pdl</id>
     <versions>
@@ -2580,6 +2623,19 @@
     <versions>
       <version>
         <commit>latest-v10.X</commit>
+        <dependees>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v10.6.203</commit>
         <dependees>
           <dependee>
             <id>abstraction-rtos</id>
@@ -5600,6 +5656,69 @@
     </versions>
   </depender>
   <depender>
+    <id>ifx-tf-m</id>
+    <versions>
+      <version>
+        <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-tf-m-port</id>
+            <commit>release-v2.3.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>t_cose</id>
+            <commit>v2.0-alpha-2</commit>
+          </dependee>
+          <dependee>
+            <id>QCBOR</id>
+            <commit>v1.2</commit>
+          </dependee>
+          <dependee>
+            <id>tf-m-extras</id>
+            <commit>804aa17</commit>
+          </dependee>
+          <dependee>
+            <id>TF-PSA-Crypto</id>
+            <commit>v1.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.3.300</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-tf-m-port</id>
+            <commit>release-v2.3.300</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>t_cose</id>
+            <commit>v2.0-alpha-2</commit>
+          </dependee>
+          <dependee>
+            <id>QCBOR</id>
+            <commit>v1.2</commit>
+          </dependee>
+          <dependee>
+            <id>tf-m-extras</id>
+            <commit>804aa17</commit>
+          </dependee>
+          <dependee>
+            <id>TF-PSA-Crypto</id>
+            <commit>v1.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>ifx-tf-m-ns</id>
     <versions>
       <version>
@@ -5609,8 +5728,13 @@
             <id>mtb-srf</id>
             <commit>latest-v1.X</commit>
           </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.3.300</commit>
+        <dependees>
           <dependee>
-            <id>mtb-ipc</id>
+            <id>mtb-srf</id>
             <commit>latest-v1.X</commit>
           </dependee>
         </dependees>

@@ -422,7 +422,27 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psc3m6]">
+  <middleware type="device_support">
+    <name>mtb-dsl-psc1m3</name>
+    <id>mtb-dsl-psc1m3</id>
+    <uri>https://github.com/Infineon/mtb-dsl-psc1m3</uri>
+    <desc>Device support library for PSC1M3 devices.</desc>
+    <category>Core</category>
+    <req_capabilities>psc1m3</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_support">
     <name>ifx-wolfcrypto</name>
     <id>ifx-wolfcrypto</id>
     <uri>https://github.com/Infineon/ifx-wolfcrypto</uri>
@@ -479,6 +499,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>3.24.0 release</num>
+        <commit>release-v3.24.0</commit>
+        <desc>3.24.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>3.23.0 release</num>
@@ -1199,6 +1224,35 @@
     </versions>
   </middleware>
   <middleware>
+    <name>mtb-emeeprom-psc1</name>
+    <id>mtb-emeeprom-psc1</id>
+    <uri>https://github.com/Infineon/mtb-emeeprom-psc1</uri>
+    <desc><![CDATA[
+    The PSOC&trade; C1 Emulated EEPROM middleware emulates an EEPROM device in the PSOC&trade; C1 device flash memory.
+     This allows you to store nonvolatile data with more flash resiliency.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/mtb-emeeprom-psc1/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/mtb-emeeprom-psc1/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/mtb-emeeprom-psc1/psc1_em_eeprom_api_reference_manual/html/modules.html"> PSOC&trade; C1 EEPROM Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>psc1m3</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>block-storage</name>
     <id>block-storage</id>
     <uri>https://github.com/Infineon/block-storage</uri>
@@ -1901,6 +1955,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.12.0 release</num>
+        <commit>release-v1.12.0</commit>
+        <desc>1.12.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.11.0 release</num>
         <commit>release-v1.11.0</commit>
         <desc>1.11.0 release</desc>
@@ -2143,6 +2202,26 @@
     </versions>
   </middleware>
   <middleware hidden="true">
+    <name>mtb-template-psc1m3</name>
+    <id>mtb-template-psc1m3</id>
+    <uri>https://github.com/Infineon/mtb-template-psc1m3</uri>
+    <desc>PSC1M3 BSP template files for the BSP Assistant Tool.</desc>
+    <category>Core</category>
+    <req_capabilities>psc1m3</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware hidden="true">
     <name>mtb-template-cat2</name>
     <id>mtb-template-cat2</id>
     <uri>https://github.com/Infineon/mtb-template-cat2</uri>
@@ -2154,6 +2233,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.7.0 release</num>
+        <commit>release-v1.7.0</commit>
+        <desc>1.7.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.6.0 release</num>
@@ -3719,6 +3803,16 @@
     <category>Middleware</category>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+        <desc>2.0.0 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="2.3.1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
@@ -3955,6 +4049,26 @@
     </versions>
   </middleware>
   <middleware>
+    <name>retarget-io-psc1</name>
+    <id>retarget-io-psc1</id>
+    <uri>https://github.com/Infineon/retarget-io-psc1</uri>
+    <desc>The Retarget IO (PSC1) library provides APIs for transmitting messages to or from the PSC1 board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>psc1m3</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
     <name>capsense</name>
     <id>capsense</id>
     <uri>https://github.com/cypresssemiconductorco/capsense</uri>
@@ -3972,6 +4086,16 @@
     ]]></desc>
     <category>Middleware</category>
     <versions>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>Latest 11.X release</num>
+        <commit>latest-v11.X</commit>
+        <desc>Latest 11.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>11.0.0 release</num>
+        <commit>release-v11.0.0</commit>
+        <desc>11.0.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
         <num>Latest 10.X release</num>
         <commit>latest-v10.X</commit>
@@ -4749,6 +4873,33 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.40.0 release</num>
+        <commit>release-v4.40.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add PSOC&#8482; Control PSC1M2 and PSC1M3 device support.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.23.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.21.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 5.0.0</li>
+              <li>mtb-dsl-psc1m3 &gt;= 1.0.0</li>
+              <li>mtb-dsl-psc3m6 &gt;= 1.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8x6 &gt;= 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.40.0">device-db 4.40.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.40.0/DEVICES.md">device-db 4.40.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.39.0 release</num>
         <commit>release-v4.39.0</commit>
         <desc><![CDATA[
@@ -4756,7 +4907,7 @@
               <li>Add new CCG7D part numbers: CYPD7294-68BFXS, CYPD7295-68BFXS, CYPD7296-68BFXS and CYPD7297-68BFXS.</li>
               <li>Add PSOC&#8482; Control PSC3M6 and PSC3P6 device support.</li>
               <li>Add new PSOC&#8482; Control PSC3M3, PSC3M5, PSC3P2 and PSC3P5 part numbers.</li>
-              <li>Add FCS962N-LP module support.</li>,
+              <li>Add FCS962N-LP module support.</li>
               <li>Add GD25LQ128E and GD25Q16E QSPI memory configurations.</li>
               <li>Minor bug fixes.</li>
             </ul>
@@ -6974,11 +7125,6 @@
         <desc>2.1.600 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
-        <num>TF-Mv2.1.600</num>
-        <commit>TF-Mv2.1.600</commit>
-        <desc>TF-Mv2.1.600</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.500 release</num>
         <commit>release-v2.1.500</commit>
         <desc>2.1.500 release</desc>
@@ -7014,11 +7160,6 @@
         <desc>2.1.600 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
-        <num>TF-Mv2.1.600</num>
-        <commit>TF-Mv2.1.600</commit>
-        <desc>TF-Mv2.1.600</desc>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.500 release</num>
         <commit>release-v2.1.500</commit>
         <desc>2.1.500 release</desc>
@@ -7043,10 +7184,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
+        <num>2.3.300 release</num>
+        <commit>release-v2.3.300</commit>
+        <desc>2.3.300 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc4] [pse8xxgm, pse8xxgo, pse8xxgp]">
         <num>2.1.600 release</num>
@@ -7067,6 +7213,61 @@
         <num>2.1.300 release</num>
         <commit>release-v2.1.300</commit>
         <desc>2.1.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3p6, psc3m6]" type="device_support">
+    <name>ifx-tf-m</name>
+    <id>ifx-tf-m</id>
+    <uri>https://github.com/Infineon/ifx-tf-m</uri>
+    <desc>Trusted Firmware-M (TF-M) implements the Secure Processing Environment (SPE) that aligns with the guidelines outlined by Platform Security Architecture (PSA) for secure devices. TF-M provides a set of secure services conforming to the PSA functional API. The secure sevices provided include PSA Crypto, PSA Secure Storage, and PSA Attestation.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>2.3.300 release</num>
+        <commit>release-v2.3.300</commit>
+        <desc>2.3.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3p6, psc3m6]" type="device_support">
+    <name>ifx-tf-m-port</name>
+    <id>ifx-tf-m-port</id>
+    <uri>https://github.com/Infineon/ifx-tf-m-port</uri>
+    <desc>Trusted Firmware-M (TF-M) MTB Porting library.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>2.3.300 release</num>
+        <commit>release-v2.3.300</commit>
+        <desc>2.3.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>TF-PSA-Crypto</name>
+    <id>TF-PSA-Crypto</id>
+    <uri>https://github.com/Mbed-TLS/TF-PSA-Crypto</uri>
+    <desc>TF-PSA-Crypto is an implementation of the PSA Cryptography API. It is the cryptography library behind Mbed TLS and TrustedFirmware-M.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.1.0 release</num>
+        <commit>v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -7108,6 +7309,11 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>804aa17 release</num>
+        <commit>804aa17</commit>
+        <desc>804aa17 release</desc>
+      </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>f051983 release</num>
         <commit>f051983</commit>
@@ -7945,6 +8151,34 @@
         <num>Latest v1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>capsense-touchpad-host</name>
+    <id>capsense-touchpad-host</id>
+    <uri>https://github.com/Infineon/capsense-touchpad-host</uri>
+    <desc><![CDATA[
+    CAPSENSE&trade; Touchpad I2C Host is portable middleware for controlling an Infineon<br>
+    PSOC&trade; 4000T CAPSENSE&trade; touchpad from a bare-metal or RTOS-based host MCU. It<br>
+    provides C APIs for touch coordinates, gestures, configuration, diagnostics,<br>
+    sensor data, NVM operations, and user data.<br>
+    The portable core uses application-provided I2C callbacks and does not depend<br>
+    on a specific MCU, RTOS, ModusToolbox&trade;, or Peripheral Driver Library (PDL). A<br>
+    PSOC&trade; Edge reference port and a platform-neutral port template are included.<br>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
