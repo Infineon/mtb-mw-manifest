@@ -4012,6 +4012,15 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.8.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.10.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.7.0</commit>
         <dependees>
           <dependee>
