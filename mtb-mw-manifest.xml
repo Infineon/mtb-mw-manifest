@@ -1798,7 +1798,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[cat1, pse8xxgp, psc3m6] [hal]">
+  <middleware req_capabilities_v2="[cat1, pse8xxgp, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8] [hal]">
     <name>async-transfer</name>
     <id>async-transfer</id>
     <uri>https://github.com/Infineon/async-transfer</uri>
@@ -2286,7 +2286,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
     <name>ifx-trusted-firmware-m</name>
     <id>ifx-trusted-firmware-m</id>
     <uri>https://github.com/Infineon/ifx-trusted-firmware-m</uri>
@@ -2306,7 +2306,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psc3p2, psc3m3, psc3m5, psc3p5]">
     <name>ifx-trusted-firmware-m-ns</name>
     <id>ifx-trusted-firmware-m-ns</id>
     <uri>https://github.com/Infineon/ifx-trusted-firmware-m-ns</uri>

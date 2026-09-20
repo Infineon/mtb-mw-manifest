@@ -296,7 +296,7 @@
     <name>mtb-dsl-psc3m6</name>
     <id>mtb-dsl-psc3m6</id>
     <uri>https://github.com/Infineon/mtb-dsl-psc3m6</uri>
-    <desc>Device support library for Boy2P PSC3M6 devices.</desc>
+    <desc>Device support library for PSC3M6 devices.</desc>
     <category>Core</category>
     <req_capabilities>psc3m6</req_capabilities>
     <versions>
@@ -309,6 +309,26 @@
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3m7, psc3p7, psc3m8, psc3p8]" type="device_support">
+    <name>mtb-dsl-psc3m8</name>
+    <id>mtb-dsl-psc3m8</id>
+    <uri>https://github.com/Infineon/mtb-dsl-psc3m8</uri>
+    <desc>PSOC&#8482; Control Device Support Library package, provides a set of APIs to initialize, configure, and use the PSOC&#8482; Control MCU (PSC3M7, PSC3M8, PSC3P7 and PSC3P8) resources using the ModusToolbox&#8482; drivers.</desc>
+    <category>Core</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>latest-v1.X</num>
+        <commit>latest-v1.X</commit>
+        <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -442,18 +462,23 @@
       </version>
     </versions>
   </middleware>
-  <middleware type="device_support">
+  <middleware req_capabilities_v2="[psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]" type="device_support">
     <name>ifx-wolfcrypto</name>
     <id>ifx-wolfcrypto</id>
     <uri>https://github.com/Infineon/ifx-wolfcrypto</uri>
     <desc>ifx-wolfcrypto is based on wolfCrypt, which is part of the wolfSSL embedded SSL library.</desc>
     <category>Core</category>
-    <req_capabilities>psc3m6</req_capabilities>
+    <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>latest-v5.X</num>
         <commit>latest-v5.X</commit>
         <desc>latest-v5.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>5.9.2 release</num>
+        <commit>release-v5.9.2</commit>
+        <desc>5.9.2 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>5.9.1 release</num>
@@ -1002,7 +1027,7 @@
     <uri>https://github.com/Ezurio/mtb-pdl-cat5-ezurio</uri>
     <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
     <category>Core</category>
-    <req_capabilities>cat5_ezurio</req_capabilities>
+    <req_capabilities>cat5_ezurio cat5</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0">
         <num>Latest 5.X release</num>
@@ -1334,6 +1359,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1b</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
@@ -1361,6 +1387,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.7.0">
         <num>Latest 1.X release</num>
@@ -1383,6 +1410,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
@@ -1405,6 +1433,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>Latest 1.X release</num>
@@ -1427,6 +1456,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.7.0">
         <num>latest-v1.X</num>
@@ -1454,6 +1484,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.3.0">
         <num>latest-v1.X</num>
@@ -2163,6 +2194,26 @@
         <num>1.0.4 release</num>
         <commit>release-v1.0.4</commit>
         <desc>1.0.4 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3m7, psc3p7, psc3m8, psc3p8]" hidden="true">
+    <name>mtb-template-psc3m8</name>
+    <id>mtb-template-psc3m8</id>
+    <uri>https://github.com/Infineon/mtb-template-psc3m8</uri>
+    <desc>BSP template files for the BSP Assistant Tool for PSOC&#8482; Control PSC3M7, PSC3M8, PSC3P7 and PSC3P8 device.</desc>
+    <category>Core</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+        <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>2.0.5 release</num>
+        <commit>release-v2.0.5</commit>
+        <desc>2.0.5 release</desc>
       </version>
     </versions>
   </middleware>
@@ -4712,12 +4763,12 @@
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>v3.1.0 Release</num>
         <commit>release-v3.1.0</commit>
         <desc>v3.1.0 Release</desc>
@@ -4901,6 +4952,36 @@
         <num>Latest 4.X release</num>
         <commit>latest-v4.X</commit>
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.41.0 release</num>
+        <commit>release-v4.41.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add PSOC&#8482; Control PSC3M7, PSC3M8, PSC3P7 and PSC3P8 device support.</li>
+              <li>Add new CYT2B6 and CYT2B7 part numbers.</li>
+              <li>Add APS12808O-OBR-WB, S80KS5123 and W957D8NWSX5I QSPI memory configurations.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.24.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.21.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 5.1.0</li>
+              <li>mtb-dsl-psc1m3 &gt;= 1.0.0</li>
+              <li>mtb-dsl-psc3m6 &gt;= 1.0.0</li>
+              <li>mtb-dsl-psc3m8 &gt;= 1.0.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.6.0</li>
+              <li>mtb-dsl-pse8x6 &gt;= 1.0.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.41.0">device-db 4.41.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.41.0/DEVICES.md">device-db 4.41.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.40.0 release</num>
@@ -6114,10 +6195,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
+        <num>3.6.0 release</num>
+        <commit>release-v3.6.0</commit>
+        <desc>3.6.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[psoc4, cat1, psc3p6, psc3m6]">
         <num>3.5.0 release</num>
@@ -7114,12 +7200,12 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>3.6.606 release</num>
         <commit>release-v3.6.606</commit>
         <desc>3.6.606 release</desc>
@@ -7224,10 +7310,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.400 release</num>
+        <commit>release-v2.3.400</commit>
+        <desc>2.3.400 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6]">
         <num>2.3.300 release</num>
@@ -7256,7 +7347,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psc3p6, psc3m6]" type="device_support">
+  <middleware req_capabilities_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
     <name>ifx-tf-m</name>
     <id>ifx-tf-m</id>
     <uri>https://github.com/Infineon/ifx-tf-m</uri>
@@ -7264,19 +7355,24 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.400 release</num>
+        <commit>release-v2.3.400</commit>
+        <desc>2.3.400 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6]">
         <num>2.3.300 release</num>
         <commit>release-v2.3.300</commit>
         <desc>2.3.300 release</desc>
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psc3p6, psc3m6]" type="device_support">
+  <middleware req_capabilities_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
     <name>ifx-tf-m-port</name>
     <id>ifx-tf-m-port</id>
     <uri>https://github.com/Infineon/ifx-tf-m-port</uri>
@@ -7284,15 +7380,40 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.400 release</num>
+        <commit>release-v2.3.400</commit>
+        <desc>2.3.400 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6]">
         <num>2.3.300 release</num>
         <commit>release-v2.3.300</commit>
         <desc>2.3.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3m7, psc3p7, psc3m8, psc3p8]">
+    <name>mtb-mw-pctrl-svc</name>
+    <id>mtb-mw-pctrl-svc</id>
+    <uri>https://github.com/Infineon/mtb-mw-pctrl-svc</uri>
+    <desc>ModusToolbox&#8482; PWR-Lib Service Library.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.5.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -7808,7 +7929,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
     <name>crypto-suite-psc3</name>
     <id>crypto-suite-psc3</id>
     <uri>https://github.com/Infineon/crypto-suite-psc3</uri>
@@ -7816,12 +7937,12 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>Latest 6.X release</num>
         <commit>latest-v6.X</commit>
         <desc>Latest 6.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[psc3p6, psc3m6]">
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>6.1.2 release</num>
         <commit>release-v6.1.2</commit>
         <desc>6.1.2 release</desc>
@@ -7845,6 +7966,26 @@
         <num>1.9.500 release</num>
         <commit>release-v1.9.500</commit>
         <desc>1.9.500 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psc3p7, psc3m7, psc3p8, psc3m8]">
+    <name>ifx-mcuboot-psc3p8</name>
+    <id>ifx-mcuboot-psc3p8</id>
+    <uri>https://github.com/Infineon/ifx-mcuboot-psc3p8</uri>
+    <desc>Secure Bootloader library - provides image validation, image upgrade and other secure bootloader features.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.9.600 release</num>
+        <commit>release-v1.9.600</commit>
+        <desc>1.9.600 release</desc>
       </version>
     </versions>
   </middleware>
