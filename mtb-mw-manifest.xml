@@ -662,6 +662,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="1.0,2.0">
+        <num>1.11.0 release</num>
+        <commit>release-v1.11.0</commit>
+        <desc>1.11.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>1.10.0 release</num>
         <commit>release-v1.10.0</commit>
         <desc>1.10.0 release</desc>
@@ -1798,7 +1803,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[cat1, pse8xxgp, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8] [hal]">
+  <middleware req_capabilities_v2="[cat1, pse8xxgp, pse8x6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8] [hal]">
     <name>async-transfer</name>
     <id>async-transfer</id>
     <uri>https://github.com/Infineon/async-transfer</uri>
@@ -2224,10 +2229,20 @@
     <category>Core</category>
     <req_capabilities>mcu_gp</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Stable 4.2.0 release</num>
+        <commit>mbedtls-4.2.0</commit>
+        <desc>Stable 4.2.0 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>Stable 3.4.0 release</num>
         <commit>mbedtls-3.4.0</commit>
         <desc>Stable 3.4.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Stable 3.0.0 release</num>
+        <commit>mbedtls-3.0.0</commit>
+        <desc>Stable 3.0.0 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>Stable 2.25.0 release</num>
@@ -2381,7 +2396,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x1, pse8x2, pse8x3, pse8x5, pse8x6, pse8x7] hal qspi">
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x2, pse8x3, pse8x5, pse8x6] hal qspi">
     <name>serial-memory</name>
     <id>serial-memory</id>
     <uri>https://github.com/Infineon/serial-memory</uri>

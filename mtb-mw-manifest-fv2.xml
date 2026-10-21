@@ -266,6 +266,11 @@
         <desc>Latest 6.X release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>6.1.1 release</num>
+        <commit>release-v6.1.1</commit>
+        <desc>6.1.1 release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>6.1.0 release</num>
         <commit>release-v6.1.0</commit>
         <desc>6.1.0 release</desc>
@@ -346,6 +351,11 @@
         <desc>latest-v1.X</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.7.0 release</num>
         <commit>release-v1.7.0</commit>
         <desc>1.7.0 release</desc>
@@ -404,6 +414,11 @@
         <num>latest-v1.X</num>
         <commit>latest-v1.X</commit>
         <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.7.0 release</num>
@@ -472,7 +487,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]" type="device_support">
+  <middleware req_capabilities_v2="[psc3m6, psc3m7, psc3p7, psc3m8, psc3p8, pse8x6, pse8xxgp]" type="device_support">
     <name>ifx-wolfcrypto</name>
     <id>ifx-wolfcrypto</id>
     <uri>https://github.com/Infineon/ifx-wolfcrypto</uri>
@@ -484,6 +499,11 @@
         <num>latest-v5.X</num>
         <commit>latest-v5.X</commit>
         <desc>latest-v5.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>5.9.3 release</num>
+        <commit>release-v5.9.3</commit>
+        <desc>5.9.3 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>5.9.2 release</num>
@@ -514,6 +534,11 @@
         <num>latest-v1.X</num>
         <commit>latest-v1.X</commit>
         <desc>latest-v1.X</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.1.0 release</num>
@@ -2166,6 +2191,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
         <desc>1.4.0 release</desc>
@@ -2246,6 +2276,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.5.0 release</num>
+        <commit>release-v1.5.0</commit>
+        <desc>1.5.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.4.0 release</num>
         <commit>release-v1.4.0</commit>
         <desc>1.4.0 release</desc>
@@ -2284,6 +2319,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0">
         <num>1.0.0 release</num>
@@ -3700,7 +3740,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psoc6, pse8xxgp]">
+  <middleware req_capabilities_v2="[psoc6, pse8xxgp, pse8x6]">
     <name>ml-middleware</name>
     <id>ml-middleware</id>
     <uri>https://github.com/Infineon/ml-middleware</uri>
@@ -3715,6 +3755,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.5.0 Release</num>
+        <commit>release-v3.5.0</commit>
+        <desc>3.5.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.4.0 Release</num>
@@ -3813,7 +3858,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[psoc6, pse8xxgp]">
+  <middleware req_capabilities_v2="[psoc6, pse8xxgp, pse8x6]">
     <name>ml-tflite-micro</name>
     <id>ml-tflite-micro</id>
     <uri>https://github.com/Infineon/ml-tflite-micro</uri>
@@ -3825,6 +3870,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.5.0 Release</num>
+        <commit>release-v3.5.0</commit>
+        <desc>3.5.0 Release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>3.4.0 Release</num>
@@ -3865,6 +3915,26 @@
         <num>2.0.1 Release</num>
         <commit>release-v2.0.1</commit>
         <desc>2.0.1 Release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[psoc6, pse8xxgp, pse8x6]">
+    <name>ml-executorch</name>
+    <id>ml-executorch</id>
+    <uri>https://github.com/Infineon/ml-executorch</uri>
+    <desc>The ml-executorch library is a pre-configured ExecuTorch runtime library for Infineon microcontrollers.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.2.0 Release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 Release</desc>
       </version>
     </versions>
   </middleware>
@@ -4814,24 +4884,22 @@
     </versions>
   </middleware>
   <middleware>
-    <name>mbedtls</name>
-    <id>mbedtls</id>
-    <uri>https://github.com/ARMmbed/mbedtls</uri>
-    <desc><![CDATA[
-        Arm&#174; mbedTLS library is an implementation of the TLS and SSL protocols and the respective cryptographic algorithms. mbedTLS is an open source TLS/SSL library which has cryptographic capabilities. Using this library in a project will cause mbedTLS to be downloaded on your computer. It is your responsibility to understand and accept the mbedTLS license and regional use restrictions (including abiding by all applicable export control laws).
-        <br/>
-        <div class="category">Additional Information:</div>
-        <ul>
-          <li><a href="https://github.com/ARMmbed/mbedtls">Mbed TLS Library Information</a></li>
-        </ul>
-    ]]></desc>
-    <category>Core</category>
-    <req_capabilities>mcu_gp</req_capabilities>
+    <name>mbedtls-pal</name>
+    <id>mbedtls-pal</id>
+    <uri>https://github.com/Infineon/mbedtls-pal</uri>
+    <desc>porting layer for upstream Mbed TLS 4.x (https://github.com/ARMmbed/mbedtls)</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0">
-        <num>Stable 3.0.0 release</num>
-        <commit>mbedtls-3.0.0</commit>
-        <desc>Stable 3.0.0 release</desc>
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>
@@ -4843,12 +4911,17 @@
     <category>Core</category>
     <req_capabilities>std_crypto</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3m6, psc3p6, psc3m7, psc3p7, psc3m8, psc3p8]">
+        <num>v3.2.0 Release</num>
+        <commit>release-v3.2.0</commit>
+        <desc>v3.2.0 Release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3m6, psc3p6]">
         <num>v3.1.0 Release</num>
         <commit>release-v3.1.0</commit>
         <desc>v3.1.0 Release</desc>
@@ -5894,7 +5967,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[cat1, pse8xxgp]">
+  <middleware req_capabilities_v2="[cat1, pse8xxgp, pse8x6]">
     <name>LVGL (Graphics Library)</name>
     <id>lvgl</id>
     <uri>https://github.com/lvgl/lvgl</uri>
@@ -6404,17 +6477,27 @@
     <id>display-tft-st7735s</id>
     <uri>https://github.com/Infineon/display-tft-st7735s</uri>
     <desc><![CDATA[
-    This library provides functions for supporting a 0.96 inch TFT LCD driven by an ST7735S controller. This is the same display as used on the SHIELD_XENSIV_A shield.
+    This library provides functions to support a 0.96-inch TFT LCD driven by an ST7735S controller. This is the display used on the SHIELD_XENSIV_A shield.
     ]]></desc>
     <category>Peripheral</category>
-    <req_capabilities>mcu_gp hal spi</req_capabilities>
+    <req_capabilities>mcu_gp spi</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0" req_capabilities_per_version_v2="[pse8xxgp]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>Latest 0.X release</num>
         <commit>latest-v0.X</commit>
         <desc>Latest 0.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.1.0">
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="hal">
         <num>0.5.0 release</num>
         <commit>release-v0.5.0</commit>
         <desc>0.5.0 release</desc>
@@ -7246,7 +7329,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6]">
     <name>se-rt-services-utils</name>
     <id>se-rt-services-utils</id>
     <uri>https://github.com/Infineon/se-rt-services-utils</uri>
@@ -7285,12 +7368,12 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3m7, psc3p7, psc3m8, psc3p8]">
         <num>3.6.606 release</num>
         <commit>release-v3.6.606</commit>
         <desc>3.6.606 release</desc>
@@ -7395,10 +7478,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.500 release</num>
+        <commit>release-v2.3.500</commit>
+        <desc>2.3.500 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>2.3.400 release</num>
@@ -7432,7 +7520,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
+  <middleware req_capabilities_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
     <name>ifx-tf-m</name>
     <id>ifx-tf-m</id>
     <uri>https://github.com/Infineon/ifx-tf-m</uri>
@@ -7440,10 +7528,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.500 release</num>
+        <commit>release-v2.3.500</commit>
+        <desc>2.3.500 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>2.3.400 release</num>
@@ -7457,7 +7550,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
+  <middleware req_capabilities_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]" type="device_support">
     <name>ifx-tf-m-port</name>
     <id>ifx-tf-m-port</id>
     <uri>https://github.com/Infineon/ifx-tf-m-port</uri>
@@ -7465,10 +7558,15 @@
     <category>Middleware</category>
     <req_capabilities/>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3, epc4] [pse8xxgm, pse8xxgo, pse8xxgp, pse8x6, psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
+        <num>2.3.500 release</num>
+        <commit>release-v2.3.500</commit>
+        <desc>2.3.500 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[epc2, epc3] [psc3p6, psc3m6, psc3p7, psc3m7, psc3p8, psc3m8]">
         <num>2.3.400 release</num>
@@ -7479,6 +7577,46 @@
         <num>2.3.300 release</num>
         <commit>release-v2.3.300</commit>
         <desc>2.3.300 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6]">
+    <name>ifx-tf-psa-crypto</name>
+    <id>ifx-tf-psa-crypto</id>
+    <uri>https://github.com/Infineon/ifx-tf-psa-crypto</uri>
+    <desc>TF-PSA-Crypto is an implementation of the PSA Cryptography API. It is the cryptography library behind Mbed TLS and TrustedFirmware-M.</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.2.100 release</num>
+        <commit>release-v1.2.100</commit>
+        <desc>1.2.100 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware req_capabilities_v2="[pse8xxgm, pse8xxgo, pse8xxgp, pse8x6]">
+    <name>ifx-tf-psa-port</name>
+    <id>ifx-tf-psa-port</id>
+    <uri>https://github.com/Infineon/ifx-tf-psa-port</uri>
+    <desc>TF-PSA-Crypto MTB Porting library</desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.6.0">
+        <num>1.2.100 release</num>
+        <commit>release-v1.2.100</commit>
+        <desc>1.2.100 release</desc>
       </version>
     </versions>
   </middleware>
@@ -7567,7 +7705,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
     <name>staged-voice-control</name>
     <id>staged-voice-control</id>
     <uri>https://github.com/Infineon/staged-voice-control</uri>
@@ -7609,7 +7747,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>speech-onset-detection</name>
     <id>speech-onset-detection</id>
     <uri>https://github.com/Infineon/speech-onset-detection</uri>
@@ -7631,7 +7769,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>audio-front-end</name>
     <id>audio-front-end</id>
     <uri>https://github.com/Infineon/audio-front-end</uri>
@@ -7658,7 +7796,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>audio-voice-core</name>
     <id>audio-voice-core</id>
     <uri>https://github.com/Infineon/audio-voice-core</uri>
@@ -7672,6 +7810,11 @@
         <num>Latest 3.X release</num>
         <commit>latest-v3.X</commit>
         <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>3.1.1 release</num>
+        <commit>release-v3.1.1</commit>
+        <desc>3.1.1 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>3.1.0 release</num>
@@ -7705,7 +7848,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp]">
     <name>buffer-pool-manager</name>
     <id>buffer-pool-manager</id>
     <uri>https://github.com/Infineon/buffer-pool-manager</uri>
@@ -7813,7 +7956,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>touch-ctp-gt911</name>
     <id>touch-ctp-gt911</id>
     <uri>https://github.com/Infineon/touch-ctp-gt911</uri>
@@ -7841,7 +7984,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>display-dsi-waveshare-7-0-lcd-c</name>
     <id>display-dsi-waveshare-7-0-lcd-c</id>
     <uri>https://github.com/Infineon/display-dsi-waveshare-7-0-lcd-c</uri>
@@ -7868,7 +8011,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>touch-ctp-ili2511</name>
     <id>touch-ctp-ili2511</id>
     <uri>https://github.com/Infineon/touch-ctp-ili2511</uri>
@@ -7896,7 +8039,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>display-tft-ek79007ad3</name>
     <id>display-tft-ek79007ad3</id>
     <uri>https://github.com/Infineon/display-tft-ek79007ad3</uri>
@@ -7923,7 +8066,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>touch-ctp-ft5406</name>
     <id>touch-ctp-ft5406</id>
     <uri>https://github.com/Infineon/touch-ctp-ft5406</uri>
@@ -7950,7 +8093,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>display-dsi-waveshare-4-3-lcd</name>
     <id>display-dsi-waveshare-4-3-lcd</id>
     <uri>https://github.com/Infineon/display-dsi-waveshare-4-3-lcd</uri>
@@ -7977,7 +8120,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>voice-assistant</name>
     <id>voice-assistant</id>
     <uri>https://github.com/Infineon/voice-assistant</uri>
@@ -8074,7 +8217,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware req_capabilities_v2="[pse8xxgp]" type="device_support">
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]" type="device_support">
     <name>ifx-mcuboot-pse84</name>
     <id>ifx-mcuboot-pse84</id>
     <uri>https://github.com/Infineon/ifx-mcuboot-pse84</uri>
@@ -8117,7 +8260,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware req_capabilities_v2="[pse8xxgp, pse8x6]">
     <name>audio-sw-codecs</name>
     <id>audio-sw-codecs</id>
     <uri>https://github.com/Infineon/audio-sw-codecs</uri>
@@ -8131,6 +8274,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.4 release</num>
+        <commit>release-v1.0.4</commit>
+        <desc>1.0.4 release</desc>
       </version>
       <version flow_version="1.0,2.0">
         <num>1.0.3 release</num>
@@ -8339,12 +8487,12 @@
     <category>Graphics</category>
     <req_capabilities>gfx</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp, pse8x6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp, pse8x6]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -8366,12 +8514,12 @@
     <category>Graphics</category>
     <req_capabilities>gfx i2c</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp, pse8x6]">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
       </version>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[pse8xxgp, pse8x6]">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -8525,6 +8673,28 @@
         <num>Latest v1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest v1.X release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>bt-fw-qtl-cyw55512</name>
+    <id>bt-fw-qtl-cyw55512</id>
+    <uri>https://github.com/Infineon/bt-fw-qtl-cyw55512</uri>
+    <desc><![CDATA[
+    The bt-fw-qtl-cyw55512 middleware library provides firmware patches for the CYW55512 AIROC&#8482; Wi-Fi & Bluetooth&#174; combo devices.
+    ]]></desc>
+    <category>Bluetooth&#174;</category>
+    <req_capabilities>bt cyw55512</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+        <desc>1.0.0 release</desc>
       </version>
     </versions>
   </middleware>

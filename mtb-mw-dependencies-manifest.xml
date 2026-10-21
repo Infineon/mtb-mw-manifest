@@ -306,6 +306,31 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.8.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.10.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.7.0</commit>
         <dependees>
           <dependee>
@@ -616,6 +641,31 @@
         </dependees>
       </version>
       <version>
+        <commit>release-v1.8.0</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.10.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v1.7.0</commit>
         <dependees>
           <dependee>
@@ -847,6 +897,31 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>cmsis</id>
+            <commit>latest-v6.X</commit>
+          </dependee>
+          <dependee>
+            <id>device-db</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.10.0</commit>
+          </dependee>
+          <dependee>
+            <id>async-transfer</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.0</commit>
         <dependees>
           <dependee>
             <id>cmsis</id>
@@ -4664,6 +4739,32 @@
     <id>ml-middleware</id>
     <versions>
       <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>ml-executorch</id>
+            <commit>release-v1.2.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.5.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.5.0</commit>
+        <dependees>
+          <dependee>
+            <id>ml-executorch</id>
+            <commit>release-v1.2.0</commit>
+          </dependee>
+          <dependee>
+            <id>ml-tflite-micro</id>
+            <commit>release-v3.5.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v3.4.0</commit>
         <dependees>
           <dependee>
@@ -4705,15 +4806,6 @@
           <dependee>
             <id>ml-tflite-micro</id>
             <commit>release-v3.0.1</commit>
-          </dependee>
-        </dependees>
-      </version>
-      <version>
-        <commit>latest-v3.X</commit>
-        <dependees>
-          <dependee>
-            <id>ml-tflite-micro</id>
-            <commit>release-v3.4.0</commit>
           </dependee>
         </dependees>
       </version>
@@ -5822,7 +5914,7 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>release-v6.1.1</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
@@ -5843,7 +5935,7 @@
         <dependees>
           <dependee>
             <id>cmsis</id>
-            <commit>release-v6.1.0</commit>
+            <commit>release-v6.1.1</commit>
           </dependee>
           <dependee>
             <id>device-db</id>
@@ -5862,6 +5954,29 @@
     </versions>
   </depender>
   <depender>
+    <id>ifx-tf-psa-crypto</id>
+    <versions>
+      <version>
+        <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-tf-psa-port</id>
+            <commit>release-v1.2.100</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.2.100</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-tf-psa-port</id>
+            <commit>release-v1.2.100</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>ifx-tf-m</id>
     <versions>
       <version>
@@ -5869,7 +5984,7 @@
         <dependees>
           <dependee>
             <id>ifx-tf-m-port</id>
-            <commit>release-v2.3.400</commit>
+            <commit>release-v2.3.500</commit>
           </dependee>
           <dependee>
             <id>mtb-srf</id>
@@ -5877,7 +5992,7 @@
           </dependee>
           <dependee>
             <id>cy-mbedtls-acceleration</id>
-            <commit>release-v3.1.0</commit>
+            <commit>release-v3.2.0</commit>
           </dependee>
           <dependee>
             <id>t_cose</id>
@@ -5892,8 +6007,41 @@
             <commit>804aa17</commit>
           </dependee>
           <dependee>
-            <id>TF-PSA-Crypto</id>
-            <commit>v1.1.0</commit>
+            <id>ifx-tf-psa-crypto</id>
+            <commit>release-v1.2.100</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.3.500</commit>
+        <dependees>
+          <dependee>
+            <id>ifx-tf-m-port</id>
+            <commit>release-v2.3.500</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.2.1</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>release-v3.2.0</commit>
+          </dependee>
+          <dependee>
+            <id>t_cose</id>
+            <commit>v2.0-alpha-2</commit>
+          </dependee>
+          <dependee>
+            <id>QCBOR</id>
+            <commit>v1.2</commit>
+          </dependee>
+          <dependee>
+            <id>tf-m-extras</id>
+            <commit>804aa17</commit>
+          </dependee>
+          <dependee>
+            <id>ifx-tf-psa-crypto</id>
+            <commit>release-v1.2.100</commit>
           </dependee>
         </dependees>
       </version>
@@ -5925,8 +6073,8 @@
             <commit>804aa17</commit>
           </dependee>
           <dependee>
-            <id>TF-PSA-Crypto</id>
-            <commit>v1.1.0</commit>
+            <id>ifx-tf-psa-crypto</id>
+            <commit>release-v1.2.100</commit>
           </dependee>
         </dependees>
       </version>
@@ -5966,6 +6114,15 @@
     <versions>
       <version>
         <commit>latest-v2.X</commit>
+        <dependees>
+          <dependee>
+            <id>mtb-srf</id>
+            <commit>release-v1.2.1</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v2.3.500</commit>
         <dependees>
           <dependee>
             <id>mtb-srf</id>
@@ -6324,6 +6481,20 @@
     </versions>
   </depender>
   <depender>
+    <id>mbedtls</id>
+    <versions>
+      <version>
+        <commit>mbedtls-4.2.0</commit>
+        <dependees>
+          <dependee>
+            <id>mbedtls-pal</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
     <id>staged-voice-control</id>
     <versions>
       <version>
@@ -6583,6 +6754,15 @@
     <versions>
       <version>
         <commit>latest-v1.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v1.0.4</commit>
         <dependees>
           <dependee>
             <id>connectivity-utilities</id>
