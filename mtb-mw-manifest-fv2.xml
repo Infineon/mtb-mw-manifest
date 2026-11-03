@@ -311,6 +311,11 @@
         <desc>latest-v1.X</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.8.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.8.0">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
         <desc>1.0.0 release</desc>
@@ -793,6 +798,11 @@
         <num>Latest 2.X release</num>
         <commit>latest-v2.X</commit>
         <desc>Latest 2.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.0.0">
+        <num>2.22.0 release</num>
+        <commit>release-v2.22.0</commit>
+        <desc>2.22.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.0.0">
         <num>2.21.0 release</num>
@@ -1547,6 +1557,7 @@
     application to handle deep-sleep entry/exit of select peripherals.
     ]]></desc>
     <category>Middleware</category>
+    <req_capabilities>cat1a</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.5.0">
         <num>Latest 1.X release</num>
@@ -2236,6 +2247,11 @@
         <desc>Latest 1.X release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.7.0">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+        <desc>1.1.0 release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.7.0">
         <num>1.0.4 release</num>
         <commit>release-v1.0.4</commit>
         <desc>1.0.4 release</desc>
@@ -2364,6 +2380,11 @@
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
         <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.8.0 release</num>
+        <commit>release-v1.8.0</commit>
+        <desc>1.8.0 release</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
         <num>1.7.0 release</num>
@@ -4008,7 +4029,7 @@
       </version>
     </versions>
   </middleware>
-  <middleware>
+  <middleware type="device_support">
     <name>lin</name>
     <id>lin</id>
     <uri>https://github.com/cypresssemiconductorco/lin</uri>
@@ -4319,6 +4340,11 @@
         <num>Latest 11.X release</num>
         <commit>latest-v11.X</commit>
         <desc>Latest 11.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
+        <num>11.10.0 release</num>
+        <commit>release-v11.10.0</commit>
+        <desc>11.10.0 release</desc>
       </version>
       <version flow_version="1.0,2.0" tools_min_version="3.2.0" req_capabilities_per_version_v2="[capsense, inductive]">
         <num>11.0.0 release</num>
