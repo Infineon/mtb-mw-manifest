@@ -5268,6 +5268,36 @@
         <desc>This is a floating version that always points to the latest available device-db 4.x.x release.</desc>
       </version>
       <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.42.0 release</num>
+        <commit>release-v4.42.0</commit>
+        <desc><![CDATA[
+            <ul>
+              <li>Add PSOC&#8482; 4100SL device support.</li>
+              <li>Add CYT4EN device support.</li>
+              <li>Add CY8C4147LCE-HV453 part number.</li>
+              <li>Minor bug fixes.</li>
+            </ul>
+            <div class="category">Recommended device support libraries:</div>
+            <ul>
+              <li>mtb-pdl-cat1 &gt;= 3.24.0</li>
+              <li>mtb-pdl-cat2 &gt;= 2.22.0</li>
+              <li>mtb-xmclib-cat3 &gt;= 4.7.0</li>
+              <li>mtb-pdl-cat5 &gt;= 5.1.0</li>
+              <li>mtb-dsl-psc1m3 &gt;= 1.0.0</li>
+              <li>mtb-dsl-psc3m6 &gt;= 1.1.0</li>
+              <li>mtb-dsl-psc3m8 &gt;= 1.2.0</li>
+              <li>mtb-dsl-pse8xxgo &gt;= 1.8.0</li>
+              <li>mtb-dsl-pse8xxgp &gt;= 1.8.0</li>
+              <li>mtb-dsl-pse8x6 &gt;= 1.2.0</li>
+            </ul>
+            <div class="category">Additional Information:</div>
+            <ul>
+              <li><a href="https://github.com/Infineon/device-db/releases/tag/release-v4.42.0">device-db 4.42.0 release notes</a></li>
+              <li><a href="https://github.com/Infineon/device-db/blob/release-v4.42.0/DEVICES.md">device-db 4.42.0 supported devices</a></li>
+            </ul>
+        ]]></desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
         <num>4.41.0 release</num>
         <commit>release-v4.41.0</commit>
         <desc><![CDATA[
